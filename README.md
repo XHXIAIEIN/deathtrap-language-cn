@@ -21,8 +21,11 @@ Deathtrap 的语言文件在这个位置
 # N2PK 解包工具
 
 很幸运，  
-@mome-borogove 大佬分享了一个解包程序 [N2PK Unpacker](https://github.com/mome-borogove/40K-n2pk-converter)  
-它使用 python 语言编写，你要需要 python 官网安装一个最新版，就可以使用了  
+@mome-borogove 大佬分享了一个解包程序 [N2PK Unpacker](https://github.com/mome-borogove/40K-n2pk-converter)   
+
+它使用 python 语言编写，如果你电脑没有，需要到 [python 官网](https://python.org/) 安装就可以使用了
+
+
 
 # 如何使用
 将  unpack-n2pk.py 保存到本地，比如 D 盘。  
