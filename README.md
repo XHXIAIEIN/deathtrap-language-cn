@@ -34,6 +34,17 @@ python unpack-n2pk.py Files.N2PK  output
   
 后面那个 output 是指定解压到哪个文件夹的参数  
 
+或者可以用一个批处理程序来自动输出：  
+在记事本粘贴，然后另存为 unpack.bat 放在同一个文件夹下。
+
+```
+@echo off
+cmd /C "python unpack-n2pk.py Files.N2PK new"
+move Files.N2PK output
+exit
+```
+
+
 # 如何翻译
 解压出来的文件就是这几个xml文件：   
 ```
