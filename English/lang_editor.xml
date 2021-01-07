@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<LanguageName>
+		<eng>English</eng>
+	</LanguageName>
+	<Languages>eng</Languages>
+	<editor>
+		<project>
+			<label>
+				<eng>Project</eng>
+			</label>
+			<name>
+				<eng>Name</eng>
+			</name>
+			<difficulty>
+				<eng>Difficulty</eng>
+			</difficulty>
+			<value>
+				<eng>Strength</eng>
+			</value>
+			<new>
+				<eng>Create New Map</eng>
+			</new>
+			<load>
+				<eng>Edit Selected Map</eng>
+			</load>
+			<save_change>
+				<eng>The current project has been modified. Do you want to discard changes?</eng>
+			</save_change>
+			<delete>
+				<eng>Delete Selected Map</eng>
+				<confirm>
+					<eng>Are you sure you want to permanently delete this map?</eng>
+				</confirm>
+			</delete>
+			<clone>
+				<eng>Clone Selected Map</eng>
+			</clone>
+			<alreadyexist>
+				<eng>A map with the same name already exists. Please try another name!</eng>
+			</alreadyexist>
+			<select_monster_to_import>
+				<eng>Select monsters to import!</eng>
+			</select_monster_to_import>
+			<select_group_to_import>
+				<eng>Select groups to import!</eng>
+			</select_group_to_import>
+			<import>
+				<eng>Import</eng>
+				<completed>
+					<eng>Import completed</eng>
+				</completed>
+				<error>
+					<eng>An error has occured during import:</eng>
+					<noselect>
+						<eng>Nothing is marked to import</eng>
+					</noselect>
+					<monster>
+						<already_exist>
+							<eng>The following monster already exists: %s</eng>
+						</already_exist>
+					</monster>
+					<group>
+						<already_exist>
+							<eng>The following group already exists: %s</eng>
+						</already_exist>
+					</group>
+				</error>
+			</import>
+			<import_all>
+				<eng>Import all</eng>
+			</import_all>
+			<preview>
+				<eng>Map Preview</eng>
+			</preview>
+			<export>
+				<error>
+					<noname>
+						<eng>No name specified for this project!</eng>
+					</noname>
+					<invalid>
+						<eng>There were errors during the export:</eng>
+					</invalid>
+					<nowave>
+						<eng>Project cannot be exported without a valid wave!</eng>
+					</nowave>
+					<group>
+						<empty>
+							<eng>Group %s is empty</eng>
+						</empty>
+						<no_path>
+							<eng>No path specified for %s group in Wave %d</eng>
+						</no_path>
+					</group>
+					<path>
+						<overlap>
+							<eng>Groups overlap in Wave %d on Path %d</eng>
+						</overlap>
+						<empty>
+							<eng>Path %d is empty, but it's used!</eng>
+						</empty>
+						<nobase>
+							<eng>Gate location is not defined on Path %d</eng>
+						</nobase>
+						<noportal>
+							<eng>Portal location is not defined on Path %d</eng>
+						</noportal>
+						<invalid>
+							<eng>Path %d has an invalid point (Maybe there is a waypoint placed on an empty space?)</eng>
+						</invalid>
+					</path>
+				</error>
+				<success>
+					<eng>Export successful!</eng>
+				</success>
+			</export>
+		</project>
+		<settings>
+			<label>
+				<eng>Finalize</eng>
+			</label>
+		</settings>
+		<map>
+			<label>
+				<eng>Map</eng>
+			</label>
+			<header>
+				<terrain>
+					<eng>Terrain</eng>
+				</terrain>
+				<trap>
+					<eng>Trap</eng>
+				</trap>
+				<path>
+					<eng>Path</eng>
+					<popup>
+						<eng>Monsters will follow determined pathways between the Chaos Portals and the Gates. To create a path, left click a portal then connect the red line to a gate.</eng>
+					</popup>
+				</path>
+			</header>
+			<elem>
+				<ground>
+					<eng>Ground</eng>
+					<popup>
+						<eng>The basic terrain element for building traps, gates and pathways. Flying creatures can navigate over empty squares.</eng>
+					</popup>
+				</ground>
+				<portal>
+					<eng>Chaos Portal</eng>
+					<popup>
+						<eng>Entry point for monsters</eng>
+					</popup>
+				</portal>
+				<base>
+					<eng>Gate</eng>
+					<popup>
+						<eng>Exit point for monsters</eng>
+					</popup>
+				</base>
+				<teleport>
+					<eng>Teleport</eng>
+					<popup>
+						<eng>Players can instantly jump between these markers on the map</eng>
+					</popup>
+				</teleport>
+				<magic_tower>
+					<eng>Magic Tower</eng>
+					<popup>
+						<eng>Build mystic tower traps</eng>
+					</popup>
+				</magic_tower>
+				<mechanic_tower>
+					<eng>Mech. Tower</eng>
+					<popup>
+						<eng>Build mechanical tower traps</eng>
+					</popup>
+				</mechanic_tower>
+				<magic_ground>
+					<eng>Magic Ground</eng>
+					<popup>
+						<eng>Build mystic ground traps</eng>
+					</popup>
+				</magic_ground>
+				<mechanic_ground>
+					<eng>Mech. Ground</eng>
+					<popup>
+						<eng>Build mechanical ground traps</eng>
+					</popup>
+				</mechanic_ground>
+				<summoner>
+					<eng>Summoner</eng>
+					<popup>
+						<eng>Build creature traps</eng>
+					</popup>
+				</summoner>
+			</elem>
+			<info>
+				<left_button>
+					<eng>to place the selected tile.</eng>
+					<path>
+						<eng>to place navigation points.</eng>
+					</path>
+				</left_button>
+				<right_button>
+					<eng>to remove a tile in place.</eng>
+					<path>
+						<eng>to delete the entire path.</eng>
+					</path>
+				</right_button>
+				<start>
+					<eng>You need to select and place a Chaos Portal first!</eng>
+				</start>
+				<end>
+					<eng>Path is already finished!</eng>
+				</end>
+				<need_empty>
+					<eng>Can only be placed on an empty slot!</eng>
+				</need_empty>
+				<need_ground>
+					<eng>You must place it on solid ground!</eng>
+				</need_ground>
+				<need_ground_neighbour>
+					<eng>Can only be placed next to a ground tile!</eng>
+				</need_ground_neighbour>
+				<blocking_tower>
+					<eng>You can't place this next to a tower.</eng>
+				</blocking_tower>
+				<blocking_base_portal>
+					<eng>You can't build next to a Gate or a Portal!</eng>
+				</blocking_base_portal>
+				<used_all>
+					<eng>You can't place more of this item!</eng>
+				</used_all>
+			</info>
+			<path_create>
+				<eng>Create</eng>
+			</path_create>
+			<graphics>
+				<eng>Graphic setting</eng>
+			</graphics>
+			<weather>
+				<title>
+					<eng>Weather</eng>
+				</title>
+				<clear>
+					<eng>Clear</eng>
+				</clear>
+				<dusk>
+					<eng>Dusk</eng>
+				</dusk>
+				<night>
+					<eng>Night</eng>
+				</night>
+				<rainy>
+					<eng>Rainy</eng>
+				</rainy>
+				<foggy>
+					<eng>Foggy</eng>
+				</foggy>
+			</weather>
+		</map>
+		<wave>
+			<label>
+				<eng>Wave</eng>
+			</label>
+			<wave>
+				<eng>Wave %d</eng>
+			</wave>
+			<wave_cost>
+				<popup>
+					<eng>Total strength of monsters on the map</eng>
+				</popup>
+				<popup_total>
+					<eng>Total strength of monsters in the wave</eng>
+				</popup_total>
+			</wave_cost>
+			<total_time>
+				<popup>
+					<eng>Time when last monster of the wave arrives on the map</eng>
+				</popup>
+			</total_time>
+			<group_browser>
+				<label>
+					<eng>Available Monster Groups</eng>
+				</label>
+				<drag>
+					<eng>Left click to drag this group up to the Wave diagram</eng>
+				</drag>
+			</group_browser>
+			<essence_per_wave>
+				<eng>Set the amount of Essence the player will get in this wave. 40% of the set amount will be awarded for killing monsters and 60% at the end of the wave with the exception of the final wave where all of the Essence is awarded for the monsters killed.</eng>
+			</essence_per_wave>
+		</wave>
+		<group>
+			<label>
+				<eng>Group</eng>
+			</label>
+			<new>
+				<eng>Create New Group</eng>
+			</new>
+		</group>
+		<monster>
+			<label>
+				<eng>Monster</eng>
+			</label>
+			<tab>
+				<normal>
+					<eng>Common</eng>
+				</normal>
+				<champion>
+					<eng>Champion</eng>
+				</champion>
+				<boss>
+					<eng>Boss</eng>
+				</boss>
+			</tab>
+			<filter>
+				<mythical>
+					<eng>Mythical</eng>
+				</mythical>
+				<undead>
+					<eng>Undead</eng>
+				</undead>
+				<mechanical>
+					<eng>Mechanical</eng>
+				</mechanical>
+				<melee>
+					<eng>Melee</eng>
+				</melee>
+				<ranged>
+					<eng>Ranged</eng>
+				</ranged>
+				<flying>
+					<eng>Flying</eng>
+				</flying>
+				<normal>
+					<eng>Normal</eng>
+					<desc>
+						<eng>Average against all trap types.</eng>
+					</desc>
+				</normal>
+				<armored>
+					<eng>Armored</eng>
+					<desc>
+						<eng>Strong protection against Concentrated traps.\nVulnerable against Piercing traps.</eng>
+					</desc>
+				</armored>
+				<giant>
+					<eng>Giant</eng>
+					<desc>
+						<eng>Strong protection against Splash traps.\nVulnerable against Concentrated traps.</eng>
+					</desc>
+				</giant>
+				<horde>
+					<eng>Horde</eng>
+					<desc>
+						<eng>Strong protection against Piercing traps.\nVulnerable against Splash traps.</eng>
+					</desc>
+				</horde>
+			</filter>
+			<info>
+				<clone>
+					<eng>Duplicate</eng>
+				</clone>
+				<delete>
+					<eng>Delete</eng>
+				</delete>
+				<movement>
+					<eng>Movement</eng>
+				</movement>
+				<cost>
+					<eng>Strength</eng>
+				</cost>
+				<spawntime>
+					<eng>Spawn Gap</eng>
+				</spawntime>
+			</info>
+			<skills>
+				<eng>Choose skills:</eng>
+			</skills>
+		</monster>
+		<monster_skill_cost>
+			<eng>Skill Strength</eng>
+		</monster_skill_cost>
+		<finalize>
+			<title>
+				<eng>Map Title:</eng>
+			</title>
+			<desc>
+				<eng>Map description:</eng>
+			</desc>
+			<settings>
+				<eng>Map settings:</eng>
+			</settings>
+			<difficulty>
+				<popup>
+					<eng>The difficulty setting is just an indication of the overall difficulty of the map. It doesn't make the gameplay easier or harder.</eng>
+				</popup>
+			</difficulty>
+			<startingessence>
+				<eng>Starting Essence:</eng>
+				<popup>
+					<eng>The starting amount of essence for the players before the first wave</eng>
+				</popup>
+			</startingessence>
+			<essenceperwave>
+				<eng>Essence per Wave:</eng>
+				<popup>
+					<eng>Additional essence granted to the player after each wave</eng>
+				</popup>
+			</essenceperwave>
+			<essencetotal>
+				<eng>Total Essence:</eng>
+				<popup>
+					<eng>The total essence given to the player</eng>
+				</popup>
+			</essencetotal>
+			<publish>
+				<eng>Publish</eng>
+				<popup>
+					<eng>Upload your map to Steam</eng>
+				</popup>
+			</publish>
+			<publish_agreement>
+				<eng>By submitting this item, you agree to the Workshop Terms of Service.</eng>
+			</publish_agreement>
+			<test>
+				<eng>Test</eng>
+				<popup>
+					<eng>Test your custom map with a generic character</eng>
+				</popup>
+			</test>
+			<Export>
+				<eng>Export</eng>
+				<popup>
+					<eng>Save your creation to your custom maps (available at the Campaign screen)</eng>
+				</popup>
+			</Export>
+		</finalize>
+		<publish>
+			<working>
+				<eng>Publishing in progress...</eng>
+			</working>
+			<completed>
+				<eng>Publishing successful!</eng>
+			</completed>
+			<failed>
+				<eng>Publishing failed! Try again later!</eng>
+			</failed>
+		</publish>
+		<help>
+			<label>
+				<eng>View Online Help</eng>
+			</label>
+		</help>
+		<exit>
+			<label>
+				<eng>Close Editor</eng>
+			</label>
+		</exit>
+		<common>
+			<save>
+				<eng>Save</eng>
+			</save>
+			<delete>
+				<eng>Delete</eng>
+			</delete>
+			<import>
+				<eng>Import</eng>
+			</import>
+			<error>
+				<save>
+					<exist>
+						<eng>File already exists. Do you want to overwrite?</eng>
+					</exist>
+					<eng>Save error:</eng>
+					<noname>
+						<eng>Project name must not be empty!</eng>
+					</noname>
+				</save>
+			</error>
+		</common>
+	</editor>
+</Root>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<news>
+		<News_Devblog>
+			<eng>Behind the scenes: useful posts  and background information about the company and the games.</eng>
+		</News_Devblog>
+		<News_Steam_Community>
+			<eng>Share your opinion, ask for help, discuss strategies and find friends!</eng>
+		</News_Steam_Community>
+		<News_DT>
+			<eng>A stunning mixture of Tower Defense games and action-RPGs!</eng>
+		</News_DT>
+		<News_VH1>
+			<eng>A gothic-noir action-RPG with a monster hunter and his charming companion. You will wonder who the real monsters are.</eng>
+		</News_VH1>
+		<News_VH2>
+			<eng>Van Helsing, monster hunter extraordinaire and Katarina, his ghostly companion continue their battles. The second part of an unfolding saga that can be played independently.</eng>
+		</News_VH2>
+	</news>
+</Root>

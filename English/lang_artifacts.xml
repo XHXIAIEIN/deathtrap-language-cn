@@ -1,0 +1,2684 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<LanguageName>
+		<eng>English</eng>
+	</LanguageName>
+	<Languages>eng</Languages>
+	<Artifacts>
+		<Recipe>
+			<Legendary_Amulet>
+				<Name>
+					<eng>Legendary Amulet</eng>
+				</Name>
+			</Legendary_Amulet>
+			<Legendary_Ring>
+				<Name>
+					<eng>Legendary Ring</eng>
+				</Name>
+			</Legendary_Ring>
+			<Legendary_Belt>
+				<Name>
+					<eng>Legendary Belt</eng>
+				</Name>
+			</Legendary_Belt>
+			<Legendary_Staff>
+				<Name>
+					<eng>Legendary Staff</eng>
+				</Name>
+			</Legendary_Staff>
+			<Legendary_Polearm>
+				<Name>
+					<eng>Legendary Polearm</eng>
+				</Name>
+			</Legendary_Polearm>
+			<Legendary_Crossbow>
+				<Name>
+					<eng>Legendary Crossbow</eng>
+				</Name>
+			</Legendary_Crossbow>
+			<Legendary_AssaArmor>
+				<Name>
+					<eng>Legendary Marksman Armor</eng>
+				</Name>
+			</Legendary_AssaArmor>
+			<Legendary_AssaHelm>
+				<Name>
+					<eng>Legendary Hat</eng>
+				</Name>
+			</Legendary_AssaHelm>
+			<Legendary_WarriorArmor>
+				<Name>
+					<eng>Legendary Mercenary Armor</eng>
+				</Name>
+			</Legendary_WarriorArmor>
+			<Legendary_WarriorHelm>
+				<Name>
+					<eng>Legendary Mercenary Helm</eng>
+				</Name>
+			</Legendary_WarriorHelm>
+			<Legendary_MageArmor>
+				<Name>
+					<eng>Legendary Sorceress Armor</eng>
+				</Name>
+			</Legendary_MageArmor>
+			<Legendary_MageHelm>
+				<Name>
+					<eng>Legendary Mask</eng>
+				</Name>
+			</Legendary_MageHelm>
+			<Runecrafted_Amulet>
+				<Name>
+					<eng>Runecrafted Amulet</eng>
+				</Name>
+			</Runecrafted_Amulet>
+			<Runecrafted_Ring>
+				<Name>
+					<eng>Runecrafted Ring</eng>
+				</Name>
+			</Runecrafted_Ring>
+			<Runecrafted_Belt>
+				<Name>
+					<eng>Runecrafted Belt</eng>
+				</Name>
+			</Runecrafted_Belt>
+			<Runecrafted_Staff>
+				<Name>
+					<eng>Runecrafted Staff</eng>
+				</Name>
+			</Runecrafted_Staff>
+			<Runecrafted_Polearm>
+				<Name>
+					<eng>Runecrafted Polearm</eng>
+				</Name>
+			</Runecrafted_Polearm>
+			<Runecrafted_Crossbow>
+				<Name>
+					<eng>Runecrafted Crossbow</eng>
+				</Name>
+			</Runecrafted_Crossbow>
+			<Runecrafted_AssaArmor>
+				<Name>
+					<eng>Runecrafted Marksman Armor</eng>
+				</Name>
+			</Runecrafted_AssaArmor>
+			<Runecrafted_AssaHelm>
+				<Name>
+					<eng>Runecrafted Hat</eng>
+				</Name>
+			</Runecrafted_AssaHelm>
+			<Runecrafted_WarriorArmor>
+				<Name>
+					<eng>Runecrafted Mercenary Armor</eng>
+				</Name>
+			</Runecrafted_WarriorArmor>
+			<Runecrafted_WarriorHelm>
+				<Name>
+					<eng>Runecrafted Helm</eng>
+				</Name>
+			</Runecrafted_WarriorHelm>
+			<Runecrafted_MageArmor>
+				<Name>
+					<eng>Runecrafted Sorceress Armor</eng>
+				</Name>
+			</Runecrafted_MageArmor>
+			<Runecrafted_MageHelm>
+				<Name>
+					<eng>Runecrafted Mask</eng>
+				</Name>
+			</Runecrafted_MageHelm>
+			<Runecrafted_Ring_of_Luck>
+				<Name>
+					<eng>Runecrafted Ring of Luck</eng>
+				</Name>
+			</Runecrafted_Ring_of_Luck>
+			<Runecrafted_Amulet_of_Luck>
+				<Name>
+					<eng>Runecrafted Amulet of Luck</eng>
+				</Name>
+			</Runecrafted_Amulet_of_Luck>
+			<Runecrafted_Belt_of_Luck>
+				<Name>
+					<eng>Runecrafted Belt of Luck</eng>
+				</Name>
+			</Runecrafted_Belt_of_Luck>
+			<Runecrafted_Staff_of_Sharpness>
+				<Name>
+					<eng>Runecrafted Staff of Might</eng>
+				</Name>
+			</Runecrafted_Staff_of_Sharpness>
+			<Runecrafted_Polearm_of_Sharpness>
+				<Name>
+					<eng>Runecrafted Polearm of Sharpness</eng>
+				</Name>
+			</Runecrafted_Polearm_of_Sharpness>
+			<Runecrafted_Crossbow_of_Sharpness>
+				<Name>
+					<eng>Runecrafted Crossbow of Suffering</eng>
+				</Name>
+			</Runecrafted_Crossbow_of_Sharpness>
+			<Runecrafted_AssaArmor_of_Defense>
+				<Name>
+					<eng>Runecrafted Cloak of Defense</eng>
+				</Name>
+			</Runecrafted_AssaArmor_of_Defense>
+			<Runecrafted_AssaHelm_of_Defense>
+				<Name>
+					<eng>Runecrafted Hat of Defense</eng>
+				</Name>
+			</Runecrafted_AssaHelm_of_Defense>
+			<Runecrafted_WarriorArmor_of_Defense>
+				<Name>
+					<eng>Runecrafted Mercenary Armor of Defense</eng>
+				</Name>
+			</Runecrafted_WarriorArmor_of_Defense>
+			<Runecrafted_WarriorHelm_of_Defense>
+				<Name>
+					<eng>Runecrafted Helm of Defense</eng>
+				</Name>
+			</Runecrafted_WarriorHelm_of_Defense>
+			<Runecrafted_MageArmor_of_Defense>
+				<Name>
+					<eng>Runecrafted Sorceress Armor of Defense</eng>
+				</Name>
+			</Runecrafted_MageArmor_of_Defense>
+			<Runecrafted_MageHelm_of_Defense>
+				<Name>
+					<eng>Runecrafted Mask of Defense</eng>
+				</Name>
+			</Runecrafted_MageHelm_of_Defense>
+			<Ring_of_Luck>
+				<Name>
+					<eng>Ring of Luck</eng>
+				</Name>
+			</Ring_of_Luck>
+			<Amulet_of_Luck>
+				<Name>
+					<eng>Amulet of Luck</eng>
+				</Name>
+			</Amulet_of_Luck>
+			<Belt_of_Luck>
+				<Name>
+					<eng>Belt of Luck</eng>
+				</Name>
+			</Belt_of_Luck>
+			<Ring_of_Strength>
+				<Name>
+					<eng>Ring of Strength</eng>
+				</Name>
+			</Ring_of_Strength>
+			<Ring_of_Ice>
+				<Name>
+					<eng>Ring of Ice</eng>
+				</Name>
+			</Ring_of_Ice>
+			<Ring_of_Fire>
+				<Name>
+					<eng>Ring of Fire</eng>
+				</Name>
+			</Ring_of_Fire>
+			<Ring_of_Poison>
+				<Name>
+					<eng>Ring of Poison</eng>
+				</Name>
+			</Ring_of_Poison>
+			<Ring_of_Lightning>
+				<Name>
+					<eng>Ring of Lightning</eng>
+				</Name>
+			</Ring_of_Lightning>
+			<AssaArmor_of_Focus>
+				<Name>
+					<eng>Cloak of Focus</eng>
+				</Name>
+			</AssaArmor_of_Focus>
+			<AssaHelm_of_Focus>
+				<Name>
+					<eng>Hat of Focus</eng>
+				</Name>
+			</AssaHelm_of_Focus>
+			<Amulet_of_Health>
+				<Name>
+					<eng>Amulet of Health</eng>
+				</Name>
+			</Amulet_of_Health>
+			<Ring_of_Health>
+				<Name>
+					<eng>Ring of Health</eng>
+				</Name>
+			</Ring_of_Health>
+			<Belt_of_Health>
+				<Name>
+					<eng>Belt of Health</eng>
+				</Name>
+			</Belt_of_Health>	
+			<Masterwork_Staff>
+				<Name>
+					<eng>Masterwork Staff</eng>
+				</Name>
+			</Masterwork_Staff>
+			<Masterwork_Polearm>
+				<Name>
+					<eng>Masterwork Polearm</eng>
+				</Name>
+			</Masterwork_Polearm>
+			<Masterwork_Crossbow>
+				<Name>
+					<eng>Masterwork Crossbow</eng>
+				</Name>
+			</Masterwork_Crossbow>
+			<AssaArmor_of_Defense>
+				<Name>
+					<eng>Cloak of Defense</eng>
+				</Name>
+			</AssaArmor_of_Defense>
+			<AssaHelm_of_Defense>
+				<Name>
+					<eng>Hat of Defense</eng>
+				</Name>
+			</AssaHelm_of_Defense>
+			<WarriorArmor_of_Defense>
+				<Name>
+					<eng>Mercenary Armor of Defense</eng>
+				</Name>
+			</WarriorArmor_of_Defense>
+			<WarriorHelm_of_Defense>
+				<Name>
+					<eng>Helm of Defense</eng>
+				</Name>
+			</WarriorHelm_of_Defense>
+			<MageArmor_of_Defense>
+				<Name>
+					<eng>Sorceress Armor of Defense</eng>
+				</Name>
+			</MageArmor_of_Defense>
+			<MageHelm_of_Defense>
+				<Name>
+					<eng>Mask of Defense</eng>
+				</Name>
+			</MageHelm_of_Defense>
+			<Basic_Ring>
+				<Name>
+					<eng>Basic Ring</eng>
+				</Name>
+			</Basic_Ring>
+			<Basic_Belt>
+				<Name>
+					<eng>Basic Belt</eng>
+				</Name>
+			</Basic_Belt>
+			<Basic_Amulet>
+				<Name>
+					<eng>Basic Amulet</eng>
+				</Name>
+			</Basic_Amulet>
+			<Ring_of_Swiftness>
+				<Name>
+					<eng>Ring of Swiftness</eng>
+				</Name>
+			</Ring_of_Swiftness>
+			<Lightning_Amulet>
+				<Name>
+					<eng>Lightning Amulet</eng>
+				</Name>
+			</Lightning_Amulet>
+			<Belt_of_Strength>
+				<Name>
+					<eng>Belt of Strength</eng>
+				</Name>
+			</Belt_of_Strength>
+			<Advanced_Crossbow>
+				<Name>
+					<eng>Quality Hand Crossbow</eng>
+				</Name>
+			</Advanced_Crossbow>
+			<Advanced_Staff>
+				<Name>
+					<eng>Quality Staff</eng>
+				</Name>
+			</Advanced_Staff>
+			<Advanced_Polearm>
+				<Name>
+					<eng>Quality Two-Handed Weapon</eng>
+				</Name>
+			</Advanced_Polearm>
+			<Starter_Crossbow>
+				<Name>
+					<eng>Basic Hand Crossbow</eng>
+				</Name>
+			</Starter_Crossbow>
+			<Starter_Polearm>
+				<Name>
+					<eng>Basic Two-Handed Weapon</eng>
+				</Name>
+			</Starter_Polearm>
+			<Starter_Staff>
+				<Name>
+					<eng>Basic Staff</eng>
+				</Name>
+			</Starter_Staff>
+			<Starter_AssaArmor>
+				<Name>
+					<eng>Basic Marksman Armor</eng>
+				</Name>
+			</Starter_AssaArmor>
+			<Starter_WarriorArmor>
+				<Name>
+					<eng>Basic Mercenary Armor</eng>
+				</Name>
+			</Starter_WarriorArmor>
+			<Starter_MageArmor>
+				<Name>
+					<eng>Basic Sorceress Armor</eng>
+				</Name>
+			</Starter_MageArmor>
+		</Recipe>
+		<Popup>
+			<StackCount>
+				<eng>Amount</eng>
+			</StackCount>
+			<InactiveEnchantment>
+				<eng>Inactive</eng>
+			</InactiveEnchantment>
+			<AccountBound>
+				<eng>Account Bound</eng>
+			</AccountBound>
+			<resource>
+				<diamond>
+					<eng>Diamond</eng>
+				</diamond>
+				<Emerald>
+					<eng>Emerald</eng>
+				</Emerald>
+				<Ruby>
+					<eng>Ruby</eng>
+				</Ruby>
+				<Topaz>
+					<eng>Topaz</eng>
+				</Topaz>
+				<Prismatic>
+					<eng>Prismatic</eng>
+				</Prismatic>
+			</resource>
+		</Popup>
+		<CraftResourceFormatting>
+			<eng>$TYPE$ $Size$</eng>
+		</CraftResourceFormatting>
+		<Types>
+			<notset>
+				<eng>Any artifact</eng>
+			</notset>
+			<weapon>
+				<eng>Weapon</eng>
+			</weapon>
+			<armor>
+				<eng>Armor</eng>
+			</armor>
+			<amulet>
+				<eng>Amulet</eng>
+			</amulet>
+			<ring>
+				<eng>Ring</eng>
+			</ring>
+			<potion>
+				<eng>Potion</eng>
+			</potion>
+			<questitem>
+				<eng>Quest item</eng>
+			</questitem>
+		</Types>
+		<Rarity>
+			<Magic>
+				<eng>Magic</eng>
+			</Magic>
+			<Rare>
+				<eng>Rare</eng>
+			</Rare>
+			<Epic>
+				<eng>Epic</eng>
+			</Epic>
+			<Set>
+				<eng>Set</eng>
+			</Set>
+			<Godlike>
+				<eng>Godlike</eng>
+			</Godlike>
+		</Rarity>
+		<SubTypes>
+			<TwoHandedSword>
+				<eng>Polearm</eng>
+			</TwoHandedSword>
+			<Hand_crossbow>
+				<eng>Hand Crossbow</eng>
+			</Hand_crossbow>
+			<Staff>
+				<eng>Staff</eng>
+			</Staff>
+			<MageArmor>
+				<eng>Robe</eng>
+			</MageArmor>
+			<AssaArmor>
+				<eng>Cloak</eng>
+			</AssaArmor>
+			<WarriorArmor>
+				<eng>Armor</eng>
+			</WarriorArmor>
+			<MageHelm>
+				<eng>Cowl</eng>
+			</MageHelm>
+			<AssaHelm>
+				<eng>Hat</eng>
+			</AssaHelm>
+			<WarriorHelm>
+				<eng>Helmet</eng>
+			</WarriorHelm>
+			<Belt>
+				<eng>Belt</eng>
+			</Belt>
+			<Amulet>
+				<eng>Amulet</eng>
+			</Amulet>
+			<Ring>
+				<eng>Ring</eng>
+			</Ring>
+			<HealthPotion>
+				<eng>Healing Potion</eng>
+			</HealthPotion>
+			<QuestItem>
+				<eng>Quest Item</eng>
+			</QuestItem>
+			<CraftRecipe>
+				<eng>Crafting Recipe</eng>
+			</CraftRecipe>
+			<CraftResource>
+				<eng>Crafting Resource</eng>
+			</CraftResource>
+			<TrapBooster>
+				<eng>Enhancer Rune</eng>
+			</TrapBooster>
+			<Key>
+				<eng>Key</eng>
+			</Key>
+		</SubTypes>
+		<Conditions>
+			<upgrade_level>
+				<eng>Power Level required %d/%d</eng>
+			</upgrade_level>
+			<Permanent>
+				<eng>Permanent: %s</eng>
+			</Permanent>
+			<Set>
+				<eng>Set: %d</eng>
+			</Set>
+			<kill_soldier>
+				<eng>Enemies killed: %d/%d</eng>
+			</kill_soldier>
+			<damage_done>
+				<eng>Damage dealt: %d/%d</eng>
+			</damage_done>
+			<use_mana>
+				<eng>Mana used: %d/%d</eng>
+			</use_mana>
+			<successful_defense>
+				<eng>Attacks defended: %d/%d</eng>
+			</successful_defense>
+			<successful_parry>
+				<eng>Blows deflected: %d/%d</eng>
+			</successful_parry>
+			<distance_walked>
+				<eng>Distance walked: %d/%d</eng>
+			</distance_walked>
+			<critical_hit>
+				<eng>Criticals delivered: %d/%d</eng>
+			</critical_hit>
+			<powerup_use>
+				<eng>Powerups used: %d/%d</eng>
+			</powerup_use>
+			<gold_spent>
+				<eng>Gold spent: %d/%d</eng>
+			</gold_spent>
+			<enchant_count>
+				<eng>Times enchanted: %d/%d</eng>
+			</enchant_count>
+			<death>
+				<eng>Deaths: %d/%d</eng>
+			</death>
+			<potion_drunk>
+				<eng>Potions drunk: %d/%d</eng>
+			</potion_drunk>
+			<kill_special_soldier>
+				<eng>Tough enemies killed: %d/%d</eng>
+			</kill_special_soldier>
+			<damage_received>
+				<eng>Damage received: %d/%d</eng>
+			</damage_received>
+			<near_death>
+				<eng>Near deaths: %d/%d</eng>
+			</near_death>
+			<max_rage_count>
+				<eng>Times fully enraged: %d/%d</eng>
+			</max_rage_count>
+			<charge>
+				<eng>Charges: %d/%d</eng>
+			</charge>
+		</Conditions>
+		<Items>
+			<Legendary_Amulet>
+				<Name>
+					<eng>Schema: Legendary Amulet</eng>
+				</Name>
+			</Legendary_Amulet>
+			<Legendary_Ring>
+				<Name>
+					<eng>Schema: Legendary Ring</eng>
+				</Name>
+			</Legendary_Ring>
+			<Legendary_Belt>
+				<Name>
+					<eng>Schema: Legendary Belt</eng>
+				</Name>
+			</Legendary_Belt>
+			<Legendary_Staff>
+				<Name>
+					<eng>Schema: Legendary Staff</eng>
+				</Name>
+			</Legendary_Staff>
+			<Legendary_Polearm>
+				<Name>
+					<eng>Schema: Legendary Polearm</eng>
+				</Name>
+			</Legendary_Polearm>
+			<Legendary_Crossbow>
+				<Name>
+					<eng>Schema: Legendary Crossbow</eng>
+				</Name>
+			</Legendary_Crossbow>
+			<Legendary_AssaArmor>
+				<Name>
+					<eng>Schema: Legendary Marksman Armor</eng>
+				</Name>
+			</Legendary_AssaArmor>
+			<Legendary_AssaHelm>
+				<Name>
+					<eng>Schema: Legendary Hat</eng>
+				</Name>
+			</Legendary_AssaHelm>
+			<Legendary_WarriorArmor>
+				<Name>
+					<eng>Schema: Legendary Mercenary Armor</eng>
+				</Name>
+			</Legendary_WarriorArmor>
+			<Legendary_WarriorHelm>
+				<Name>
+					<eng>Schema: Legendary Mercenary Helm</eng>
+				</Name>
+			</Legendary_WarriorHelm>
+			<Legendary_MageArmor>
+				<Name>
+					<eng>Schema: Legendary Sorceress Armor</eng>
+				</Name>
+			</Legendary_MageArmor>
+			<Legendary_MageHelm>
+				<Name>
+					<eng>Schema: Legendary Mask</eng>
+				</Name>
+			</Legendary_MageHelm>
+			<Advanced_Crossbow>
+				<Name>
+					<eng>Schema: Advanced Crossbow</eng>
+				</Name>
+			</Advanced_Crossbow>
+			<Runecrafted_Amulet>
+				<Name>
+					<eng>Schema: Runecrafted Amulet</eng>
+				</Name>
+			</Runecrafted_Amulet>
+			<Runecrafted_Ring>
+				<Name>
+					<eng>Schema: Runecrafted Ring</eng>
+				</Name>
+			</Runecrafted_Ring>
+			<Runecrafted_Belt>
+				<Name>
+					<eng>Schema: Runecrafted Belt</eng>
+				</Name>
+			</Runecrafted_Belt>
+			<Runecrafted_Staff>
+				<Name>
+					<eng>Schema: Runecrafted Staff</eng>
+				</Name>
+			</Runecrafted_Staff>
+			<Runecrafted_Polearm>
+				<Name>
+					<eng>Schema: Runecrafted Polearm</eng>
+				</Name>
+			</Runecrafted_Polearm>
+			<Runecrafted_Crossbow>
+				<Name>
+					<eng>Schema: Runecrafted Crossbow</eng>
+				</Name>
+			</Runecrafted_Crossbow>
+			<Runecrafted_AssaArmor>
+				<Name>
+					<eng>Schema: Runecrafted Marksman Armor</eng>
+				</Name>
+			</Runecrafted_AssaArmor>
+			<Runecrafted_AssaHelm>
+				<Name>
+					<eng>Schema: Runecrafted Hat</eng>
+				</Name>
+			</Runecrafted_AssaHelm>
+			<Runecrafted_WarriorArmor>
+				<Name>
+					<eng>Schema: Runecrafted Mercenary Armor</eng>
+				</Name>
+			</Runecrafted_WarriorArmor>
+			<Runecrafted_WarriorHelm>
+				<Name>
+					<eng>Schema: Runecrafted Helm</eng>
+				</Name>
+			</Runecrafted_WarriorHelm>
+			<Runecrafted_MageArmor>
+				<Name>
+					<eng>Schema: Runecrafted Sorceress Armor</eng>
+				</Name>
+			</Runecrafted_MageArmor>
+			<Runecrafted_MageHelm>
+				<Name>
+					<eng>Schema: Runecrafted Mask</eng>
+				</Name>
+			</Runecrafted_MageHelm>
+			<Runecrafted_Ring_of_Luck>
+				<Name>
+					<eng>Schema: Runecrafted Ring of Luck</eng>
+				</Name>
+			</Runecrafted_Ring_of_Luck>
+			<Runecrafted_Amulet_of_Luck>
+				<Name>
+					<eng>Schema: Runecrafted Amulet of Luck</eng>
+				</Name>
+			</Runecrafted_Amulet_of_Luck>
+			<Runecrafted_Belt_of_Luck>
+				<Name>
+					<eng>Schema: Runecrafted Belt of Luck</eng>
+				</Name>
+			</Runecrafted_Belt_of_Luck>
+			<Runecrafted_Staff_of_Sharpness>
+				<Name>
+					<eng>Schema: Runecrafted Staff of Might</eng>
+				</Name>
+			</Runecrafted_Staff_of_Sharpness>
+			<Runecrafted_Polearm_of_Sharpness>
+				<Name>
+					<eng>Schema: Runecrafted Polearm of Sharpness</eng>
+				</Name>
+			</Runecrafted_Polearm_of_Sharpness>
+			<Runecrafted_Crossbow_of_Sharpness>
+				<Name>
+					<eng>Schema: Runecrafted Crossbow of Suffering</eng>
+				</Name>
+			</Runecrafted_Crossbow_of_Sharpness>
+			<Runecrafted_AssaArmor_of_Defense>
+				<Name>
+					<eng>Schema: Runecrafted Cloak of Defense</eng>
+				</Name>
+			</Runecrafted_AssaArmor_of_Defense>
+			<Runecrafted_AssaHelm_of_Defense>
+				<Name>
+					<eng>Schema: Runecrafted Hat of Defense</eng>
+				</Name>
+			</Runecrafted_AssaHelm_of_Defense>
+			<Runecrafted_WarriorArmor_of_Defense>
+				<Name>
+					<eng>Schema: Runecrafted Mercenary Armor of Defense</eng>
+				</Name>
+			</Runecrafted_WarriorArmor_of_Defense>
+			<Runecrafted_WarriorHelm_of_Defense>
+				<Name>
+					<eng>Schema: Runecrafted Helm of Defense</eng>
+				</Name>
+			</Runecrafted_WarriorHelm_of_Defense>
+			<Runecrafted_MageArmor_of_Defense>
+				<Name>
+					<eng>Schema: Runecrafted Sorceress Armor of Defense</eng>
+				</Name>
+			</Runecrafted_MageArmor_of_Defense>
+			<Runecrafted_MageHelm_of_Defense>
+				<Name>
+					<eng>Schema: Runecrafted Mask of Defense</eng>
+				</Name>
+			</Runecrafted_MageHelm_of_Defense>
+			<Ring_of_Luck>
+				<Name>
+					<eng>Schema: Ring of Luck</eng>
+				</Name>
+			</Ring_of_Luck>
+			<Amulet_of_Luck>
+				<Name>
+					<eng>Schema: Amulet of Luck</eng>
+				</Name>
+			</Amulet_of_Luck>
+			<Belt_of_Luck>
+				<Name>
+					<eng>Schema: Belt of Luck</eng>
+				</Name>
+			</Belt_of_Luck>
+			<Ring_of_Strength>
+				<Name>
+					<eng>Schema: Ring of Strength</eng>
+				</Name>
+			</Ring_of_Strength>
+			<Ring_of_Ice>
+				<Name>
+					<eng>Schema: Ring of Ice</eng>
+				</Name>
+			</Ring_of_Ice>
+			<Ring_of_Fire>
+				<Name>
+					<eng>Schema: Ring of Fire</eng>
+				</Name>
+			</Ring_of_Fire>
+			<Ring_of_Poison>
+				<Name>
+					<eng>Schema: Ring of Poison</eng>
+				</Name>
+			</Ring_of_Poison>
+			<Ring_of_Lightning>
+				<Name>
+					<eng>Schema: Ring of Lightning</eng>
+				</Name>
+			</Ring_of_Lightning>
+			<AssaArmor_of_Focus>
+				<Name>
+					<eng>Schema: Cloak of Focus</eng>
+				</Name>
+			</AssaArmor_of_Focus>
+			<AssaHelm_of_Focus>
+				<Name>
+					<eng>Schema: Hat of Focus</eng>
+				</Name>
+			</AssaHelm_of_Focus>
+			<Amulet_of_Health>
+				<Name>
+					<eng>Schema: Amulet of Health</eng>
+				</Name>
+			</Amulet_of_Health>
+			<Ring_of_Health>
+				<Name>
+					<eng>Schema: Ring of Health</eng>
+				</Name>
+			</Ring_of_Health>
+			<Belt_of_Health>
+				<Name>
+					<eng>Schema: Belt of Health</eng>
+				</Name>
+			</Belt_of_Health>
+			<Masterwork_Staff>
+				<Name>
+					<eng>Schema: Masterwork Staff</eng>
+				</Name>
+			</Masterwork_Staff>
+			<Masterwork_Polearm>
+				<Name>
+					<eng>Schema: Masterwork Polearm</eng>
+				</Name>
+			</Masterwork_Polearm>
+			<Masterwork_Crossbow>
+				<Name>
+					<eng>Schema: Masterwork Crossbow</eng>
+				</Name>
+			</Masterwork_Crossbow>
+			<AssaArmor_of_Defense>
+				<Name>
+					<eng>Schema: Cloak of Defense</eng>
+				</Name>
+			</AssaArmor_of_Defense>
+			<AssaHelm_of_Defense>
+				<Name>
+					<eng>Schema: Hat of Defense</eng>
+				</Name>
+			</AssaHelm_of_Defense>
+			<WarriorArmor_of_Defense>
+				<Name>
+					<eng>Schema: Mercenary Armor of Defense</eng>
+				</Name>
+			</WarriorArmor_of_Defense>
+			<WarriorHelm_of_Defense>
+				<Name>
+					<eng>Schema: Helm of Defense</eng>
+				</Name>
+			</WarriorHelm_of_Defense>
+			<MageArmor_of_Defense>
+				<Name>
+					<eng>Schema: Sorceress Armor of Defense</eng>
+				</Name>
+			</MageArmor_of_Defense>
+			<MageHelm_of_Defense>
+				<Name>
+					<eng>Schema: Mask of Defense</eng>
+				</Name>
+			</MageHelm_of_Defense>
+			<Basic_Ring>
+				<Name>
+					<eng>Schema: Basic Ring</eng>
+				</Name>
+			</Basic_Ring>
+			<Basic_Belt>
+				<Name>
+					<eng>Schema: Basic Belt</eng>
+				</Name>
+			</Basic_Belt>
+			<Basic_Amulet>
+				<Name>
+					<eng>Schema: Basic Amulet</eng>
+				</Name>
+			</Basic_Amulet>
+			<Ring_of_Swiftness>
+				<Name>
+					<eng>Schema: Ring of Swiftness</eng>
+				</Name>
+			</Ring_of_Swiftness>
+			<Lightning_Amulet>
+				<Name>
+					<eng>Schema: Lightning Amulet</eng>
+				</Name>
+			</Lightning_Amulet>
+			<Belt_of_Strength>
+				<Name>
+					<eng>Schema: Belt of Strength</eng>
+				</Name>
+			</Belt_of_Strength>
+			<Advanced_Staff>
+				<Name>
+					<eng>Schema: Quality Staff</eng>
+				</Name>
+			</Advanced_Staff>
+			<Advanced_Polearm>
+				<Name>
+					<eng>Schema: Quality Polearm</eng>
+				</Name>
+			</Advanced_Polearm>
+			<test_item>
+				<Name>
+					<eng>I literally can't even</eng>
+				</Name>
+			</test_item>
+			<HealingPotion>
+				<Name>
+					<eng>Healing Potion</eng>
+				</Name>
+			</HealingPotion>
+			<Shard>
+				<Name>
+					<eng>Shard</eng>
+				</Name>
+			</Shard>
+			<Chunck>
+				<Name>
+					<eng>Chunk</eng>
+				</Name>
+			</Chunck>
+			<Gem>
+				<Name>
+					<eng>Stone</eng>
+				</Name>
+			</Gem>			
+			
+			<DT_Ring2>
+				<Name>
+					<eng>!OLD! Krakenseye Ring</eng>
+				</Name>
+			</DT_Ring2>			
+			<DT_Ring_lvl1_v1>
+				<Name>
+					<eng>Topaz Tooth Ring</eng>
+				</Name>
+			</DT_Ring_lvl1_v1>
+			<DT_Ring_lvl1_v2>
+				<Name>
+					<eng>Inkthread Ring</eng>
+				</Name>
+			</DT_Ring_lvl1_v2>
+			<DT_Ring_lvl2_v1>
+				<Name>
+					<eng>Krakenseye Ring</eng>
+				</Name>
+			</DT_Ring_lvl2_v1>
+			<DT_Ring_lvl2_v2>
+				<Name>
+					<eng>Consecrated Ring</eng>
+				</Name>
+			</DT_Ring_lvl2_v2>
+			<DT_Ring_lvl3_v1>
+				<Name>
+					<eng>Deepwild Ring</eng>
+				</Name>
+			</DT_Ring_lvl3_v1>			
+			<DT_Ring_lvl3_v2>
+				<Name>
+					<eng>Serpentine Ring</eng>
+				</Name>
+			</DT_Ring_lvl3_v2>
+			<DT_Ring_lvl4_v1>
+				<Name>
+					<eng>Emerald Crown Ring</eng>
+				</Name>
+			</DT_Ring_lvl4_v1>
+			<DT_Ring_lvl4_v2>
+				<Name>
+					<eng>Aventurine Ring</eng>
+				</Name>
+			</DT_Ring_lvl4_v2>
+			<DT_Ring_lvl5_v1>
+				<Name>
+					<eng>Blacksilver Ring</eng>
+				</Name>
+			</DT_Ring_lvl5_v1>
+			<DT_Ring_lvl5_v2>
+				<Name>
+					<eng>Twinruby Ring</eng>
+				</Name>
+			</DT_Ring_lvl5_v2>
+			<DT_Ring_lvl6_v1>
+				<Name>
+					<eng>Lavastone Ring</eng>
+				</Name>
+			</DT_Ring_lvl6_v1>
+			<DT_Ring_lvl6_v2>
+				<Name>
+					<eng>Hypnotist Ring</eng>
+				</Name>
+			</DT_Ring_lvl6_v2>
+			<DT_Ring_lvl7_v1>
+				<Name>
+					<eng>Glyphband Ring</eng>
+				</Name>
+			</DT_Ring_lvl7_v1>
+			<DT_Ring_lvl7_v2>
+				<Name>
+					<eng>Cardinal Ring</eng>
+				</Name>
+			</DT_Ring_lvl7_v2>
+			<DT_Ring_lvl8_v1>
+				<Name>
+					<eng>Silverwood Ring</eng>
+				</Name>
+			</DT_Ring_lvl8_v1>
+			<DT_Ring_lvl8_v2>
+				<Name>
+					<eng>Alexandrite Ring</eng>
+				</Name>
+			</DT_Ring_lvl8_v2>
+			<DT_Ring_lvl9_v1>
+				<Name>
+					<eng>Carbuncle Ring</eng>
+				</Name>
+			</DT_Ring_lvl9_v1>
+			<DT_Ring_lvl9_v2>
+				<Name>
+					<eng>Regalite Ring</eng>
+				</Name>
+			</DT_Ring_lvl9_v2>
+			<DT_Ring_lvl10_v1>
+				<Name>
+					<eng>Star Ruby Ring</eng>
+				</Name>
+			</DT_Ring_lvl10_v1>
+			<DT_Ring_lvl10_v2>
+				<Name>
+					<eng>Voidstone Ring</eng>
+				</Name>
+			</DT_Ring_lvl10_v2>
+			
+			<DT_Amulet2>
+				<Name>
+					<eng>!OLD! Inkstone Amulet</eng>
+				</Name>
+			</DT_Amulet2>
+			
+			<DT_Amulet_lvl1_v1>
+				<Name>
+					<eng>Gorgon Eye Amulet</eng>
+				</Name>
+			</DT_Amulet_lvl1_v1>
+			<DT_Amulet_lvl1_v2>
+				<Name>
+					<eng>Lavastone Pendant</eng>
+				</Name>
+			</DT_Amulet_lvl1_v2>
+			<DT_Amulet_lvl2_v1>
+				<Name>
+					<eng>Angeltear Necklace</eng>
+				</Name>
+			</DT_Amulet_lvl2_v1>
+			<DT_Amulet_lvl2_v2>
+				<Name>
+					<eng>Nordsage Medallion</eng>
+				</Name>
+			</DT_Amulet_lvl2_v2>			
+			<DT_Amulet_lvl3_v1>
+				<Name>
+					<eng>Azurepearl Pendant</eng>
+				</Name>
+			</DT_Amulet_lvl3_v1>
+			<DT_Amulet_lvl3_v2>
+				<Name>
+					<eng>Heart's Tear Amulet</eng>
+				</Name>
+			</DT_Amulet_lvl3_v2>			
+			<DT_Amulet_lvl4_v1>
+				<Name>
+					<eng>Sylvanian Glyph Talisman</eng>
+				</Name>
+			</DT_Amulet_lvl4_v1>
+			<DT_Amulet_lvl4_v2>
+				<Name>
+					<eng>Glacier Eye Pendant</eng>
+				</Name>
+			</DT_Amulet_lvl4_v2>
+			<DT_Amulet_lvl5_v1>
+				<Name>
+					<eng>Inkstone Amulet</eng>
+				</Name>
+			</DT_Amulet_lvl5_v1>
+			<DT_Amulet_lvl5_v2>
+				<Name>
+					<eng>Hexward Medalion</eng>
+				</Name>
+			</DT_Amulet_lvl5_v2>
+			<DT_Amulet_lvl6_v1>
+				<Name>
+					<eng>Silkjade Pendant</eng>
+				</Name>
+			</DT_Amulet_lvl6_v1>
+			<DT_Amulet_lvl6_v2>
+				<Name>
+					<eng>Rosa Petra Talisman</eng>
+				</Name>
+			</DT_Amulet_lvl6_v2>
+			<DT_Amulet_lvl7_v1>
+				<Name>
+					<eng>Bearclam Medalion</eng>
+				</Name>
+			</DT_Amulet_lvl7_v1>
+			<DT_Amulet_lvl7_v2>
+				<Name>
+					<eng>ScarletBead Pendant</eng>
+				</Name>
+			</DT_Amulet_lvl7_v2>
+			<DT_Amulet_lvl8_v1>
+				<Name>
+					<eng>Starburst Pendant</eng>
+				</Name>
+			</DT_Amulet_lvl8_v1>
+			<DT_Amulet_lvl8_v2>
+				<Name>
+					<eng>Fire Emerald Amulet</eng>
+				</Name>
+			</DT_Amulet_lvl8_v2>
+			<DT_Amulet_lvl9_v1>
+				<Name>
+					<eng>Devilsbane Talisman</eng>
+				</Name>
+			</DT_Amulet_lvl9_v1>
+			<DT_Amulet_lvl9_v2>
+				<Name>
+					<eng>Voidstone Pendant</eng>
+				</Name>
+			</DT_Amulet_lvl9_v2>
+			<DT_Amulet_lvl10_v1>
+				<Name>
+					<eng>Rune Compass Talisman</eng>
+				</Name>
+			</DT_Amulet_lvl10_v1>
+			<DT_Amulet_lvl10_v2>
+				<Name>
+					<eng>Patriarch Medalion</eng>
+				</Name>
+			</DT_Amulet_lvl10_v2>			
+			<Base_Mage_Staff>
+				<Name>
+					<eng>Invocatus Staff</eng>
+				</Name>
+			</Base_Mage_Staff>
+			<DT_Staff1>
+				<Name>
+					<eng>Blue Moon Staff</eng>
+				</Name>
+			</DT_Staff1>
+			<DT_Staff2>
+				<Name>
+					<eng>Diviner Staff</eng>
+				</Name>
+			</DT_Staff2>
+			<DT_Staff3>
+				<Name>
+					<eng>White Tower Staff</eng>
+				</Name>
+			</DT_Staff3>
+			<DT_Staff4>
+				<Name>
+					<eng>Soulbound Staff</eng>
+				</Name>
+			</DT_Staff4>
+			<DT_Staff5>
+				<Name>
+					<eng>Astrolabe Staff</eng>
+				</Name>
+			</DT_Staff5>
+			<DT_Staff6>
+				<Name>
+					<eng>Artifex Staff</eng>
+				</Name>
+			</DT_Staff6>
+			<DT_Staff7>
+				<Name>
+					<eng>Griffondare Staff</eng>
+				</Name>
+			</DT_Staff7>
+			<DT_Staff8>
+				<Name>
+					<eng>Phoenixwing Staff</eng>
+				</Name>
+			</DT_Staff8>
+			<DT_Staff9>
+				<Name>
+					<eng>Oracle Staff</eng>
+				</Name>
+			</DT_Staff9>						
+			<Base_Mage_Helm>
+				<Name>
+					<eng>Goldlight Tiara</eng>
+				</Name>
+			</Base_Mage_Helm>
+			<DT_tiara2>
+				<Name>
+					<eng>Inkserpent Tiara</eng>
+				</Name>
+			</DT_tiara2>
+			<DT_tiara3>
+				<Name>
+					<eng>Clairvoyant Tiara</eng>
+				</Name>
+			</DT_tiara3>
+			<DT_MageHelm1>
+				<Name>
+					<eng>1_1 Mask</eng>
+				</Name>
+			</DT_MageHelm1>
+			<DT_MageHelm1_2>
+				<Name>
+					<eng>Spellwarden Mask</eng>
+				</Name>
+			</DT_MageHelm1_2>			
+			<DT_MageHelm2>
+				<Name>
+					<eng>Etherscuplt Mask</eng>
+				</Name>
+			</DT_MageHelm2>			
+			<DT_MageHelm3>
+				<Name>
+					<eng>Vatican Agent Mask</eng>
+				</Name>
+			</DT_MageHelm3>
+			<DT_MageHelm3_2>
+				<Name>
+					<eng>Shadowbinder Mask</eng>
+				</Name>
+			</DT_MageHelm3_2>			
+			<DT_MageHelm4>
+				<Name>
+					<eng>Venetian Mask</eng>
+				</Name>
+			</DT_MageHelm4>			
+			<DT_MageHelm5>
+				<Name>
+					<eng>Sun Queen Mask</eng>
+				</Name>
+			</DT_MageHelm5>
+			<DT_MageHelm6>
+				<Name>
+					<eng>Temptress Mask</eng>
+				</Name>
+			</DT_MageHelm6>
+			<DT_MageHelm7>
+				<Name>
+					<eng>Mistveil Mask</eng>
+				</Name>
+			</DT_MageHelm7>
+			<DT_MageHelm8>
+				<Name>
+					<eng>Augur Mask</eng>
+				</Name>
+			</DT_MageHelm8>
+			<DT_MageHelm9>
+				<Name>
+					<eng>Blue Spirit Mask</eng>
+				</Name>
+			</DT_MageHelm9>
+			<DT_MageHelm10>
+				<Name>
+					<eng>Animatus Mask</eng>
+				</Name>
+			</DT_MageHelm10>
+			
+			<DT_MageArmor1>
+				<Name>
+					<eng>Rift Guardian Garb</eng>
+				</Name>
+			</DT_MageArmor1>
+			<DT_MageArmor2>
+				<Name>
+					<eng>Spiritseeker Garb</eng>
+				</Name>
+			</DT_MageArmor2>
+			<DT_MageArmor3>
+				<Name>
+					<eng>Enthropist Garb</eng>
+				</Name>
+			</DT_MageArmor3>
+			<DT_MageArmor4>
+				<Name>
+					<eng>Maleficatus Garb</eng>
+				</Name>
+			</DT_MageArmor4>
+			<DT_MageArmor5>
+				<Name>
+					<eng>Transmuter Garb</eng>
+				</Name>
+			</DT_MageArmor5>
+			<DT_MageArmor6>
+				<Name>
+					<eng>Riftgazer Garb</eng>
+				</Name>
+			</DT_MageArmor6>
+			<DT_MageArmor7>
+				<Name>
+					<eng>Inkwalker Garb</eng>
+				</Name>
+			</DT_MageArmor7>
+			<DT_MageArmor8>
+				<Name>
+					<eng>Abolisher Garb</eng>
+				</Name>
+			</DT_MageArmor8>
+			<DT_MageArmor9>
+				<Name>
+					<eng>Lorekeeper Garb</eng>
+				</Name>
+			</DT_MageArmor9>
+			<DT_MageArmor10>
+				<Name>
+					<eng>Illuminatus Garb</eng>
+				</Name>
+			</DT_MageArmor10>
+						
+			<Base_warrior_weapon>
+				<Name>
+					<eng>Spiked Halberd</eng>
+				</Name>
+			</Base_warrior_weapon>
+			<DT_Polearm1>
+				<Name>
+					<eng>Heavy Mallet</eng>
+				</Name>
+			</DT_Polearm1>
+			<DT_Polearm2>
+				<Name>
+					<eng>Double Edge Halberd</eng>
+				</Name>
+			</DT_Polearm2>
+			<DT_Polearm3>
+				<Name>
+					<eng>Heavy Razormaul</eng>
+				</Name>
+			</DT_Polearm3>
+			<DT_Polearm4>
+				<Name>
+					<eng>Krakassian Longaxe</eng>
+				</Name>
+			</DT_Polearm4>
+			<DT_Polearm5>
+				<Name>
+					<eng>Steel Broadhammer</eng>
+				</Name>
+			</DT_Polearm5>
+			<DT_Polearm6>
+				<Name>
+					<eng>Royal Bardiche</eng>
+				</Name>
+			</DT_Polearm6>
+			<DT_Polearm7>
+				<Name>
+					<eng>Mithicusian Bladestaff</eng>
+				</Name>
+			</DT_Polearm7>
+			<DT_Polearm8>
+				<Name>
+					<eng>Borgovian Poleaxe</eng>
+				</Name>
+			</DT_Polearm8>
+			<DT_Polearm9>
+				<Name>
+					<eng>Heavy Warscythe</eng>
+				</Name>
+			</DT_Polearm9>
+						
+			<Base_Warrior_Armor>
+				<Name>
+					<eng>Half Plate Armor</eng>
+				</Name>
+			</Base_Warrior_Armor>
+			<DT_WarriorArmor1>
+				<Name>
+					<eng>Spiked Plate Armor</eng>
+				</Name>
+			</DT_WarriorArmor1>
+			<DT_WarriorArmor2>
+				<Name>
+					<eng>Heavy Plate Armor</eng>
+				</Name>
+			</DT_WarriorArmor2>
+			<DT_WarriorArmor3>
+				<Name>
+					<eng>Autumn Scout Armor</eng>
+				</Name>
+			</DT_WarriorArmor3>
+			<DT_WarriorArmor4>
+				<Name>
+					<eng>Berserker Plate Armor</eng>
+				</Name>
+			</DT_WarriorArmor4>
+			<DT_WarriorArmor5>
+				<Name>
+					<eng>Ink Legion Armor</eng>
+				</Name>
+			</DT_WarriorArmor5>
+			<DT_WarriorArmor6>
+				<Name>
+					<eng>Krakassian Champion Plate</eng>
+				</Name>
+			</DT_WarriorArmor6>
+			<DT_WarriorArmor7>
+				<Name>
+					<eng>Lion Squire Armor</eng>
+				</Name>
+			</DT_WarriorArmor7>
+			<DT_WarriorArmor8>
+				<Name>
+					<eng>Autumn Knight Armor</eng>
+				</Name>
+			</DT_WarriorArmor8>
+			<DT_WarriorArmor9>
+				<Name>
+					<eng>Lion Seargeant Armor</eng>
+				</Name>
+			</DT_WarriorArmor9>
+			<DT_WarriorArmor10>
+				<Name>
+					<eng>Ink Champion Armor</eng>
+				</Name>
+			</DT_WarriorArmor10>
+			<Base_Warrior_Helm>
+				<Name>
+					<eng>Steel Helmet</eng>
+				</Name>
+			</Base_Warrior_Helm>
+			<DT_WarriorHelm1>
+				<Name>
+					<eng>Reinforced Steel Helmet</eng>
+				</Name>
+			</DT_WarriorHelm1>
+			<DT_WarriorHelm2>
+				<Name>
+					<eng>Executioner Battlehelm</eng>
+				</Name>
+			</DT_WarriorHelm2>
+			<DT_WarriorHelm3>
+				<Name>
+					<eng>Horned Battlehelm</eng>
+				</Name>
+			</DT_WarriorHelm3>
+			<DT_WarriorHelm4>
+				<Name>
+					<eng>Runic Helmet</eng>
+				</Name>
+			</DT_WarriorHelm4>
+			<DT_WarriorHelm5>
+				<Name>
+					<eng>Dragonkin Helmet</eng>
+				</Name>
+			</DT_WarriorHelm5>
+			<DT_WarriorHelm6>
+				<Name>
+					<eng>Skullbane Helmet</eng>
+				</Name>
+			</DT_WarriorHelm6>
+			<DT_WarriorHelm7>
+				<Name>
+					<eng>Deathlord Helmet</eng>
+				</Name>
+			</DT_WarriorHelm7>
+			<DT_WarriorHelm8>
+				<Name>
+					<eng>Sylvanian Helmet</eng>
+				</Name>
+			</DT_WarriorHelm8>
+			<DT_WarriorHelm9>
+				<Name>
+					<eng>Honoriad Battlehelm</eng>
+				</Name>
+			</DT_WarriorHelm9>
+			<DT_WarriorHelm10>
+				<Name>
+					<eng>Fiendskin Helmet</eng>
+				</Name>
+			</DT_WarriorHelm10>	
+			
+			<Base_Assa_Crossbow>
+				<Name>
+					<eng>Light Hand Crossbow</eng>
+				</Name>
+			</Base_Assa_Crossbow>
+			<DT_Crossbow1>
+				<Name>
+					<eng>Old Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow1>
+			<DT_Crossbow1_2>
+				<Name>
+					<eng>Borgovian Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow1_2>
+			<DT_Crossbow2>
+				<Name>
+					<eng>Steel Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow2>
+			<DT_Crossbow2_2>
+				<Name>
+					<eng>Ornate Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow2_2>
+			<DT_Crossbow3>
+				<Name>
+					<eng>Self-winding Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow3>
+			<DT_Crossbow3_2>
+				<Name>
+					<eng>Heavy Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow3_2>
+			<DT_Crossbow4>
+				<Name>
+					<eng>Clockwork Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow4>
+			<DT_Crossbow4_2>
+				<Name>
+					<eng>Repeater Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow4_2>
+			<DT_Crossbow5>
+				<Name>
+					<eng>Precision Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow5>
+			<DT_Crossbow5_2>
+				<Name>
+					<eng>Mandeluzian Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow5_2>
+			<DT_Crossbow6>
+				<Name>
+					<eng>Light Assault Crossbow</eng>
+				</Name>
+			</DT_Crossbow6>
+			<DT_Crossbow6_2>
+				<Name>
+					<eng>Gilded Assault Crossbow</eng>
+				</Name>
+			</DT_Crossbow6_2>
+			<DT_Crossbow7>
+				<Name>
+					<eng>Military Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow7>
+			<DT_Crossbow7_2>
+				<Name>
+					<eng>Steelstorm Assault Crossbow</eng>
+				</Name>
+			</DT_Crossbow7_2>
+			<DT_Crossbow8>
+				<Name>
+					<eng>Sylvanian Hand Crossbow</eng>
+				</Name>
+			</DT_Crossbow8>
+										
+			<Base_Assa_Armor>
+				<Name>
+					<eng>Worn Duster Coat</eng>
+				</Name>
+			</Base_Assa_Armor>
+			<DT_AssaArmor1>
+				<Name>
+					<eng>Enforcer Duster Coat</eng>
+				</Name>
+			</DT_AssaArmor1>
+			<DT_AssaArmor2>
+				<Name>
+					<eng>Lawman Duster Coat</eng>
+				</Name>
+			</DT_AssaArmor2>
+			<DT_AssaArmor3>
+				<Name>
+					<eng>Dragoon Duster Coat</eng>
+				</Name>
+			</DT_AssaArmor3>						
+			<DT_AssaArmor4>
+				<Name>
+					<eng>Warded Duster Coat</eng>
+				</Name>
+			</DT_AssaArmor4>
+			<DT_AssaArmor5>
+				<Name>
+					<eng>Runehunter Duster Coat</eng>
+				</Name>
+			</DT_AssaArmor5>
+			<DT_AssaArmor6>
+				<Name>
+					<eng>Gorgonhide Duster Coat</eng>
+				</Name>
+			</DT_AssaArmor6>
+			<DT_AssaArmor7>
+				<Name>
+					<eng>Stalker's Duster Coat</eng>
+				</Name>
+			</DT_AssaArmor7>
+			<DT_AssaArmor8>
+				<Name>
+					<eng>Gnarlwood Vanguard Duster Coat</eng>
+				</Name>
+			</DT_AssaArmor8>
+			<DT_AssaArmor9>
+				<Name>
+					<eng>Scarlet Warden Duster Coat</eng>
+				</Name>
+			</DT_AssaArmor9>
+			<DT_AssaArmor10>
+				<Name>
+					<eng>Ink Marshal Duster Coat</eng>
+				</Name>
+			</DT_AssaArmor10>
+									
+			<Base_Assa_Helm>
+				<Name>
+					<eng>Rough Leather Hat</eng>
+				</Name>
+			</Base_Assa_Helm>
+			<DT_AssaHelm1>
+				<Name>
+					<eng>Van Cliffe Hat</eng>
+				</Name>
+			</DT_AssaHelm1>
+			<DT_AssaHelm2>
+				<Name>
+					<eng>Lawman Hat</eng>
+				</Name>
+			</DT_AssaHelm2>	
+			<DT_AssaHelm3>
+				<Name>
+					<eng>Veteran Hat</eng>
+				</Name>
+			</DT_AssaHelm3>
+			<DT_AssaHelm3_2>
+				<Name>
+					<eng>Antelope Hat</eng>
+				</Name>
+			</DT_AssaHelm3_2>
+			<DT_AssaHelm4>
+				<Name>
+					<eng>Withchunter Hat</eng>
+				</Name>
+			</DT_AssaHelm4>
+			<DT_AssaHelm5>
+				<Name>
+					<eng>Stetson Hat</eng>
+				</Name>
+			</DT_AssaHelm5>
+			<DT_AssaHelm6>
+				<Name>
+					<eng>Panama Hat</eng>
+				</Name>
+			</DT_AssaHelm6>
+			<DT_AssaHelm6_2>
+				<Name>
+					<eng>Inkstrider Hat</eng>
+				</Name>
+			</DT_AssaHelm6_2>
+			<DT_AssaHelm7>
+				<Name>
+					<eng>Bandolier Hat</eng>
+				</Name>
+			</DT_AssaHelm7>
+			<DT_AssaHelm8>
+				<Name>
+					<eng>Twilight Ranger Hat</eng>
+				</Name>
+			</DT_AssaHelm8>
+			<DT_AssaHelm9>
+				<Name>
+					<eng>Stovepipe Hat</eng>
+				</Name>
+			</DT_AssaHelm9>
+			<DT_AssaHelm10>
+				<Name>
+					<eng>Elite Marksman Hat</eng>
+				</Name>
+			</DT_AssaHelm10>
+						
+			<DT_Belt2>
+				<Name>
+					<eng>!OLD! Sylvanian Belt</eng>
+				</Name>
+			</DT_Belt2>	
+			
+			<DT_Belt_lvl1_v1>
+				<Name>
+					<eng>Trophy Belt</eng>
+				</Name>
+			</DT_Belt_lvl1_v1>
+			<DT_Belt_lvl1_v2>
+				<Name>
+					<eng>Jade Studded Belt</eng>
+				</Name>
+			</DT_Belt_lvl1_v2>
+			<DT_Belt_lvl2_v1>
+				<Name>
+					<eng>Lesovik Hide Belt</eng>
+				</Name>
+			</DT_Belt_lvl2_v1>
+			<DT_Belt_lvl2_v2>
+				<Name>
+					<eng>Copper Threaded Belt</eng>
+				</Name>
+			</DT_Belt_lvl2_v2>			
+			<DT_Belt_lvl3_v1>
+				<Name>
+					<eng>Mountaineer Belt</eng>
+				</Name>
+			</DT_Belt_lvl3_v1>
+			<DT_Belt_lvl3_v2>
+				<Name>
+					<eng>Sturdy Hide Belt</eng>
+				</Name>
+			</DT_Belt_lvl3_v2>
+			<DT_Belt_lvl4_v1>
+				<Name>
+					<eng>Bearskin Belt</eng>
+				</Name>
+			</DT_Belt_lvl4_v1>
+			<DT_Belt_lvl4_v2>
+				<Name>
+					<eng>Tinted Leather Belt</eng>
+				</Name>
+			</DT_Belt_lvl4_v2>
+			<DT_Belt_lvl5_v1>
+				<Name>
+					<eng>Leopardskin Belt</eng>
+				</Name>
+			</DT_Belt_lvl5_v1>
+			<DT_Belt_lvl5_v2>
+				<Name>
+					<eng>Heavy Studded Belt</eng>
+				</Name>
+			</DT_Belt_lvl5_v2>
+			<DT_Belt_lvl6_v1>
+				<Name>
+					<eng>Angelwing Belt</eng>
+				</Name>
+			</DT_Belt_lvl6_v1>
+			<DT_Belt_lvl6_v2>
+				<Name>
+					<eng>Devilsbane Belt</eng>
+				</Name>
+			</DT_Belt_lvl6_v2>
+			<DT_Belt_lvl7_v1>
+				<Name>
+					<eng>Sylvanian Belt</eng>
+				</Name>
+			</DT_Belt_lvl7_v1>
+			<DT_Belt_lvl7_v2>
+				<Name>
+					<eng>Byzantine Belt</eng>
+				</Name>
+			</DT_Belt_lvl7_v2>
+			<DT_Belt_lvl8_v1>
+				<Name>
+					<eng>Red Silk Belt</eng>
+				</Name>
+			</DT_Belt_lvl8_v1>
+			<DT_Belt_lvl8_v2>
+				<Name>
+					<eng>Military Belt</eng>
+				</Name>
+			</DT_Belt_lvl8_v2>
+			<DT_Belt_lvl9_v1>
+				<Name>
+					<eng>Gun Belt</eng>
+				</Name>
+			</DT_Belt_lvl9_v1>
+			<DT_Belt_lvl9_v2>
+				<Name>
+					<eng>Defender Belt</eng>
+				</Name>
+			</DT_Belt_lvl9_v2>
+			<DT_Belt_lvl10_v1>
+				<Name>
+					<eng>Gold Notch Belt</eng>
+				</Name>
+			</DT_Belt_lvl10_v1>
+			<DT_Belt_lvl10_v2>
+				<Name>
+					<eng>Gorgonskin Belt</eng>
+				</Name>
+			</DT_Belt_lvl10_v2>					
+			<Loot_Key_copper>
+				<Name>
+					<eng>Copper Chest Key</eng>
+				</Name>
+			</Loot_Key_copper>
+			<Loot_Key_silver>
+				<Name>
+					<eng>Silver Chest Key</eng>
+				</Name>
+			</Loot_Key_silver>
+			<Loot_Key_gold>
+				<Name>
+					<eng>Gold Chest Key</eng>
+				</Name>
+			</Loot_Key_gold>			
+			<DT_Rune_lvl1_v1>
+				<Name>
+					<eng>Orichalcum Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl1_v1>
+			<DT_Rune_lvl1_v2>
+				<Name>
+					<eng>Borgovium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl1_v2>
+			<DT_Rune_lvl2_v1>
+				<Name>
+					<eng>Phlogistorium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl2_v1>
+			<DT_Rune_lvl2_v2>
+				<Name>
+					<eng>Arcanium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl2_v2>
+			<DT_Rune_lvl3_v1>
+				<Name>
+					<eng>Aelectrum Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl3_v1>
+			<DT_Rune_lvl3_v2>
+				<Name>
+					<eng>Stokerium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl3_v2>
+			<DT_Rune_lvl4_v1>
+				<Name>
+					<eng>Draculaenium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl4_v1>
+			<DT_Rune_lvl4_v2>
+				<Name>
+					<eng>Fulmigatium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl4_v2>	
+			<DT_Rune_lvl5_v1>
+				<Name>
+					<eng>Rustitium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl5_v1>
+			<DT_Rune_lvl5_v2>
+				<Name>
+					<eng>Galvanium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl5_v2>
+			<DT_Rune_lvl6_v1>
+				<Name>
+					<eng>Irradium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl6_v1>
+			<DT_Rune_lvl6_v2>
+				<Name>
+					<eng>Cobaltonite Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl6_v2>
+			<DT_Rune_lvl7_v1>
+				<Name>
+					<eng>Thermobarium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl7_v1>
+			<DT_Rune_lvl7_v2>
+				<Name>
+					<eng>Superbidium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl7_v2>
+			<DT_Rune_lvl8_v1>
+				<Name>
+					<eng>Kryptographite Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl8_v1>
+			<DT_Rune_lvl8_v2>
+				<Name>
+					<eng>Hyperbolium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl8_v2>
+			<DT_Rune_lvl9_v1>
+				<Name>
+					<eng>Aepocryphium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl9_v1>
+			<DT_Rune_lvl9_v2>
+				<Name>
+					<eng>Phenomaenium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl9_v2>
+			<DT_Rune_lvl10_v1>
+				<Name>
+					<eng>Absurdium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl10_v1>
+			<DT_Rune_lvl10_v2>
+				<Name>
+					<eng>Unobtanium Enhancer Rune</eng>
+				</Name>
+			</DT_Rune_lvl10_v2>
+			<Godlike_Ring1>
+				<Name>
+					<eng>Wraithbone Ring</eng>
+				</Name>
+			</Godlike_Ring1>
+			<Godlike_Ring2>
+				<Name>
+					<eng>Taltos Ring</eng>
+				</Name>
+			</Godlike_Ring2>
+			<Godlike_Amulet1>
+				<Name>
+					<eng>Amulet of the Veil</eng>
+				</Name>
+			</Godlike_Amulet1>
+			<Godlike_Amulet2>
+				<Name>
+					<eng>Ancestral Amulet</eng>
+				</Name>
+			</Godlike_Amulet2>
+			<Godlike_Belt1>
+				<Name>
+					<eng>Lone Wolf Belt</eng>
+				</Name>
+			</Godlike_Belt1>
+			<Godlike_Belt2>
+				<Name>
+					<eng>Watchman's Sash</eng>
+				</Name>
+			</Godlike_Belt2>
+			<Godlike_WarriorArmor1>
+				<Name>
+					<eng>Dread Officer Armor</eng>
+				</Name>
+			</Godlike_WarriorArmor1>
+			<Godlike_WarriorArmor2>
+				<Name>
+					<eng>Persistence</eng>
+				</Name>
+			</Godlike_WarriorArmor2>
+			<Godlike_MageArmor1>
+				<Name>
+					<eng>Noble Hunter Armor</eng>
+				</Name>
+			</Godlike_MageArmor1>
+			<Godlike_MageArmor2>
+				<Name>
+					<eng>Runic Armor</eng>
+				</Name>
+			</Godlike_MageArmor2>
+			<Godlike_AssaArmor1>
+				<Name>
+					<eng>Tempest Cape</eng>
+				</Name>
+			</Godlike_AssaArmor1>
+			<Godlike_AssaArmor2>
+				<Name>
+					<eng>Salamander Skin</eng>
+				</Name>
+			</Godlike_AssaArmor2>
+			<Godlike_WarriorHelm1>
+				<Name>
+					<eng>Mad Knight Helmet</eng>
+				</Name>
+			</Godlike_WarriorHelm1>
+			<Godlike_WarriorHelm2>
+				<Name>
+					<eng>Vandal Helm</eng>
+				</Name>
+			</Godlike_WarriorHelm2>
+			<Godlike_MageHelm1>
+				<Name>
+					<eng>Corrupted Soul</eng>
+				</Name>
+			</Godlike_MageHelm1>
+			<Godlike_MageHelm2>
+				<Name>
+					<eng>Iron Will</eng>
+				</Name>
+			</Godlike_MageHelm2>
+			<Godlike_AssaHelm1>
+				<Name>
+					<eng>Van Cliffe Hat</eng>
+				</Name>
+			</Godlike_AssaHelm1>
+			<Godlike_AssaHelm2>
+				<Name>
+					<eng>Intimidator Hat</eng>
+				</Name>
+			</Godlike_AssaHelm2>
+			<Godlike_Polearm1>
+				<Name>
+					<eng>Purple Sorrow</eng>
+				</Name>
+			</Godlike_Polearm1>
+			<Godlike_Polearm2>
+				<Name>
+					<eng>Adder Bite</eng>
+				</Name>
+			</Godlike_Polearm2>
+			<Godlike_Crossbow1>
+				<Name>
+					<eng>Fortune</eng>
+				</Name>
+			</Godlike_Crossbow1>
+			<Godlike_Crossbow2>
+				<Name>
+					<eng>Nightstrike</eng>
+				</Name>
+			</Godlike_Crossbow2>
+			<Godlike_Staff1>
+				<Name>
+					<eng>Starspike</eng>
+				</Name>
+			</Godlike_Staff1>
+			<Godlike_Staff2>
+				<Name>
+					<eng>Devilschorcher</eng>
+				</Name>
+			</Godlike_Staff2>
+		</Items>
+		<Enchantment>
+			<PotionEfficiency>
+				<Desc>
+					<eng>$VALUE$% Potion Efficiency</eng>
+				</Desc>
+			</PotionEfficiency>
+			<AllSkillDamagePercentOnFrozenEnemies>
+				<Desc>
+					<eng>+$VALUE$ Damage on Frozen enemies</eng>
+				</Desc>
+			</AllSkillDamagePercentOnFrozenEnemies>
+			<AllSkillDamagePercentOnStunnedEnemies>
+				<Desc>
+					<eng>+$VALUE$ Damage on Stunned enemies</eng>
+				</Desc>
+			</AllSkillDamagePercentOnStunnedEnemies>
+			<AllSkillDamagePercentOnBurningEnemies>
+				<Desc>
+					<eng>+$VALUE$ Damage on Burning enemies</eng>
+				</Desc>
+			</AllSkillDamagePercentOnBurningEnemies>
+			<AllSkillDamagePercentOnPoisonedEnemies>
+				<Desc>
+					<eng>+$VALUE$ Damage on Poisoned enemies</eng>
+				</Desc>
+			</AllSkillDamagePercentOnPoisonedEnemies>
+			<Allskilldamagepercentonslowedenemies>
+				<Desc>
+					<eng>+$VALUE$ Damage on Slowed enemies</eng>
+				</Desc>
+			</Allskilldamagepercentonslowedenemies>
+			<PhysicalSkillsDamagePercent>
+				<desc>
+					<eng>$SIGN$$VALUE$ to Damage of Physical Skills</eng>
+				</desc>
+			</PhysicalSkillsDamagePercent>
+			<IceSkillsDamagePercent>
+				<desc>
+					<eng>$SIGN$$VALUE$ to Damage of Ice Skills</eng>
+				</desc>
+			</IceSkillsDamagePercent>
+			<FireSkillsDamagePercent>
+				<desc>
+					<eng>$SIGN$$VALUE$ to Damage of Fire Skills</eng>
+				</desc>
+			</FireSkillsDamagePercent>
+			<LightningSkillsDamagePercent>
+				<desc>
+					<eng>$SIGN$$VALUE$ to Damage of Lightning Skills</eng>
+				</desc>
+			</LightningSkillsDamagePercent>
+			<PoisonSkillsDamagePercent>
+				<desc>
+					<eng>$SIGN$$VALUE$ to Damage of Poison Skills</eng>
+				</desc>
+			</PoisonSkillsDamagePercent>
+			<ArmorBonusPercent>
+				<Desc>
+					<eng>$VALUE$% Bonus Armor</eng>
+				</Desc>
+			</ArmorBonusPercent>
+			<DamageAgainstGiants>
+				<Desc>
+					<eng>+$VALUE$ Damage against Giant creatures</eng>
+				</Desc>
+			</DamageAgainstGiants>
+			<DamageAgainstHorde>
+				<Desc>
+					<eng>+$VALUE$ Damage against Horde creatures</eng>
+				</Desc>
+			</DamageAgainstHorde>			
+			<ArmorBonus>
+				<Desc>
+					<eng>$VALUE$ Bonus Armor</eng>
+				</Desc>
+			</ArmorBonus>
+			<Focus>
+				<Desc>
+					<eng>$VALUE$ Focus</eng>
+				</Desc>
+			</Focus>
+			<ManaPerSec>
+				<Desc>
+					<eng>$VALUE$ Mana Per Second</eng>
+				</Desc>
+			</ManaPerSec>
+			<TestEnchant>
+				<desc>
+					<eng>Nemtom amugy, hogy ilyen kell-e még.</eng>
+				</desc>
+			</TestEnchant>			
+			<Trap_dt_frostraytrap_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Greater Cold Rune Level (Frost Pillar)</eng>
+				</desc>
+			</Trap_dt_frostraytrap_mOne_level>
+			<Trap_dt_langszoro_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Napalm Fuel Level (Blast Furnace)</eng>
+				</desc>
+			</Trap_dt_langszoro_mOne_level>
+			<Trap_dt_korongveto_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Heavy Discs Level (Razor Launcher)</eng>
+				</desc>
+			</Trap_dt_korongveto_mOne_level>
+			<Trap_dt_zaptorony_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Greater Storm Rune Level (Lightning Pillar)</eng>
+				</desc>
+			</Trap_dt_zaptorony_mOne_level>
+			<Trap_dt_drainlifetrap_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Limbo Sigil Level (Enthropic Pillar)</eng>
+				</desc>
+			</Trap_dt_drainlifetrap_mOne_level>
+			<Trap_dt_agyutorony_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Blast Shells Level (Cannon Sentry)</eng>
+				</desc>
+			</Trap_dt_agyutorony_mOne_level>
+			<Trap_dt_rugoselloko_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Efficient Spring Design Level (Spring Trap)</eng>
+				</desc>
+			</Trap_dt_rugoselloko_mOne_level>
+			<Trap_dt_summonicequeen_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Empower Rune Level (Winter Queen Sigil)</eng>
+				</desc>
+			</Trap_dt_summonicequeen_mOne_level>
+			<Trap_dt_lavapadlo_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Brimstone Pit Level (Lava Grill)</eng>
+				</desc>
+			</Trap_dt_lavapadlo_mOne_level>
+			<Trap_dt_talajtuskek_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Serrated Spears Level (Spear Trap)</eng>
+				</desc>
+			</Trap_dt_talajtuskek_mOne_level>
+			<Trap_Sorozatlovo_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Lead Core Rounds Level (Gun Sentry)</eng>
+				</desc>
+			</Trap_Sorozatlovo_mOne_level>
+			<Trap_dt_acidtrap_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Phlogiston Acid Level (Acid Geyser)</eng>
+				</desc>
+			</Trap_dt_acidtrap_mOne_level>
+			<Trap_dt_stasistrap_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Simplified Rune Pattern Level (Stasis Trap)</eng>
+				</desc>
+			</Trap_dt_stasistrap_mOne_level>
+			<Trap_dt_nekrotrap_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Improved Soul Trap Level (Reanimator Pit)</eng>
+				</desc>
+			</Trap_dt_nekrotrap_mOne_level>
+			<Trap_dt_thundertower_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Thunder Sigil Level (Olympus Pillar)</eng>
+				</desc>
+			</Trap_dt_thundertower_mOne_level>
+			<Trap_dt_uteg_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Orichalcum Frame Level (Phoenix Pillar)</eng>
+				</desc>
+			</Trap_dt_uteg_mOne_level>
+			<Trap_dt_teslatorony_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Discharge Modulator Level (Voltaron Coil)</eng>
+				</desc>
+			</Trap_dt_teslatorony_mOne_level>
+			<Trap_summon_breeder_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Specimen Selection Level (Suicide Swarm Nest)</eng>
+				</desc>
+			</Trap_summon_breeder_mOne_level>
+			<Trap_dt_teleportpadlo_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Improved Glyph Level (Portal Glyph)</eng>
+				</desc>
+			</Trap_dt_teleportpadlo_mOne_level>
+			<Trap_dt_desintegritytrap_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Haste Rune Level (Abyss Crater)</eng>
+				</desc>
+			</Trap_dt_desintegritytrap_mOne_level>
+			<Trap_dt_monstercage_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Improved Release Mechanism Level (Monster Cage)</eng>
+				</desc>
+			</Trap_dt_monstercage_mOne_level>
+			<Trap_dt_jegespadlo_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Greater Ice Rune Level (Icicle Field)</eng>
+				</desc>
+			</Trap_dt_jegespadlo_mOne_level>
+			<Trap_dt_aknacsapda_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Improved Clamps Level (Tick Mine Dispenser)</eng>
+				</desc>
+			</Trap_dt_aknacsapda_mOne_level>
+			<Trap_dt_summonarcher_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Steel Arrows Level (Archer Post)</eng>
+				</desc>
+			</Trap_dt_summonarcher_mOne_level>
+			<Trap_dt_meszarszek_mOne_level>
+				<desc>
+					<eng>+$VALUE$ Essence Collector Level (Essence Trap)</eng>
+				</desc>
+			</Trap_dt_meszarszek_mOne_level>
+			<Trap_dt_frostraytrap_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Focus Crystal Level (Frost Pillar)</eng>
+				</desc>
+			</Trap_dt_frostraytrap_mTwo_level>
+			<Trap_dt_langszoro_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Improved Mechanism Level (Blast Furnace)</eng>
+				</desc>
+			</Trap_dt_langszoro_mTwo_level>
+			<Trap_dt_korongveto_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Spring Winder Mechansim Level (Razor Launcher)</eng>
+				</desc>
+			</Trap_dt_korongveto_mTwo_level>
+			<Trap_dt_zaptorony_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Haste Rune Level (Lightning Pillar)</eng>
+				</desc>
+			</Trap_dt_zaptorony_mTwo_level>
+			<Trap_dt_drainlifetrap_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Greater Life Leech Rune Level (Enthropic Pillar)</eng>
+				</desc>
+			</Trap_dt_drainlifetrap_mTwo_level>
+			<Trap_dt_agyutorony_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Fragmentation Shells Level (Cannon Sentry)</eng>
+				</desc>
+			</Trap_dt_agyutorony_mTwo_level>
+			<Trap_dt_rugoselloko_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Inertial Amplifier Level (Spring Trap)</eng>
+				</desc>
+			</Trap_dt_rugoselloko_mTwo_level>
+			<Trap_dt_summonicequeen_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Winter Storm Rune Level (Winter Queen Sigil)</eng>
+				</desc>
+			</Trap_dt_summonicequeen_mTwo_level>
+			<Trap_dt_lavapadlo_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Improved Rune Pattern Level (Lava Grill)</eng>
+				</desc>
+			</Trap_dt_lavapadlo_mTwo_level>
+			<Trap_dt_talajtuskek_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Enchanted Spears Level (Spear Trap)</eng>
+				</desc>
+			</Trap_dt_talajtuskek_mTwo_level>
+			<Trap_Sorozatlovo_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Improved Cartridge Level (Gun Sentry)</eng>
+				</desc>
+			</Trap_Sorozatlovo_mTwo_level>
+			<Trap_dt_acidtrap_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Pressure Regulator Level (Acid Geyser)</eng>
+				</desc>
+			</Trap_dt_acidtrap_mTwo_level>
+			<Trap_dt_stasistrap_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Rune of Crushing Level (Stasis Trap)</eng>
+				</desc>
+			</Trap_dt_stasistrap_mTwo_level>
+			<Trap_dt_nekrotrap_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Greater Rune of Undeath Level (Reanimator Pit)</eng>
+				</desc>
+			</Trap_dt_nekrotrap_mTwo_level>
+			<Trap_dt_thundertower_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Haste Rune Level (Olypmus Pillar)</eng>
+				</desc>
+			</Trap_dt_thundertower_mTwo_level>
+			<Trap_dt_uteg_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Greater Fire Rune Level (Phoenix Pillar)</eng>
+				</desc>
+			</Trap_dt_uteg_mTwo_level>
+			<Trap_dt_teslatorony_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Enlarged Capacitors Level (Voltaron Coil)</eng>
+				</desc>
+			</Trap_dt_teslatorony_mTwo_level>
+			<Trap_summon_breeder_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Improved Release Mechanism Level (Suicude Swarm Nest)</eng>
+				</desc>
+			</Trap_summon_breeder_mTwo_level>
+			<Trap_dt_teleportpadlo_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Greater Displacement Rune Level (Portal Glyph)</eng>
+				</desc>
+			</Trap_dt_teleportpadlo_mTwo_level>
+			<Trap_dt_desintegritytrap_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Rune of Slaying Level (Abyss Crater)</eng>
+				</desc>
+			</Trap_dt_desintegritytrap_mTwo_level>
+			<Trap_dt_monstercage_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Serum Injector Level (Monster Cage)</eng>
+				</desc>
+			</Trap_dt_monstercage_mTwo_level>
+			<Trap_dt_jegespadlo_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Immobility Rune Level (Icicle Field)</eng>
+				</desc>
+			</Trap_dt_jegespadlo_mTwo_level>
+			<Trap_dt_aknacsapda_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ High Explosive Level (Tick Mine Dispenser)</eng>
+				</desc>
+			</Trap_dt_aknacsapda_mTwo_level>
+			<Trap_dt_summonarcher_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Organized Reinforcements Level (Archer Post)</eng>
+				</desc>
+			</Trap_dt_summonarcher_mTwo_level>
+			<Trap_dt_meszarszek_mTwo_level>
+				<desc>
+					<eng>+$VALUE$ Essence Trap Network Level (Essence Trap)</eng>
+				</desc>
+			</Trap_dt_meszarszek_mTwo_level>
+			<Trap_PoisonDamage>
+				<desc>
+					<eng>+$VALUE$% damage for traps' Poison damage</eng>
+				</desc>
+			</Trap_PoisonDamage>
+			<Trap_MysticTower_Cost>
+				<desc>
+					<eng>-$VALUE$% build cost for Mystic Tower traps</eng>
+				</desc>
+			</Trap_MysticTower_Cost>
+			<Trap_MechanicalTower_Cost>
+				<desc>
+					<eng>-$VALUE$% build cost for Mechanical Tower traps</eng>
+				</desc>
+			</Trap_MechanicalTower_Cost>
+			<Trap_MysticFloor_Cost>
+				<desc>
+					<eng>-$VALUE$% build cost for Mystic Floor traps</eng>
+				</desc>
+			</Trap_MysticFloor_Cost>
+			<Trap_MechanicalFloor_Cost>
+				<desc>
+					<eng>-$VALUE$% build cost for Mechanical Floor traps</eng>
+				</desc>
+			</Trap_MechanicalFloor_Cost>
+			<Trap_Special_Cost>
+				<desc>
+					<eng>-$VALUE$% build cost for Special traps</eng>
+				</desc>
+			</Trap_Special_Cost>
+			<Trap_FireDamage>
+				<desc>
+					<eng>+$VALUE$% damage for traps' Fire damage</eng>
+				</desc>
+			</Trap_FireDamage>
+			<Trap_Icedamage>
+				<desc>
+					<eng>+$VALUE$% damage for traps' Ice damage</eng>
+				</desc>
+			</Trap_Icedamage>
+			<Trap_LightningDamage>
+				<desc>
+					<eng>+$VALUE$% damage for traps' Lightning damage</eng>
+				</desc>
+			</Trap_LightningDamage>
+			<Trap_PhysicalDamage>
+				<desc>
+					<eng>+$VALUE$% damage for traps' Physical damage</eng>
+				</desc>
+			</Trap_PhysicalDamage>
+			<Trap_Summon_Cost>
+				<desc>
+					<eng>-$VALUE$% build cost for Summon traps</eng>
+				</desc>
+			</Trap_Summon_Cost>			
+			<Trap_Summon_cooldown>
+				<desc>
+					<eng>-$VALUE$% reset time for Summon traps</eng>
+				</desc>
+			</Trap_Summon_cooldown>
+		</Enchantment>
+		<Enchant>
+			<DamageBonusPercent>
+				<Name>
+					<eng>%s Weapon Damage</eng>
+				</Name>
+			</DamageBonusPercent>
+			<DamageBonus>
+				<Name>
+					<eng>%s Weapon Damage</eng>
+				</Name>
+			</DamageBonus>
+
+			<IceDamage>
+				<Name>
+					<eng>%s Ice Damage</eng>
+				</Name>
+			</IceDamage>
+			<FireDamage>
+				<Name>
+					<eng>%s Fire Damage</eng>
+				</Name>
+			</FireDamage>
+			<LightningDamage>
+				<Name>
+					<eng>%s Lightning Damage</eng>
+				</Name>
+			</LightningDamage>
+			<PoisonDamage>
+				<Name>
+					<eng>%s Poison Damage</eng>
+				</Name>
+			</PoisonDamage>
+			<PhysicalDamage>
+				<Name>
+					<eng>%s Physical Damage</eng>
+				</Name>
+			</PhysicalDamage>
+			<CriticalHit>
+				<Name>
+					<eng>%s Critical Hit Chance</eng>
+				</Name>
+			</CriticalHit>
+			<CriticalHitDamage>
+				<Name>
+					<eng>%s Critical Damage</eng>
+				</Name>
+			</CriticalHitDamage>
+			<IceSkillsDamagePercent>
+				<Name>
+					<eng>%s Ice Skills Damage</eng>
+				</Name>
+			</IceSkillsDamagePercent>
+			<FireSkillsDamagePercent>
+				<Name>
+					<eng>%s Fire Skills Damage</eng>
+				</Name>
+			</FireSkillsDamagePercent>
+			<LightningSkillsDamagePercent>
+				<Name>
+					<eng>%s Lightning Skills Damage</eng>
+				</Name>
+			</LightningSkillsDamagePercent>
+			<PoisonSkillsDamagePercent>
+				<Name>
+					<eng>%s Poison Skills Damage</eng>
+				</Name>
+			</PoisonSkillsDamagePercent>
+			<PhysicalSkillsDamagePercent>
+				<Name>
+					<eng>%s Physical Skills Damage</eng>
+				</Name>
+			</PhysicalSkillsDamagePercent>
+			<AllskillDamagePercentOnFrozenEnemies>
+				<Name>
+					<eng>%s Damage for Skills on Frozen</eng>
+				</Name>
+			</AllskillDamagePercentOnFrozenEnemies>
+			<AllskillDamagePercentOnBurningEnemies>
+				<Name>
+					<eng>%s Damage for Skills on Burning</eng>
+				</Name>
+			</AllskillDamagePercentOnBurningEnemies>
+			<AllskillDamagePercentOnPoisonedEnemies>
+				<Name>
+					<eng>%s Damage for Skills on Poisoned</eng>
+				</Name>
+			</AllskillDamagePercentOnPoisonedEnemies>
+			<AllskillDamagePercentOnSlowedEnemies>
+				<Name>
+					<eng>%s Damage for Skills on Slowed</eng>
+				</Name>
+			</AllskillDamagePercentOnSlowedEnemies>
+			<AllskillDamagePercentOnStunnedEnemies>
+				<Name>
+					<eng>%s Damage for Skills on Stunned</eng>
+				</Name>
+			</AllskillDamagePercentOnStunnedEnemies>
+			<Mana>
+				<Name>
+					<eng>%s Mana</eng>
+				</Name>
+			</Mana>
+			<Rage>
+				<Name>
+					<eng>%s Rage</eng>
+				</Name>
+			</Rage>
+			<Focus>
+				<Name>
+					<eng>%s Focus</eng>
+				</Name>
+			</Focus>
+			<RagePerKill>
+				<Name>
+					<eng>%s Rage per Kill</eng>
+				</Name>
+			</RagePerKill>
+			<ManaPerKill>
+				<Name>
+					<eng>%s Mana per Kill</eng>
+				</Name>
+			</ManaPerKill>
+			<FocusPerKill>
+				<Name>
+					<eng>%s Focus per Kill</eng>
+				</Name>
+			</FocusPerKill>	
+			<ManaPerSec>
+				<Name>
+					<eng>%s Mana Regeneration</eng>
+				</Name>
+			</ManaPerSec>
+			<Hitpoints>
+				<Name>
+					<eng>%s HP</eng>
+				</Name>
+			</Hitpoints>
+			<Hitpoints_low>
+				<Name>
+					<eng>%s HP</eng>
+				</Name>
+			</Hitpoints_low>
+			<Hitpoints_high>
+				<Name>
+					<eng>%s HP</eng>
+				</Name>
+			</Hitpoints_high>
+			<HitpointsPerHit>
+				<Name>
+					<eng>%s HP per Hit</eng>
+				</Name>
+			</HitpointsPerHit>
+			<ArmorBonusPercent>
+				<Name>
+					<eng>%s Armor Bonus</eng>
+				</Name>
+			</ArmorBonusPercent>
+			<ArmorBonus_low>
+				<Name>
+					<eng>%s Armor Bonus</eng>
+				</Name>
+			</ArmorBonus_low>
+			<ArmorBonus_high>
+				<Name>
+					<eng>%s Armor Bonus</eng>
+				</Name>
+			</ArmorBonus_high>
+			<BetterMagicItemFind>
+				<Name>
+					<eng>%s Chance of finding Magic Item</eng>
+				</Name>
+			</BetterMagicItemFind>
+			<GoldFind>
+				<Name>
+					<eng>%s Chance of finding Gold</eng>
+				</Name>
+			</GoldFind>
+			<IceResist>
+				<Name>
+					<eng>%s Ice Resistance</eng>
+				</Name>
+			</IceResist>
+			<FireResist>
+				<Name>
+					<eng>%s Fire Resistance</eng>
+				</Name>
+			</FireResist>
+			<LightningResist>
+				<Name>
+					<eng>%s Lightning Resistance</eng>
+				</Name>
+			</LightningResist>
+			<PoisonResist>
+				<Name>
+					<eng>%s Poison Resistance</eng>
+				</Name>
+			</PoisonResist>
+			<PhysicalResist>
+				<Name>
+					<eng>%s Physical Resistance</eng>
+				</Name>
+			</PhysicalResist>
+			<AllResist>
+				<Name>
+					<eng>%s to All Resistance</eng>
+				</Name>
+			</AllResist>
+			<CooldownReductionPercent>
+				<Name>
+					<eng>%s reduction to the cooldown of Spells</eng>
+				</Name>
+			</CooldownReductionPercent>
+			<MovementSpeedBonus>
+				<Name>
+					<eng>%s Movement Speed</eng>
+				</Name>
+			</MovementSpeedBonus>
+			<PotionEfficiency>
+				<Name>
+					<eng>%s Potion Efficiency</eng>
+				</Name>
+			</PotionEfficiency>
+			<DamageAgainstGiants>
+				<Name>
+					<eng>%s Damage Against Giants</eng>
+				</Name>
+			</DamageAgainstGiants>
+			<DamageAgainstHorde>
+				<Name>
+					<eng>%s Damage Against Horde</eng>
+				</Name>
+			</DamageAgainstHorde>
+			<ArmorPiercing>
+				<Name>
+					<eng>%s Armor Piercing</eng>
+				</Name>
+			</ArmorPiercing>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</Enchant>
+	</Artifacts>
+</Root>

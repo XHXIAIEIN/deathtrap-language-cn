@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<LanguageName>
+		<eng>English</eng>
+	</LanguageName>
+	<Languages>eng</Languages>
+	<Soldiers>
+		<Ability_Miner_Kobold_boss>
+			<Name>
+				<eng>Great Shubin</eng>
+			</Name>
+		</Ability_Miner_Kobold_boss>
+
+		<Und_Inkwraith_boss_M13T1>
+			<Name>
+				<eng>Devourer of Light</eng>
+			</Name>
+		</Und_Inkwraith_boss_M13T1>
+		<Ability_dirigiblusa_boss>
+			<Name>
+				<eng>Horrendous Floater</eng>
+			</Name>
+		</Ability_dirigiblusa_boss>
+		<Jungle_Giant_map6quest>
+			<Name>
+				<eng>Ragnar</eng>
+			</Name>
+		</Jungle_Giant_map6quest>
+		<Chicken>
+			<Name>
+				<eng>Chicken</eng>
+			</Name>
+		</Chicken>
+		<wight>
+			<Name>
+				<eng>Wight</eng>
+			</Name>
+		</wight>
+		<Jungle_VampireLord_Human_map8quest>
+			<Name>
+				<eng>Count Johannes</eng>
+			</Name>
+		</Jungle_VampireLord_Human_map8quest>
+		<Bumblebee_Ornithopter>
+			<Name>
+				<eng>Maintenance Thopter</eng>
+			</Name>
+		</Bumblebee_Ornithopter>
+		<Ability_harpy_temptress_boss>
+			<Name>
+				<eng>Dreadful Queen</eng>
+			</Name>
+		</Ability_harpy_temptress_boss>
+		<Ability_Breda_boss>
+			<Name>
+				<eng>Arachnideus</eng>
+			</Name>
+		</Ability_Breda_boss>
+		<Und_Inkwraith_boss_M6T1_D>
+			<Name>
+				<eng>Lord of Dread</eng>
+			</Name>
+		</Und_Inkwraith_boss_M6T1_D>
+		<Und_Inkwraith_boss_M6T1_C>
+			<Name>
+				<eng>Lord of Remorse</eng>
+			</Name>
+		</Und_Inkwraith_boss_M6T1_C>
+		<Und_Inkwraith_boss_M6T1_B>
+			<Name>
+				<eng>Lord of Sorrow</eng>
+			</Name>
+		</Und_Inkwraith_boss_M6T1_B>
+		<Und_Inkwraith_boss_M6T1_A>
+			<Name>
+				<eng>Lord of Putrefaction</eng>
+			</Name>
+		</Und_Inkwraith_boss_M6T1_A>
+		<Ability_Vampirelord_beastform_boss>
+			<Name>
+				<eng>The Master</eng>
+			</Name>
+			<tip>
+				<eng>The Master is a lot tougher than it looks at first glance, avoid the bat swarms and destroy the rats immediately.</eng>
+			</tip>
+		</Ability_Vampirelord_beastform_boss>
+		<Ability_rock_golem_boss>
+			<Name>
+				<eng>Jotunn</eng>
+			</Name>
+			<tip>
+				<eng>Smash the ice layer immediately on your frozen traps to keep them firing, and when Jotunn unleashes the Frozen Soil, run!</eng>
+			</tip>
+		</Ability_rock_golem_boss>
+		<rock_golem>
+			<Name>
+				<eng>Rock Golem</eng>
+			</Name>
+					</rock_golem>
+		<Giant>
+			<Name>
+				<eng>Giant</eng>
+			</Name>
+		</Giant>
+		<Lesovik_boss>
+			<Name>
+				<eng>Forest Demon</eng>
+			</Name>
+			<tip>
+				<eng>Always deal with the summoned hordes first and never let them out of your sight. Keep on dealing continuous damage to this Demon from the minute it appears.</eng>
+			</tip>
+		</Lesovik_boss>
+		<lesovik_axe_boss>
+			<Name>
+				<eng>Lesovik Gloomspawn</eng>
+			</Name>
+		</lesovik_axe_boss>
+		<Quag_Thing_boss_M1T1>
+			<Name>
+				<eng>Quaglord</eng>
+			</Name>
+			<tip>
+				<eng>Build strong defences in the path of this monster, avoid his fire magic and don't let the summoned minions slip by your defences.</eng>
+			</tip>
+		</Quag_Thing_boss_M1T1>
+		<Jungle_Giant_map3quest>
+			<Name>
+				<eng>Lumbering Beast</eng>
+			</Name>
+		</Jungle_Giant_map3quest>
+		<Ability_Quag_Thing_boss>
+			<Name>
+				<eng>Slaantz, the Great Boglord</eng>
+			</Name>
+			<tip>
+				<eng>Keep your Concentrated traps running by killing the Cogbinders, destroy all Protector Spirits immediately and steer clear of the Frost Missiles.</eng>
+			</tip>
+		</Ability_Quag_Thing_boss>
+		<Ghoulkin>
+			<Name>
+				<eng>Ghoulkin</eng>
+			</Name>
+		</Ghoulkin>
+		<Ability_Horned_abomination>
+			<Name>
+				<eng>Horned Brute</eng>
+			</Name>
+		</Ability_Horned_abomination>
+		<Ability_magus>
+			<Name>
+				<eng>Pale Maestro</eng>
+			</Name>
+		</Ability_magus>
+		<Ability_magus_boss>
+			<Name>
+				<eng>Sinestro The Magnificent</eng>
+			</Name>
+		</Ability_magus_boss>
+		<Ability_Quag_Thing>
+			<Name>
+				<eng>Quag Devourer</eng>
+			</Name>
+		</Ability_Quag_Thing>
+		<Ability_Vampirelord_beastform>
+			<Name>
+				<eng>Nightfang Stalker</eng>
+			</Name>
+		</Ability_Vampirelord_beastform>
+		<Batmoth>
+			<Name>
+				<eng>Batmoth</eng>
+			</Name>
+		</Batmoth>
+		<Eater_of_the_Dead>
+			<Name>
+				<eng>Eater of the Dead</eng>
+			</Name>
+		</Eater_of_the_Dead>
+		<Horned_abomination>
+			<Name>
+				<eng>Horned Abomination</eng>
+			</Name>
+		</Horned_abomination>
+			<Ability_Horned_abomination_boss>
+			<Name>
+				<eng>Venomous Reaper</eng>
+			</Name>
+		</Ability_Horned_abomination_boss>
+		<Inkwraith>
+			<Name>
+				<eng>Inkwraith</eng>
+			</Name>
+		</Inkwraith>
+		<Kobold_tusker>
+			<Name>
+				<eng>Kobold Tusker</eng>
+			</Name>
+		</Kobold_tusker>
+		<Kobold_tusker_boss>
+			<Name>
+				<eng>Sahak, The Dismemberer</eng>
+			</Name>
+		</Kobold_tusker_boss>
+						
+		<Kobold_Wartfiend>
+			<Name>
+				<eng>Kobold Wartfiend</eng>
+			</Name>
+		</Kobold_Wartfiend>
+		<magus>
+			<Name>
+				<eng>Pale Gentleman</eng>
+			</Name>
+		</magus>
+		<Quag_Thing>
+			<Name>
+				<eng>Quag Thing</eng>
+			</Name>
+		</Quag_Thing>
+		<Shadow_imp>
+			<Name>
+				<eng>Shadow Imp</eng>
+			</Name>
+		</Shadow_imp>
+		<Vampirelord_beastform>
+			<Name>
+				<eng>Nightfang</eng>
+			</Name>
+		</Vampirelord_beastform>
+		<Ability_Arachnopod>
+			<Name>
+				<eng>Heavy Arachnopod</eng>
+			</Name>
+		</Ability_Arachnopod>
+		<Ability_Breda>
+			<Name>
+				<eng>Tripod Charger</eng>
+			</Name>
+		</Ability_Breda>
+		<Ability_dirigiblusa>
+			<Name>
+				<eng>Augmented Dirigiblusa</eng>
+			</Name>
+		</Ability_dirigiblusa>
+		<Ability_Metallopod_climber>
+			<Name>
+				<eng>Metallopod Shocktrooper</eng>
+			</Name>
+		</Ability_Metallopod_climber>
+		<Arachnopod>
+			<Name>
+				<eng>Arachnopod</eng>
+			</Name>
+		</Arachnopod>
+		<behemoth>
+			<Name>
+				<eng>Behemoth</eng>
+			</Name>
+		</behemoth>
+		<Breda>
+			<Name>
+				<eng>Tripod Crawler</eng>
+			</Name>
+		</Breda>
+		<Decontaminator>
+			<Name>
+				<eng>Decontaminator</eng>
+			</Name>
+		</Decontaminator>
+		<Decontaminator_boss>
+			<Name>
+				<eng>Dark Latrinator</eng>
+			</Name>
+		</Decontaminator_boss>	
+		<dirigiblusa>
+			<Name>
+				<eng>Dirigiblusa</eng>
+			</Name>
+		</dirigiblusa>
+		<Mechanus>
+			<Name>
+				<eng>Mechanus</eng>
+			</Name>
+		</Mechanus>
+		<Metallopod_climber>
+			<Name>
+				<eng>Assault Metallopod</eng>
+			</Name>
+		</Metallopod_climber>
+		<Pistonbeast>
+			<Name>
+				<eng>Pistonbeast</eng>
+			</Name>
+		</Pistonbeast>
+		<Shredder>
+			<Name>
+				<eng>Shredder</eng>
+			</Name>
+		</Shredder>
+		<Shredderbeast>
+			<Name>
+				<eng>Shredderbeast</eng>
+			</Name>
+		</Shredderbeast>
+		<Ability_harpy_temptress>
+			<Name>
+				<eng>Harpy Windrunner</eng>
+			</Name>
+		</Ability_harpy_temptress>
+		<Ability_Miner_Kobold>
+			<Name>
+				<eng>Kobold Deep Miner</eng>
+			</Name>
+		</Ability_Miner_Kobold>
+		<Ability_ice_golem>
+			<Name>
+				<eng>Glacier Golem</eng>
+			</Name>
+		</Ability_ice_golem>
+		<Ability_ruszalka>
+			<Name>
+				<eng>Rusalka Nymph</eng>
+			</Name>
+		</Ability_ruszalka>
+		<gargoyle>
+			<Name>
+				<eng>Gargoyle</eng>
+			</Name>
+		</gargoyle>
+		<grubshriek>
+			<Name>
+				<eng>Grubshriek</eng>
+			</Name>
+		</grubshriek>
+		<minion_grubshriek>
+			<Name>
+				<eng>Suicide Shriek</eng>
+			</Name>
+		</minion_grubshriek>
+		<harpy_temptress>
+			<Name>
+				<eng>Harpy Temptress</eng>
+			</Name>
+		</harpy_temptress>
+		<Lesovik>
+			<Name>
+				<eng>Lesovik</eng>
+			</Name>
+		</Lesovik>
+		<lesovik_axe>
+			<Name>
+				<eng>Lesovik Shambler</eng>
+			</Name>
+		</lesovik_axe>
+		<Miner_Kobold>
+			<Name>
+				<eng>Miner Kobold</eng>
+			</Name>
+		</Miner_Kobold>
+		<ice_golem>
+			<Name>
+				<eng>Ice Golem</eng>
+			</Name>
+		</ice_golem>
+		<rubezahl>
+			<Name>
+				<eng>Rubezahl</eng>
+			</Name>
+		</rubezahl>
+		<ruszalka>
+			<Name>
+				<eng>Rusalka</eng>
+			</Name>
+		</ruszalka>
+		<White_wobbler>
+			<Name>
+				<eng>White Wobbler</eng>
+			</Name>
+		</White_wobbler>
+		<White_wobbler_Boss>
+			<Name>
+				<eng>N'urch, The Living Hive</eng>
+			</Name>
+		</White_wobbler_Boss>
+				
+		<minion_energy_ball>
+			<Name>
+				<eng>Protector Spirit</eng>
+			</Name>
+		</minion_energy_ball>
+		<minion_brain>
+			<Name>
+				<eng>Cogbinder</eng>
+			</Name>
+		</minion_brain>
+		<warg>
+			<Name>
+				<eng>Warg</eng>
+			</Name>
+		</warg>
+		<Vrikolak>
+			<Name>
+				<eng>Vrikolak</eng>
+			</Name>
+		</Vrikolak>
+		<gloomstrider>
+			<Name>
+				<eng>Gloomstrider</eng>
+			</Name>
+		</gloomstrider>
+		<spawn>
+			<Name>
+				<eng>Suicide Spawn</eng>
+			</Name>
+		</spawn>
+		<ice_queen>
+			<Name>
+				<eng>Winter Queen</eng>
+			</Name>
+		</ice_queen>
+		<mutant_rat>
+			<Name>
+				<eng>Rat</eng>
+			</Name>
+		</mutant_rat>		
+		<summoning_portal>
+			<Name>
+				<eng>Summoning Portal</eng>
+			</Name>
+		</summoning_portal>
+		<Pistonbeast_boss>
+			<Name>
+				<eng>Khorg the Pulverizer</eng>
+			</Name>
+		</Pistonbeast_boss>
+		<totem_ink_absorber>
+			<Name>
+				<eng>Ink Absorber Totem</eng>
+			</Name>
+		</totem_ink_absorber>
+		<totem_gremlin>
+			<Name>
+				<eng>Gremlin Totem</eng>
+			</Name>
+		</totem_gremlin>
+		<totem_fleeting>
+			<Name>
+				<eng>Fleeting Totem</eng>
+			</Name>
+		</totem_fleeting>
+		<totem_elemental>
+			<Name>
+				<eng>Elemental Totem</eng>
+			</Name>
+		</totem_elemental>		
+		<behemoth_boss>
+			<Name>
+				<eng>Borgovian Siegebrute</eng>
+			</Name>
+		</behemoth_boss>
+		<gargoyle_boss>
+			<Name>
+				<eng>The Marble Monarch</eng>
+			</Name>
+		</gargoyle_boss>
+		<Mechanus_boss>
+			<Name>
+				<eng>Master Grenadier Hertz</eng>
+			</Name>
+		</Mechanus_boss>
+		<MONSTANAME>
+			<Name>
+				<eng>NAME</eng>
+			</Name>
+		</MONSTANAME>		
+		<SpecialAbilities>
+			<Vulnerability>
+				<physical>
+					<eng>Vulnerable to Physical Damage</eng>
+				</physical>
+				<magical>
+					<eng>Vulnerable to Magic</eng>
+				</magical>
+				<fire>
+					<eng>Vulnerable to Fire</eng>
+				</fire>
+				<ice>
+					<eng>Vulnerable to Ice</eng>
+				</ice>
+				<lightning>
+					<eng>Vulnerable to Lightning</eng>
+				</lightning>
+				<poison>
+					<eng>Vulnerable to Poison</eng>
+				</poison>
+				<death>
+					<eng>Vulnerable to Death Damage</eng>
+				</death>
+				<arrow>
+					<eng>Vulnerable to Shooting Damage</eng>
+				</arrow>
+				<pure_magical>
+					<eng>Vulnerable to Pure Magical Damage</eng>
+				</pure_magical>
+			</Vulnerability>
+			<Resistance>
+				<Physical_resistance>
+					<eng>Physical Resistance</eng>
+				</Physical_resistance>				
+				<Fire_resistance>
+					<eng>Fire Resistance</eng>
+				</Fire_resistance>
+				<Ice_resistance>
+					<eng>Ice Resistance</eng>
+				</Ice_resistance>
+				<Lightning_resistance>
+					<eng>Lightning Resistance</eng>
+				</Lightning_resistance>
+				<Poison_resistance>
+					<eng>Poison Resistance</eng>
+				</Poison_resistance>				
+			</Resistance>
+			<Immunity>
+				<Physical_immunity>
+					<eng>Physical Immunity</eng>
+				</Physical_immunity>				
+				<Fire_immunity>
+					<eng>Fire Immunity</eng>
+				</Fire_immunity>
+				<Ice_immunity>
+					<eng>Ice Immunity</eng>
+				</Ice_immunity>
+				<Lightning_immunity>
+					<eng>Lightning Immunity</eng>
+				</Lightning_immunity>
+				<Poison_immunity>
+					<eng>Poison Immunity</eng>
+				</Poison_immunity>				
+			</Immunity>
+			<DamageType>
+				<physical>
+					<eng>Physical Damage</eng>
+				</physical>
+				<magical>
+					<eng>Magical Damage</eng>
+				</magical>
+				<fire>
+					<eng>Fire Damage</eng>
+				</fire>
+				<ice>
+					<eng>Ice Damage</eng>
+				</ice>
+				<lightning>
+					<eng>Lightning Damage</eng>
+				</lightning>
+				<poison>
+					<eng>Poison Damage</eng>
+				</poison>
+				<death>
+					<eng>Death Damage</eng>
+				</death>
+				<arrow>
+					<eng>Shooting Damage</eng>
+				</arrow>
+				<pure_magical>
+					<eng>Pure Magical Damage</eng>
+				</pure_magical>
+			</DamageType>
+			
+			<Emperor_lightning>
+				<eng>Lightning Streak</eng>
+			</Emperor_lightning>
+			<Damage_boost_on_Death>
+				<eng>Mark of Vengeance</eng>
+			</Damage_boost_on_Death>
+			<Reflective_shield>
+				<eng>Greater Reflect Damage</eng>
+			</Reflective_shield>
+			<Grenade_throwing>
+				<eng>Bomb Toss</eng>
+			</Grenade_throwing>
+			<Invulnerability_on_struck>
+				<eng>Reactive Defense Grid</eng>
+			</Invulnerability_on_struck>
+			<Slowing_bolt>
+				<eng>Frost Bolt</eng>
+			</Slowing_bolt>
+			<Rusher>
+				<eng>Blockade Runner</eng>
+			</Rusher>
+			<Ice_missile>
+				<eng>Glacier Missile</eng>
+			</Ice_missile>
+			<Area_damage_strike>
+				<eng>Quake Strike</eng>
+			</Area_damage_strike>
+			<Poison_split>
+				<eng>Poison Spit</eng>
+			</Poison_split>
+			<Lightning>
+				<eng>Lightning Bolt</eng>
+			</Lightning>
+			<HPRegeneration>
+				<eng>Monstrous Regeneration</eng>
+			</HPRegeneration>
+			<Fire_bolt>
+				<eng>Firebolt</eng>
+			</Fire_bolt>
+			<Extra_health>
+				<eng>Extra Health</eng>
+			</Extra_health>
+			<extrafast>
+				<eng>Fast Movement</eng>
+			</extrafast>
+			<Extra_fast>
+				<eng>Fast Movement</eng>
+			</Extra_fast>
+			<Lesser_Armor_aura>
+				<eng>Armor Aura</eng>
+			</Lesser_Armor_aura>
+			<jungle_ghost>
+				<eng>Ghost form</eng>
+			</jungle_ghost>
+		</SpecialAbilities>
+		<SoldierQualities>
+			<Minion>
+				<eng>Minion</eng>
+			</Minion>
+			<Champion>
+				<eng>Champion</eng>
+			</Champion>
+			<Elite>
+				<eng>Elite</eng>
+			</Elite>
+			<Veteran>
+				<eng>Veteran</eng>
+			</Veteran>
+		</SoldierQualities>
+	</Soldiers>
+</Root>

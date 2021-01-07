@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<LanguageName>
+		<eng>English</eng>
+	</LanguageName>
+	<Languages>eng</Languages>
+	<quest>
+		<task>
+			<kill_soldier>
+				<eng>Defeat %s</eng>
+			</kill_soldier>
+			<kill_count>
+				<eng>Kill enemies with your own hands. %d/%d</eng>
+			</kill_count>
+			<kill_count_mapsetup>
+				<eng>Kill %d enemies with your own hands.</eng>
+			</kill_count_mapsetup>
+			<kill_count_trap>
+				<eng>Kill enemies with traps. %d/%d</eng>
+			</kill_count_trap>
+			<kill_count_trap_mapsetup>
+				<eng>Kill %d enemies with traps.</eng>
+			</kill_count_trap_mapsetup>
+			<no_trap>
+				<eng>Complete the map without building %s traps</eng>
+			</no_trap>
+			<clear_jungle>
+				<eng>Kill all neutral monsters before the last wave ends.</eng>
+			</clear_jungle>
+			<no_upgrade>
+				<eng>Complete the map without upgrading any of your traps.</eng>
+			</no_upgrade>
+			<no_damage>
+				<eng>Complete the map without dealing damage on your own.</eng>
+			</no_damage>
+			<no_teleport>
+				<eng>Complete the map without using any teleporters.</eng>
+			</no_teleport>
+		</task>
+		<map>
+			<DT01_Start>
+				<tier2>
+					<eng>Are you ready to fight your battles without the assistance of the creatures you summoned? Try to finish this map without constructing any summoning traps (see the traps listed under “Summoning” for reference)! You will be richly rewarded.</eng>
+				</tier2>
+				<tier3>
+					<eng>Are you ready to become an angel of destruction? Kill 200 monsters by the end of the battle: you can destroy them on your own or you can let your traps do some of the work, as long as you are the one who delivers the fatal attack. You’ll be rewarded for your ruthlessness.</eng>
+				</tier3>
+			</DT01_Start>
+			<DT02_Fal>
+				<tier3>
+					<eng>Are you ready for a challenge? Try to finish this map without using any of the teleporters. Can you give up your swift movement in return for great rewards? Let’s find out!</eng>
+				</tier3>
+				<tier4>
+					<eng>Are you ready to become an angel of destruction? Kill 350 monsters by the end of the battle: you can destroy them on your own or you can let your traps do some of the work, as long as you are the one who delivers the killing attack. You’ll be rewarded for your ruthlessness.</eng>
+				</tier4>
+			</DT02_Fal>
+			<DT03_Erdo>
+				<tier1>
+					<eng>After centuries of abandonment, these forgotten ruins have a lonely resident, the cruel Lumbering Beast who is hoarding here the treasures he looted from the floating islands. This creature has no interest in the raging conflict and withdrew to his secluded lair somewhere among the ruins. If you can defeat him, the treasures could be yours.</eng>
+				</tier1>
+				<tier2>
+					<eng>Are you willing  to fight this battle without any magical aid? Try to finish this map without constructing any mystic traps (see the traps listed under "Mystical Ground" and "Mystical Tower" for reference)! You will be rewarded, we promise.</eng>
+				</tier2>
+				<tier4>
+					<eng>Are you willing  to fight this battle without your clever killing devices? Try to finish this map without constructing any mechanical traps (see the traps listed under “Mechanical Ground” and "Mechanical Tower" for reference)! You won't regret it.</eng>
+				</tier4>
+			</DT03_Erdo>
+			<DT04_Snake>
+				<tier2>
+					<eng>Are you ready for a challenge? Try to finish this map without using any of the teleporters. Can you give up your swift movement  in favor of great rewards? Let’s find out!</eng>
+				</tier2>
+			</DT04_Snake>
+			<DT05_Golem>
+				<tier1>
+					<eng>Are you ready to fight your battles without the assistance of creatures you have summoned ? Try to finish this map without constructing any summoning traps (see the traps listed under “Summoning” for reference)! You will be richly rewarded.</eng>
+				</tier1>
+				<tier3>
+					<eng>Are you ready for a challenge? Try to finish this map without using any of the teleporters. Can you give up your swift movement  in favor of great rewards? Let’s find out!</eng>
+				</tier3>
+			</DT05_Golem>
+			<DT06_Pyramid>
+				<tier1>
+					<eng>There are solitary creatures in the Ink that wander the abandoned lands, hunting for prey and collecting whatever they can find. They stubbornly refuse to bow to any authority and savagely attack anyone who dares to approach them. Ragnar, the giant, is one of these creatures, but if you can put him down, his treasure could be yours.</eng>
+				</tier1>
+				<tier4>
+					<eng>Are you ready for a challenge? Try to finish this map without using any of the teleporters. Can you give up your swift movement in return for great rewards? Let’s find out!</eng>
+				</tier4>
+			</DT06_Pyramid>
+			<DT07_Arena>
+				<tier2>
+					<eng>Are you ready to stand idly in the background and let your traps do the hard work? Try to finish this map without dealing any damage directly with your character, relying  only on the damage dealt by your traps. You will be richly rewarded.</eng>
+				</tier2>
+				<tier3>
+					<eng>Are you willing  to fight this battle without any magical aid? Try to finish this map without constructing any mystic traps (see the traps listed under "Mystical Ground" and "Mystical Tower" for reference)! You will be rewarded, we promise.</eng>
+				</tier3>
+			</DT07_Arena>
+			<DT08_Cthulhu>
+				<tier1>
+					<eng>This accursed place is also the hiding place of a terrible monster. Although he is wearing his mortal disguise at the moment, don’t let appearances fool you: Count Johannes is a blood-sucking fiend, and he will use every opportunity to sneak through the opening Gates to the ordinary world. Find and destroy him!</eng>
+				</tier1>
+				<tier4>
+					<eng>These islands have been floating much too close to the seething darkness of the Inkheart. The proximity of this unnatural void not only distorted the land but turned its local wildlife into something terrible. You must destroy all the creatures that inhabit the area.</eng>
+				</tier4>
+			</DT08_Cthulhu>
+			<DT09_OMD>
+				<tier1>
+					<eng>Are you ready for a challenge? Try to finish this map without using any of the teleporters. Can you give up your swift movement in return for great rewards? Let’s find out!</eng>
+				</tier1>
+				<tier3>
+					<eng>Are you ready for a challenge? Try to finish this map without using any of the teleporters. Can you give up your swift movement in return for great rewards? Let’s find out!</eng>
+				</tier3>
+			</DT09_OMD>
+			<DT10_Lepcsos>
+				<tier1>
+					<eng>These islands have been floating much too close to the seething darkness of the Inkheart. The proximity of this unnatural void not only distorted the land but turned its local wildlife into something terrible. You must destroy all the creatures that inhabit the area.</eng>
+				</tier1>
+				<tier2>
+					<eng>Are you ready to go back to the basics? Try to finish this map without any trap upgrades. Let’s see how you can stand your ground with general traps only. Good luck – you’ll need it!</eng>
+				</tier2>
+				<tier4>
+					<eng>Are you willing  to fight this battle without any magical aid? Try to finish this map without constructing any mystic traps (see the traps listed under "Mystical Ground" and "Mystical Tower" for reference)! You will be rewarded, we promise.</eng>
+				</tier4>
+			</DT10_Lepcsos>
+			<DT11_Park>
+				<tier1>
+					<eng>Are you ready to go back to the basics? Try to finish this map without any trap upgrades. Let’s see how you can stand your ground with your general traps only. Good luck – you’ll need it!</eng>
+				</tier1>
+			</DT11_Park>
+			<DT12_SziklasII>
+				<tier1>
+					<eng>These islands have been floating much too close to the seething darkness of the Inkheart. The proximity of this unnatural void not only distorted the land but turned its local wildlife into something terrible. You must destroy all the creatures that inhabit the area.</eng>
+				</tier1>
+				<tier3>
+					<eng>These islands have been floating much too close to the seething darkness of the Inkheart. The proximity of this unnatural void not only distorted the land but turned its local wildlife into something terrible. You must destroy all the creatures that inhabit the area.</eng>
+				</tier3>
+			</DT12_SziklasII>
+			<DT13_Boss>
+				<tier2>
+					<eng>Are you ready to fight your battles without the assistance of summoned creatures? Try to finish this map without constructing any summoning traps (see the traps listed under “Summoning” for reference)! You will be richly rewarded.</eng>
+				</tier2>
+			</DT13_Boss>
+		</map>
+	</quest>
+</Root>

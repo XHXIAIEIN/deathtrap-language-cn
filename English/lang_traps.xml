@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<LanguageName>
+		<eng>English</eng>
+	</LanguageName>
+	<Languages>eng</Languages>
+	<Traps>
+		<UpgradeLevel>			
+			<eng>Upgrade Level %s</eng>			
+		</UpgradeLevel>
+		<Unlock_Requirement>		
+			<eng>To unlock this trap: %s</eng>			
+		</Unlock_Requirement>
+		<positiontye>
+			<ground>
+				<eng>Ground Trap</eng>
+			</ground>
+			<tower>
+				<eng>Tower</eng>
+			</tower>
+		</positiontye>
+		<category>
+			<mechanical>
+				<eng>Mechanical</eng>
+			</mechanical>
+			<mystic>
+				<eng>Mystic</eng>
+			</mystic>
+			<summon>
+				<eng>Summon</eng>
+			</summon>
+		</category>
+		<damagecategory>
+			<splash>
+				<eng>Splash</eng>
+			</splash>
+			<concentrated>
+				<eng>Concentrated</eng>
+			</concentrated>
+			<piercing>
+				<eng>Piercing</eng>
+			</piercing>
+			<strong_vs>
+				<eng>Strong versus:</eng>
+			</strong_vs>
+			<weak_vs>
+				<eng>Weak versus:</eng>
+			</weak_vs>
+			<no_strength>
+				<eng>No Strength</eng>
+			</no_strength>
+			<no_weakness>
+				<eng>No Weakness</eng>
+			</no_weakness>
+		</damagecategory>
+		<specialtrap>			
+			<tower>
+				<eng>Special Trap</eng>
+			</tower>
+		</specialtrap>
+		<Sell>
+			<name>
+				<eng>Sell Trap</eng>
+			</name>
+			<desc>
+				<eng>Note that selling is done at 80% of the build cost.</eng>
+			</desc>
+		</Sell>
+		
+		<LavaPadlo>
+			<name>
+				<eng>Lava Grill</eng>
+			</name>
+			<damagetypes>
+				<eng>Fire Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Continuously damages enemies with Fire damage.</eng>
+			</desc>
+			<effect0>
+				<eng>Enemies stepping on the trap take %trapdamage_ Fire damage per second.</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Ignite</eng>
+				</Name>
+				<Desc>
+					<eng>Enemies are ignited taking %firedotdamage_ of the original damage for 6 seconds (5%/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases damage by %trapdamagebonus_ (30%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Disorient</eng>
+				</Name>
+				<Desc>
+					<eng>Enemies are disoriented for %disorientduration_ seconds (2 seconds/level), unable to attack or use abilities (but still able to move)</eng>
+				</Desc>
+			</Powerup2>
+			<dt_lavaPadlo_m1>
+				<Name>
+					<eng>Brimstone Pit</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_lavaPadlo_m1>
+			<dt_lavaPadlo_m2>
+				<Name>
+					<eng>Improved Rune Pattern</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases trap construction cost by %buildcostdecrease_ (1/level)</eng>
+				</Desc>
+			</dt_lavaPadlo_m2>			
+		</LavaPadlo>
+		<Desintegrate_Trap>
+			<name>
+				<eng>Abyss Crater</eng>
+			</name>
+			<damagetypes>
+				<eng>Fire/Lightning Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>A continuously active trap that has a chance of instantly killing horde and normal type enemies when they first step on it. Enemies (of any type) that aren't instantly killed take Fire and Lightning damage instead. Instantly killed enemies do not generate Essence.</eng>
+			</desc>
+			<effect0>
+				<eng>Horde type creatures have a %hordekillchance_ chance of being instantly killed</eng>
+			</effect0>
+			<effect1>
+				<eng>Normal type creatures have a %normalkillchance_ chance of being instantly killed</eng>
+			</effect1>
+			<effect2>
+				<eng>Enemies that aren't killed instantly take %trapdamage_ Fire/Lightning damage</eng>
+			</effect2>
+			<Powerup0>
+				<Name>
+					<eng>Essence Residue</eng>
+				</Name>
+				<Desc>
+					<eng>Killed enemies generate %essencedropvalue_  of their essence worth (20%/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases damage by %trapdamagebonus_ (30%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Disintegration Blast</eng>
+				</Name>
+				<Desc>
+					<eng>Enemies that are killed instantly have a %disintegrationblastchance_ chance (10%/level) to generate an explosion which deals Fire/Lightning damage equal to their maximum health within 1.5 meters</eng>
+				</Desc>
+			</Powerup2>
+			<dt_desintegritytrap_m1>
+				<Name>
+					<eng>Desintegration Rune</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damageincrease_ (5%/level)</eng>
+				</Desc>
+			</dt_desintegritytrap_m1>
+			<dt_desintegritytrap_m2>
+				<Name>
+					<eng>Rune of Slaying</eng>
+				</Name>				
+				<Desc>
+					<eng>The instant kill chance for horde creatures is increased by %chancehorde_ (1%/level) and %chancenormal_ for normal creatures (0.5%/level)</eng>
+				</Desc>
+			</dt_desintegritytrap_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Kill %d Mythical enemies</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</Desintegrate_Trap>
+		<Dt_Tower_09_zap>
+			<name>
+				<eng>Lightning Pillar</eng>
+			</name>	
+			<damagetypes>
+				<eng>Lightning/Poison Damage</eng>
+			</damagetypes>
+			<desc>
+				<eng>When inactive, this trap generates a charge every 3 seconds up to a maximum of 5 charges. These are used for interim attacks at half time between regular ones. Each such attack uses up one charge.</eng>
+			</desc>
+			<effect0>
+				<eng>Damages a single enemy for %trapdamage_ Lightning damage</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Multi-Jolt</eng>
+				</Name>
+				<Desc>
+					<eng>Each time the trap attacks, there is a 50% chance it will attack %additionaltargets_ (1/level) more target(s)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Attack Range</eng>
+				</Name>
+				<Desc>
+					<eng>Attack range is increased by %traprangebonus_ meters (2 meters/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Extra Charge</eng>
+				</Name>
+				<Desc>
+					<eng>Maximum charge capacity is increased to %chargecapincrease_ (2/level)</eng>
+				</Desc>
+			</Powerup2>
+			<dt_zaptorony_m1>
+				<Name>
+					<eng>Greater Storm Rune</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_zaptorony_m1>
+			<dt_zaptorony_m2>
+				<Name>
+					<eng>Haste Rune</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases trap reset time by %cooldowndecrease_ seconds (0.02 seconds/level)</eng>
+				</Desc>
+			</dt_zaptorony_m2>
+		</Dt_Tower_09_zap>
+		<DT_Tower_07_agyu>
+			<name>
+				<eng>Cannon Sentry</eng>
+			</name>
+			<damagetypes>
+				<eng>Fire/Physical Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Lobs slow moving explosive shells in a high arc, which deal damage within 4 meters of their impact point.</eng>
+			</desc>
+			<effect0>
+				<eng>Deals %trapdamage_ Physical/Fire damage in a 4 meters area.</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Reset Time</eng>
+				</Name>
+				<Desc>
+					<eng>Trap reset time is decreased by %cooldowndecrease_ seconds (1.5 seconds/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Projectile Speed</eng>
+				</Name>
+				<Desc>
+					<eng>Increases the shell's travel speed by %projectilespeedincrease_ (25%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Knockback</eng>
+				</Name>
+				<Desc>
+					<eng>Targets have a %knockback_ chance of being knocked down (15%/level), and increases base damage by +%knockback_ (15%/level)</eng>
+				</Desc>
+			</Powerup2>
+			<dt_agyutorony_m1>
+				<Name>
+					<eng>Blast Shells</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_agyutorony_m1>
+			<dt_agyutorony_m2>
+				<Name>
+					<eng>Fragmentation Shells</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases area of effect by %areaeffectbonus_ meters (0.1 meters/level)</eng>
+				</Desc>
+			</dt_agyutorony_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Fully upgrade %d mechanical towers in one mission (only succesful missions count)</eng>
+				</Desc>				
+			</unlock_requirement>
+		</DT_Tower_07_agyu>
+		<DT_Tower_05_korongveto>
+			<name>
+				<eng>Razor Launcher</eng>
+			</name>
+			<damagetypes>
+				<eng>Physical/Poison Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Launches razor sharp discs that go through all enemies in their path dealing full damage to the first enemy, then 30% less damage to each subsequent enemy.</eng>
+			</desc>
+			<effect0>
+				<eng>Damages a single enemy for %trapdamage_ Physical/Poison damage</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (30%/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Sharpness</eng>
+				</Name>
+				<Desc>
+					<eng>Decreases damage penalty to subsequent targets by %passthroughdamagepenaltydecrease_ (10%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Multi-Razor</eng>
+				</Name>
+				<Desc>
+					<eng>Each time the trap attacks, there is a %multirazorchance_ (15%/level) chance it will launch a second disc</eng>
+				</Desc>
+			</Powerup2>
+			<dt_korongveto_m1>
+				<Name>
+					<eng>Heavy Discs</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_korongveto_m1>
+			<dt_korongveto_m2>
+				<Name>
+					<eng>Spring Winder Mechanism</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases trap reset time by %cooldowndecrease_ seconds (0.1 seconds/level)</eng>
+				</Desc>
+			</dt_korongveto_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Kill %d enemies yourself</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</DT_Tower_05_korongveto>
+		<DT_Tower_drainlife>
+			<name>
+				<eng>Enthropic Pillar</eng>
+			</name>
+			<damagetypes>
+				<eng>Poison/Ice Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Shoots a beam of energy at a single target continuously damaging them. It also heals 20% of the damage on a player or an allied creature within 12 meters. If there are multiple players or allied creatures wihin range, the healing effect is distributed evenly among them.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamage_ Poison/Ice damage per second</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Beam Bounce</eng>
+				</Name>
+				<Desc>
+					<eng>The beam has a 50% chance of bouncing onto %beambouncecount_ (1/level) additional targets</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Attack Range</eng>
+				</Name>
+				<Desc>
+					<eng>Attack range is increased by %traprangebonus_ meters (2 meters/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Healing Pulse</eng>
+				</Name>
+				<Desc>
+					<eng>Each time the trap kills an enemy, there is a %healingwavechance_ (10%/level) chance that allied creatures and players within 12 meters will be healed to their maximum health</eng>
+				</Desc>
+			</Powerup2>
+			<dt_drainlifetrap_m1>
+				<Name>
+					<eng>Limbo Sigil</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_drainlifetrap_m1>
+			<dt_drainlifetrap_m2>
+				<Name>
+					<eng>Greater Life Leech Rune</eng>
+				</Name>				
+				<Desc>
+					<eng>The healing amount is increased by %healbonus_ (2%/level)</eng>
+				</Desc>
+			</dt_drainlifetrap_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Poison %d enemies (with damage over time effect)</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</DT_Tower_drainlife>
+		<Necro_Trap>
+			<name>
+				<eng>Reanimator Pit</eng>
+			</name>
+			<damagetypes>
+				<eng>No Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Any enemies who die in or near the pit have a chance of turning into a Ghoulkin. Ghoulkin exist for 45 seconds and fight on the player's side. The pit can control a maximum of 3 Ghoulkin at a time.</eng>
+			</desc>
+			<effect0>
+				<eng>%creaturespwanchance_ chance to create a Ghoulkin from a dead enemy</eng>
+			</effect0>
+			<effect1>
+				<eng>Creature health: %maxhp_</eng>
+			</effect1>
+			<effect2>
+				<eng>Creature Damage: %damage_(chanceindex=0)</eng>
+			</effect2>	
+			<Powerup0>
+				<Name>
+					<eng>Creature Limit</eng>
+				</Name>
+				<Desc>
+					<eng>The pit can control %creaturecount_ (1/level) more Ghoulkin</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Creature Health</eng>
+				</Name>
+				<Desc>
+					<eng>Ghoulkin have %creaturehealthincrease_ (50%/level) more maximum health</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Creature Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Ghoulkin deal %creaturedamageincrease_ (50%/level) more damage</eng>
+				</Desc>
+			</Powerup2>
+			<dt_nekrotrap_m1>
+				<Name>
+					<eng>Improved Soul Trap</eng>
+				</Name>				
+				<Desc>
+					<eng>Ghoulkin creation chance is increased by %spawnchance_ (1%/level)</eng>
+				</Desc>
+			</dt_nekrotrap_m1>
+			<dt_nekrotrap_m2>
+				<Name>
+					<eng>Greater Rune of Undeath</eng>
+				</Name>				
+				<Desc>
+					<eng>Ghoulkin lifetime is increased by %creaturelifetimebonus_ second (1/level).</eng>
+				</Desc>
+			</dt_nekrotrap_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Kill %d undead enemies with floor traps</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</Necro_Trap>
+		<summon_icequeen>
+			<name>
+				<eng>Winter Queen Sigil</eng>
+			</name>
+			<damagetypes>
+				<eng>Ice Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Summons a Winter Queen spirit who fights on your side. The spirit casts blizzard spells at enemies when they step within range. The spell does damage in a 3 meter radius area.</eng>
+			</desc>
+			<effect0>
+				<eng>The blizzard spell does %spelldamage_ Ice damage</eng>
+			</effect0>
+			<effect1>
+				<eng>Spell Cooldown: %spellcooldown_ seconds</eng>
+			</effect1>
+			<effect2>
+				<eng>Creature health: %maxhp_</eng>
+			</effect2>			
+			<Powerup0>
+				<Name>
+					<eng>Reset Time</eng>
+				</Name>
+				<Desc>
+					<eng>Blizzard spell cooldown is decreased by %spellcooldowndecrease_ seconds (1 second/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Reduced Delay</eng>
+				</Name>
+				<Desc>
+					<eng>Increases Blizzard spell damage by +%spelldelaydecrease_ (30%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Creature Health</eng>
+				</Name>
+				<Desc>
+					<eng>The spirit has %creaturehealthincrease_ (50%/level) more health</eng>
+				</Desc>
+			</Powerup2>
+			<dt_summonicequeen_m1>
+				<Name>
+					<eng>Empower Rune</eng>
+				</Name>				
+				<Desc>
+					<eng>The Winter Queen's spell damage is increased by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_summonicequeen_m1>
+			<dt_summonicequeen_m2>
+				<Name>
+					<eng>Winter Storm Rune</eng>
+				</Name>				
+				<Desc>
+					<eng>The Winter Queen's spell affects a %areaeffectbonus_ meters (0.1 meters/level) larger area.</eng>
+				</Desc>
+			</dt_summonicequeen_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Finish %d Flawless missions</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</summon_icequeen>
+		<Acid_Trap>
+			<name>
+				<eng>Acid Geyser</eng>
+			</name>
+			<damagetypes>
+				<eng>Poison</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Sprays jets of corrosive toxin within the area when enemies step on the trap. Enemies are also afflicted by 30% vulnerability against physical damage for 10 seconds (This does not stack with itself)</eng>
+			</desc>
+			<effect0>
+				<eng>Damages enemies for %trapdamage_ Poison damage.</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Poison</eng>
+				</Name>
+				<Desc>
+					<eng>Enemies are poisoned taking %poisondamage_ (5%/level) of the original damage for 6 seconds</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Vulnerability</eng>
+				</Name>
+				<Desc>
+					<eng>Physical Vulnerability is increased to %vulnerability_ (30%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Corrosive Cloud</eng>
+				</Name>
+				<Desc>
+					<eng>Each attack generates a toxic cloud which remains in place for 3 seconds. Enemies entering the cloud take %poisonclouddamage_ (10%/level) of the original damage per second</eng>
+				</Desc>
+			</Powerup2>
+			<dt_acidtrap_m1>
+				<Name>
+					<eng>Phlogiston Acid</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_acidtrap_m1>
+			<dt_acidtrap_m2>
+				<Name>
+					<eng>Pressure Regulator</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases trap reset time by %cooldowndecrease_ seconds (0.1 seconds/level)</eng>
+				</Desc>
+			</dt_acidtrap_m2>
+		</Acid_Trap>
+		<Talajtuskek>
+			<name>
+				<eng>Spear Trap</eng>
+			</name>
+			<damagetypes>
+				<eng>Physical Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Impales enemies with sharp spears when they step on the trap.</eng>
+			</desc>
+			<effect0>
+				<eng>Damages enemies for %trapdamage_ Physical damage.</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Reset Time</eng>
+				</Name>
+				<Desc>
+					<eng>Trap reset time is decreased by %cooldowndecrease_ seconds (0.5 seconds/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases damage by %trapdamagebonus_ (30%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Poison</eng>
+				</Name>
+				<Desc>
+					<eng>Enemies are poisoned taking %poisondamage_ (5%/level) of the original damage for 5 seconds</eng>
+				</Desc>
+			</Powerup2>
+			<dt_talajtuskek_m1>
+				<Name>
+					<eng>Serrated Spears</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_talajtuskek_m1>
+			<dt_talajtuskek_m2>
+				<Name>
+					<eng>Enchanted Spears</eng>
+				</Name>				
+				<Desc>
+					<eng>There is a %essencebonus_ (3%/level) chance that killed enemies reward double essence.</eng>
+				</Desc>
+			</dt_talajtuskek_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Deal %d Physical damage</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</Talajtuskek>
+		<Dt_Tower_04_Pengetorony>
+			<name>
+				<eng>Whirlblade Column</eng>
+			</name>
+			<damagetypes>
+				<eng>Physical Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>The trap's blades whirl around when enemies pass within 5 meters of the column, damaging and slowing them down considerably.</eng>
+			</desc>
+			<effect0>
+				<eng>Damages enemies within 5 meters for %trapdamage_ Physical damage per second.</eng>
+			</effect0>
+			<effect1>
+				<eng>Slows enemies by %slowingvalue_ % while in range.</eng>
+			</effect1>					
+		</Dt_Tower_04_Pengetorony>
+		<RugosElloko>
+			<name>
+				<eng>Spring Trap</eng>
+			</name>
+			<damagetypes>
+				<eng>Physical Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Pushes enemies aside and knocks them down, also dealing some Physical damage to them. Enemies who fall off ledges die instantly.</eng>
+			</desc>
+			<effect0>
+				<eng>Damages enemies for %trapdamage_ Physical damage</eng>
+			</effect0>
+			<effect1>
+				<eng>Knocks enemies down or throws them to their death.</eng>
+			</effect1>
+			<Powerup0>
+				<Name>
+					<eng>Reset Time</eng>
+				</Name>
+				<Desc>
+					<eng>Trap reset time is decreased by %cooldowndecrease_ seconds (0.5 seconds/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases damage by %trapdamagebonus_ (30%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Oil Splash</eng>
+				</Name>
+				<Desc>
+					<eng>Splashes oil on enemies within an 8 meter radius on activation, afflicting them with %firevulnerability_ (30%/level) vulnerability against fire.</eng>
+				</Desc>
+			</Powerup2>
+			<dt_rugoselloko_m1>
+				<Name>
+					<eng>Efficient Spring Design</eng>
+				</Name>				
+				<Desc>
+					<eng>Trap build cost is decreased by %trapbuildcostdecrease_ (1/level)</eng>
+				</Desc>
+			</dt_rugoselloko_m1>
+			<dt_rugoselloko_m2>
+				<Name>
+					<eng>Inertial Amplifier</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_rugoselloko_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Cause knockback effect %d times (skills and traps both count)</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</RugosElloko>
+		<Meszarszek>
+			<name>
+				<eng>Essence Trap</eng>
+			</name>
+			<damagetypes>
+				<eng>No Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Enemies who die near this trap reward more essence.</eng>
+			</desc>
+			<effect0>
+				<eng>%essencedropportion_ more essence from creatures killed near the trap</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Essence Drop</eng>
+				</Name>
+				<Desc>
+					<eng>There is a %tripleessencechance_ (10%/level) chance that enemies will reward 3 times their essence worth when they die</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Vulnerability</eng>
+				</Name>
+				<Desc>
+					<eng>Afflicts enemies with %poisonvulnerability_ (30%/level) vulnerability against poison damage</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Stun</eng>
+				</Name>
+				<Desc>
+					<eng>There is a %stunchance_ (10%/level) chance that enemies will be stunned for 3 seconds when they first step on the trap (triggers only once per enemy)</eng>
+				</Desc>
+			</Powerup2>
+			<dt_meszarszek_m1>
+				<Name>
+					<eng>Essence Collector</eng>
+				</Name>				
+				<Desc>
+					<eng>Killed creatures drop %essencebonus_ (10%/level) more essence.</eng>
+				</Desc>
+			</dt_meszarszek_m1>
+			<dt_meszarszek_m2>
+				<Name>
+					<eng>Essence Trap Network</eng>
+				</Name>				
+				<Desc>
+					<eng>Each essence trap increases the efficiency of each essence trap by %networkbonus_ (5%/level)</eng>
+				</Desc>
+			</dt_meszarszek_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Finish a level without spending 50% of the total available essence</eng>
+				</Desc>				
+			</unlock_requirement>
+		</Meszarszek>
+		<Aknacsapda>
+			<name>
+				<eng>Tick Mine Dispenser</eng>
+			</name>
+			<damagetypes>
+				<eng>Fire Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Attaches a small bomb to enemies who step on the trap with a small chance of success. When an enemy with an attached bomb dies, an explosion occurs that deals Fire damage within 3 meters around them.</eng>
+			</desc>
+			<effect0>
+				<eng>%chancetoattachbomb_ chance of attaching a bomb to enemies stepping on the trap</eng>
+			</effect0>
+			<effect1>
+				<eng>Bombed enemies deal %trapdamage_ Fire damage when they die</eng>
+			</effect1>			
+			<Powerup0>
+				<Name>
+					<eng>Ignite</eng>
+				</Name>
+				<Desc>
+					<eng>The bomb explosion ignites the ground for 3 seconds. Enemies who step into the fire take %firedotdamage_ (10%/level) of the original damage per second</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Blast Radius</eng>
+				</Name>
+				<Desc>
+					<eng>Increases the explosion area of effect by %blastradiusincrease_ meters (0.5 meters/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Twin Mines</eng>
+				</Name>
+				<Desc>
+					<eng>There is a %attachchanceincrease_ (10%/level) chance that the trap attaches a second mine to an enemy</eng>
+				</Desc>
+			</Powerup2>
+			<dt_aknacsapda_m1>
+				<Name>
+					<eng>Improved Clamps</eng>
+				</Name>				
+				<Desc>
+					<eng>The chance of succesfully attaching a bomb is increased by %bombchancebonus_ (0,5%/level)</eng>
+				</Desc>
+			</dt_aknacsapda_m1>
+			<dt_aknacsapda_m2>
+				<Name>
+					<eng>High Explosive</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_aknacsapda_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Fully upgrade %d mechanical floor traps in one mission (only succesful missions count)</eng>
+				</Desc>				
+			</unlock_requirement>
+		</Aknacsapda>
+		<Frost_padlo>
+			<name>
+				<eng>Icicle Field</eng>
+			</name>
+			<damagetypes>
+				<eng>Ice Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Enemies take Ice damage and are slowed for 5 seconds when they first step on the trap (Triggers once per enemy).</eng>
+			</desc>
+			<effect0>
+				<eng>Damages enemies for %trapdamage_ Ice damage</eng>
+			</effect0>
+			<effect1>
+				<eng>Slows enemies by 30%</eng>
+			</effect1>			
+			<Powerup0>
+				<Name>
+					<eng>Slow</eng>
+				</Name>
+				<Desc>
+					<eng>Increases the slow effect by %slowincrease_ (10%/level) and the effect lasts one more second</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases damage by %trapdamagebonus_ (30%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Vulnerability</eng>
+				</Name>
+				<Desc>
+					<eng>Afflicts enemies with %vulnerabilityincrease_ (30%/level) vulnerability against ice damage</eng>
+				</Desc>
+			</Powerup2>
+			<dt_jegespadlo_m1>
+				<Name>
+					<eng>Greater Ice Rune</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_jegespadlo_m1>
+			<dt_jegespadlo_m2>
+				<Name>
+					<eng>Immobility Rune</eng>
+				</Name>				
+				<Desc>
+					<eng>Damaged creatures have a %freezechance_ (1%/level) chance if being frozen for 5 seconds.</eng>
+				</Desc>
+			</dt_jegespadlo_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Cause slow effect %d times</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</Frost_padlo>
+		<TeleportPadlo>
+			<name>
+				<eng>Portal Glyph</eng>
+			</name>
+			<damagetypes>
+				<eng>Arcane Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Enemies stepping on the trap have a 20% chance of being teleported some distance back on their path. This can only happen once for each enemy.</eng>
+			</desc>
+			<effect0>
+				<eng>Teleports enemies back on their path</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Teleport Chance</eng>
+				</Name>
+				<Desc>
+					<eng>Increases teleport chance by %teleportchance_ (10%/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Teleport Shock</eng>
+				</Name>
+				<Desc>
+					<eng>Teleported enemies lose %hitpointpercentloss_ (10%/level) of their maximum health</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Vulnerability</eng>
+				</Name>
+				<Desc>
+					<eng>Afflicts enemies with %vulnerabilityincrease_ (15%/level) vulnerability against lightning damage</eng>
+				</Desc>
+			</Powerup2>
+			<dt_teleportpadlo_m1>
+				<Name>
+					<eng>Improved Glyph</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases teleport chance by %teleportchance_ (1%/level)</eng>
+				</Desc>
+			</dt_teleportpadlo_m1>
+			<dt_teleportpadlo_m2>
+				<Name>
+					<eng>Greater Displacement Rune</eng>
+				</Name>
+				<Desc>
+					<eng>Increases teleport distance by %teleportdistance_ meters (0,5 meter/level)</eng>
+				</Desc>
+			</dt_teleportpadlo_m2>
+			<unlock_requirement>
+				<Desc>
+					<eng>Fully upgrade %d magical floor traps in one mission (only successful missions count)</eng>
+				</Desc>
+			</unlock_requirement>
+		</TeleportPadlo>
+		<Stasis_Trap>
+			<name>
+				<eng>Stasis Trap</eng>
+			</name>
+			<damagetypes>
+				<eng>Physical Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Creates three stasis bubbles that can each entrap a single creature that touches them. The bubbles deal physical damage to entrapped creatures and hold them for 5 seconds. The bubbles respawn periodically. Giant size creaures cannot be held.Enemies who survive entrapment cannot be affected by another stasis bubble for 5 seconds.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamage_ Physical damage</eng>
+			</effect0>
+			<effect1>
+				<eng>Holds enemies for %holdduration_ seconds</eng>
+			</effect1>						
+			<Powerup0>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Held enemies take an additional %dotdamage_ (10%/level) of the initial damage per second</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Hold Time</eng>
+				</Name>
+				<Desc>
+					<eng>Increases hold time by %holddurationincrease_ (2 seconds/level) seconds</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Reset Time</eng>
+				</Name>
+				<Desc>
+					<eng>Decreases bubble respawn time by %cooldowndecrease_ (1 second/level) seconds</eng>
+				</Desc>
+			</Powerup2>
+			<dt_stasistrap_m1>
+				<Name>
+					<eng>Simplified Rune Pattern</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases trap build cost by %trapbuildcostdecrease_ (1/level)</eng>
+				</Desc>
+			</dt_stasistrap_m1>
+			<dt_stasistrap_m2>
+				<Name>
+					<eng>Rune of Crushing</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_stasistrap_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Immobilize (stun or freeze) %d enemies</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</Stasis_Trap>
+		<sorozatlovo>
+			<name>
+				<eng>Gun Sentry</eng>
+			</name>
+			<damagetypes>
+				<eng>Physical Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>A large automated gun sentry that continuously attacks single targets until they go down or out of range.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamage_ Physical damage per shot</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases base damage by +%firedamageincrease_ (30%/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Area Damage</eng>
+				</Name>
+				<Desc>
+					<eng>50% of the damage is applied to a %areaincrease_ meter(1 meter/level) radius area</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Slow</eng>
+				</Name>
+				<Desc>
+					<eng>Enemies are slowed by %slowincrease_ (15%/level) for 5 seconds</eng>
+				</Desc>
+			</Powerup2>
+			<dt_sorozatlovo_m1>
+				<Name>
+					<eng>Lead Core Rounds</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_sorozatlovo_m1>
+			<dt_sorozatlovo_m2>
+				<Name>
+					<eng>Improved Cartridge</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases attack range by %attackrangebonus_ meters (0.3 meters/level)</eng>
+				</Desc>
+			</dt_sorozatlovo_m2>
+		</sorozatlovo>
+		<Langszoro>
+			<name>
+				<eng>Blast Furnace</eng>
+			</name>
+			<damagetypes>
+				<eng>Fire Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Shoots jets of flame in all four directions burning all enemies within a 4 meter radius. Targets are also ignited, taking a further 10% damage per second for 5 seconds.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamage_ Fire damage per second</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Vulnerability</eng>
+				</Name>
+				<Desc>
+					<eng>Afflicts enemies with %firevulnerability_ (15%/level) vulnerability against fire damage</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases base damage by %trapdamagebonus_ (30%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Burning Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases burning damage by %firedotbonus_ (5%/level)</eng>
+				</Desc>
+			</Powerup2>
+			<dt_langszoro_m1>
+				<Name>
+					<eng>Napalm Fuel</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_langszoro_m1>
+			<dt_langszoro_m2>
+				<Name>
+					<eng>Improved Mechanism</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases trap build cost by %buildcostdecrease_ (1/level)</eng>
+				</Desc>
+			</dt_langszoro_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Ignite %d enemies</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</Langszoro>
+		<Villamveto>
+			<name>
+				<eng>Voltaron Coil</eng>
+			</name>
+			<damagetypes>
+				<eng>Lightning Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Electrocutes all enemies within 12 meters each time it activates. The electric arcs can jump to other enemies within 5 meters of each struck enemy, dealing 90% damage. This can happen twice. The coil's activation range is 3 meters.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamage_ Lightning damage per target</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases base damage by %trapdamagebonus_ (30%/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Chain Bolts</eng>
+				</Name>
+				<Desc>
+					<eng>The electric arcs can jump a further %chainjumpcount_ (1/level) times</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Weaken</eng>
+				</Name>
+				<Desc>
+					<eng>Electrocuted enemies fight %weaken_ (15%/level) less effectively for 5 seconds</eng>
+				</Desc>
+			</Powerup2>
+			<dt_teslatorony_m1>
+				<Name>
+					<eng>Discharge Modulator</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_teslatorony_m1>
+			<dt_teslatorony_m2>
+				<Name>
+					<eng>Enlarged Capacitors</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases trap reset time by %cooldowndecrease_ seconds (0.1 seconds/level)</eng>
+				</Desc>
+			</dt_teslatorony_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Deal %d Lightning damage</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</Villamveto>
+		<Dt_Tower_01_Frostray>
+			<name>
+				<eng>Frost Pillar</eng>
+			</name>
+			<damagetypes>
+				<eng>Ice Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Shoots a beam of energy at a single target continuously damaging them and slowing them by 20%.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamage_ Ice damage per second</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases base damage by %trapdamagebonus_ (30%/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Slow</eng>
+				</Name>
+				<Desc>
+					<eng>Slows enemies by an additional %slowincrease_ (10%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Freeze</eng>
+				</Name>
+				<Desc>
+					<eng>Targets are frozen for %freezeduration_ seconds (1 second/level)</eng>
+				</Desc>
+			</Powerup2>
+			<dt_frostraytrap_m1>
+				<Name>
+					<eng>Greater Cold Rune</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_frostraytrap_m1>
+			<dt_frostraytrap_m2>
+				<Name>
+					<eng>Focus Crystal</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases attack range by %attackrangebonus_ meters (0.3 meters/level)</eng>
+				</Desc>
+			</dt_frostraytrap_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Deal %d Ice damage</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</Dt_Tower_01_Frostray>
+		<Dt_Tower_03_Tuzlabda>
+			<name>
+				<eng>Phoenix Pillar</eng>
+			</name>
+			<damagetypes>
+				<eng>Fire Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Launches a fireball at enemies that deals fire damage within 4 meters of the impact point. The blast also knocks enemies down if the damage exceeds 25% of their maximum health.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamage_ Fire damage</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Reset Time</eng>
+				</Name>
+				<Desc>
+					<eng>Trap reset time is decreased by %cooldowndecrease_ (1 second/level) seconds</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases base damage by %trapdamagebonus_ (30%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Ignite</eng>
+				</Name>
+				<Desc>
+					<eng>Enemies are ignited taking %firedotdamage_ (10%/level) of the original damage for 6 seconds</eng>
+				</Desc>
+			</Powerup2>
+			<dt_uteg_m1>
+				<Name>
+					<eng>Orichalcum Frame</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases trap build cost by %buildcostdecrease_ (1/level)</eng>
+				</Desc>
+			</dt_uteg_m1>
+			<dt_uteg_m2>
+				<Name>
+					<eng>Greater Fire Rune</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_uteg_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Deal %d Fire damage</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</Dt_Tower_03_Tuzlabda>
+		<Dt_Tower_08_Thunder>
+			<name>
+				<eng>Olympus Pillar</eng>
+			</name>
+			<damagetypes>
+				<eng>Lightning Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Strikes an enemy with a thunderbolt that deals Lightning damage to all enemies within 3 meters of the original target (and the original target itself). The thunderbolt arrives with a 2 second delay after the trap activates.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamage_ Lightning damage</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Delay Decrease</eng>
+				</Name>
+				<Desc>
+					<eng>Thunderbolt delay is reduced by %spelldelaydecrease_ seconds (0.5 seconds/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Increases base damage by %trapdamagebonus_ (30%/level)</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Blast Radius</eng>
+				</Name>
+				<Desc>
+					<eng>Increases the area of effect by %blastrangebonus_ meters (0.5 meters/level)</eng>
+				</Desc>
+			</Powerup2>
+			<dt_thundertower_m1>
+				<Name>
+					<eng>Thunder Sigil</eng>
+				</Name>				
+				<Desc>
+					<eng>Increases damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_thundertower_m1>
+			<dt_thundertower_m2>
+				<Name>
+					<eng>Haste Rune</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases trap reset time by %cooldowndecrease_ seconds (0.1 seconds/level)</eng>
+				</Desc>
+			</dt_thundertower_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Fully upgrade %d magical towers in one mission (only succesful missions count)</eng>
+				</Desc>				
+			</unlock_requirement>
+		</Dt_Tower_08_Thunder>
+		<KetrecMonster>
+			<name>
+				<eng>Monster Cage</eng>
+			</name>
+			<damagetypes>
+				<eng>Physical Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Releases a monster when enemies come near.</eng>
+			</desc>
+			<effect0>
+				<eng>Creature damage: %damage_(chanceindex=1)</eng>
+			</effect0>
+			<effect1>
+				<eng>Creature health: %maxhp_(chanceindex=1)</eng>
+			</effect1>
+			<Powerup0>
+				<Name>
+					<eng>Creature Health</eng>
+				</Name>
+				<Desc>
+					<eng>Monsters have %creaturehealthincrease_ (50%/level) more maximum health</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Creature Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Monsters deal %creaturedamageincrease_ (50%/level) more damage</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Monster Pack</eng>
+				</Name>
+				<Desc>
+					<eng>The cage releases %creaturecount_ (1/level) more monsters</eng>
+				</Desc>
+			</Powerup2>
+			<dt_monstercage_m1>
+				<Name>
+					<eng>Improved Release Mechanism</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases dead creature replacement time by %cooldowndecrease_ seconds (1 seconds/level)</eng>
+				</Desc>				
+			</dt_monstercage_m1>
+			<dt_monstercage_m2>
+				<Name>
+					<eng>Serum Injector</eng>
+				</Name>				
+				<Desc>
+					<eng>There is a %megamonsterchance_ (1%/level) chance that the trap will release a mutated creature which is much stronger.</eng>
+				</Desc>
+				<effect0>
+					<eng>Creature health: %maxhp_(chanceindex=0)</eng>
+				</effect0>
+				<effect1>
+					<eng>Creature Damage: %damage_(chanceindex=0)</eng>
+				</effect1>
+			</dt_monstercage_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Kill Slaantz, the Great Boglord</eng>
+				</Desc>
+			</unlock_requirement>
+		</KetrecMonster>
+		<summon_breeder>
+			<name>
+				<eng>Suicide Swarm Nest</eng>
+			</name>
+			<damagetypes>
+				<eng>Poison Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Releases a swarm of 5 suicide spawns who rush at the nearest enemy within their sight range and attack them. When a spawn dies, it explodes in a cloud of acid dealing poison damage within 2 meters.</eng>
+			</desc>
+			<effect0>
+				<eng>%blastdamage_ Poison damage.</eng>
+			</effect0>
+			<effect1>
+				<eng>Respawn time: %cooldown_ seconds</eng>
+			</effect1>			
+			<Powerup0>
+				<Name>
+					<eng>Blast Radius</eng>
+				</Name>
+				<Desc>
+					<eng>Increases the explosion area of effect by %blastradius_ meters (0.5 meters/level)</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Swarm Size</eng>
+				</Name>
+				<Desc>
+					<eng>The nest controls %creaturecount_ (1/level) more spawns</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Instant Replacement</eng>
+				</Name>
+				<Desc>
+					<eng>Whenever a spawn is destroyed there is a %replacementchance_ (8%/level) chance it will be instantly replaced by a new one</eng>
+				</Desc>
+			</Powerup2>
+			<dt_summonsuicidespawn_m1>
+				<Name>
+					<eng>Specimen Selection</eng>
+				</Name>				
+				<Desc>
+					<eng>Icnreases suicide blast damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_summonsuicidespawn_m1>
+			<dt_summonsuicidespawn_m2>
+				<Name>
+					<eng>Improved Release Mechanism</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases dead creature replacement time by %cooldowndecrease_ seconds (0.3 seconds/level)</eng>
+				</Desc>
+			</dt_summonsuicidespawn_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Deal %d Poison damage</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</summon_breeder>
+		<DT_Ijaszidezo>
+			<name>
+				<eng>Archer Post</eng>
+			</name>
+			<damagetypes>
+				<eng>Physical/Poison Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Summons archers who shoot at enemies. The post can house a maximum of 3 archers.</eng>
+			</desc>
+			<effect0>
+				<eng>%archerdamage_ Physical damage per archer.</eng>
+			</effect0>
+			<effect1>
+				<eng>Creature health: %maxhp_</eng>
+			</effect1>
+			<Powerup0>
+				<Name>
+					<eng>Area Damage</eng>
+				</Name>
+				<Desc>
+					<eng>Arrows deal damage within a %areadamage_ meter (0.5 meter/level) radius area</eng>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<eng>Dodge</eng>
+				</Name>
+				<Desc>
+					<eng>Archers have a %dodgechance_ (15%/level) chance of dodging none-area of effect attacks and take no damage</eng>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<eng>Creature Limit</eng>
+				</Name>
+				<Desc>
+					<eng>The post can house %creaturecount_ (1/level) more archers</eng>
+				</Desc>
+			</Powerup2>
+			<dt_summonarcher_m1>
+				<Name>
+					<eng>Steel Arrows</eng>
+				</Name>
+				<Desc>
+					<eng>Increases Archer damage by %damagebonus_ (10%/level)</eng>
+				</Desc>
+			</dt_summonarcher_m1>
+			<dt_summonarcher_m2>
+				<Name>
+					<eng>Organized Reinforcements</eng>
+				</Name>				
+				<Desc>
+					<eng>Decreases dead archer replacement time by %cooldowndecrease_ seconds (0.5 seconds/level)</eng>
+				</Desc>
+			</dt_summonarcher_m2>
+			<unlock_requirement>				
+				<Desc>
+					<eng>Score %d critical hits</eng>
+				</Desc>
+				<progress>
+					<eng>%d/%d</eng>
+				</progress>
+			</unlock_requirement>
+		</DT_Ijaszidezo>
+		<summon_golem>
+			<name>
+				<eng>Imprisoned Golem</eng>
+			</name>
+			<damagetypes>
+				<eng>Physical/Fire Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Releases an imprisoned golem that will fight on your side until it is destroyed. The golem's attacks do area damage periodically and these attacks also knock foes off their feet. Note that the golem does not respawn and cannot be sold!</eng>
+			</desc>
+			<effect0>
+				<eng>Creature health: %maxhp_</eng>
+			</effect0>
+			<effect1>
+				<eng>Creature Damage: %damage_</eng>
+			</effect1>			
+		</summon_golem>
+		<biggun>
+			<name>
+				<eng>Artillery Sentry</eng>
+			</name>
+			<damagetypes>
+				<eng>Physical/Fire Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>A heavy duty cannon sentry that has extreme range and lobs very slow projectiles in a high arc.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamage_ Physical/Fire damage.</eng>
+			</effect0>			
+		</biggun>
+		<Service_Station>
+			<name>
+				<eng>Service Station</eng>
+			</name>
+			<damagetypes>
+				<eng>No Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Significantly reduces trap build cost within 12 meters of its location.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapcost_ build cost for traps around this structure</eng>
+			</effect0>			
+		</Service_Station>
+		<Enhancer_Beacon>
+			<name>
+				<eng>Enhancer Beacon</eng>
+			</name>
+			<damagetypes>
+				<eng>No Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Significantly boosts the damage output of traps within 15 meters of its location.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamagebonus_ bonus damage to traps around this structure</eng>
+			</effect0>			
+		</Enhancer_Beacon>
+		<Revitaliser_Beacon>
+			<name>
+				<eng>Pillar of Rejuvenation</eng>
+			</name>
+			<damagetypes>
+				<eng>No Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Continuously regenerates players and allied creatures within 12 meters of its location.</eng>
+			</desc>
+			<effect0>
+				<eng>%regenerationpercent_ of maximum health regeneration per second around this structure</eng>
+			</effect0>			
+		</Revitaliser_Beacon>
+		<Empower_Beacon>
+			<name>
+				<eng>Empower Beacon</eng>
+			</name>
+			<damagetypes>
+				<eng>No Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Significantly boosts the damage output of players and allied creatures within 12 meters of its location.</eng>
+			</desc>
+			<effect0>
+				<eng>%playerdamagebonus_ bonus damage to players and allied creatures around this structure</eng>
+			</effect0>			
+		</Empower_Beacon>
+		<Dt_Tower_06_Izzito>
+			<name>
+				<eng>Heat Ray Sentry</eng>
+			</name>
+			<damagetypes>
+				<eng>Fire Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Shoots a beam of energy at a single target continuously damaging it. The damage starts low but increases steadily the longer the beam stays on the same target.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamage_ Fire damage per second starting damage</eng>
+			</effect0>
+			<effect1>
+				<eng>%trapdamage_ damage increase per second</eng>
+			</effect1>									
+		</Dt_Tower_06_Izzito>
+		<Dt_Daralo_Torony>
+			<name>
+				<eng>Hook Grinder</eng>
+			</name>
+			<damagetypes>
+				<eng>Special Damage</eng>
+			</damagetypes>
+			<desc>
+				<eng>Launches a hooked chain at the nearest enemy. On being hit the creature is pulled into the grinder and is killed immediately. Giant-sized and special creatures cannot be crushed - in this case the chain deals damage.</eng>
+			</desc>
+			<effect0>
+				<eng>Pulls creatures into the grinder that shreds them into tiny pieces.</eng>
+			</effect0>			
+		</Dt_Daralo_Torony>		
+		<hidraulikuspres>
+			<name>
+				<eng>Squash Trap</eng>
+			</name>
+			<damagetypes>
+				<eng>Physical Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Squashes enemies who step between its spiked metal plates. Knocks down enemies who survive the hit.</eng>
+			</desc>
+			<effect0>
+				<eng>%trapdamage_ Physical damage</eng>
+			</effect0>			
+		</hidraulikuspres>
+		<csodacsapda>
+			<name>
+				<eng>Salvage Recycler</eng>
+			</name>
+			<damagetypes>
+				<eng>No Damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Periodically grants essence during attack waves (but not between them).</eng>
+			</desc>
+			<effect0>
+				<eng>Produces %essenceyieldpersec_ essence every 3 seconds</eng>
+			</effect0>			
+		</csodacsapda>
+		
+		<Dt_Tower_13_csirke>
+			<name>
+				<eng>Metamorpher Sentry</eng>
+			</name>
+			<damagetypes>
+				<eng>Special damage</eng>
+			</damagetypes>	
+			<desc>
+				<eng>Attacks with a metamorpher ray which can turn enemies into a chicken for a short period of time. Creatures lose 50% of their HP and all special abilities while they are transformed.</eng>
+			</desc>
+			<effect0>
+				<eng>Deals %trapdamage_ damage, transforms creatures with %turnchance_ chance for 10 seconds, HP reduced to 50% for the duration</eng>
+			</effect0>			
+		</Dt_Tower_13_csirke>
+		<Wind_of_Death_torony>
+			<name>
+				<eng>Wind of Death</eng>
+			</name>
+			<damagetypes>
+				<eng>Poison</eng>
+			</damagetypes>	
+			<desc>
+				<eng>When activated, it unleashes a poisonous wind of pestilence, dealing heavy damage to all enemies on the map. Each strike consumes Essence.</eng>
+			</desc>
+			<effect0>
+				<eng>Deals %trapdamage_ poison damage to all enemies</eng>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<eng>Deathly Wind</eng>
+				</Name>
+				<Desc>
+					<eng>Deals %trapdamage_ poison damage to all enemies</eng>
+				</Desc>
+			</Powerup0>
+		</Wind_of_Death_torony>		
+		<upgrade>
+			<maxlevereached>
+				<eng>Maximum Upgrade Level</eng>
+			</maxlevereached>							
+		</upgrade>
+	</Traps>
+	
+</Root>
