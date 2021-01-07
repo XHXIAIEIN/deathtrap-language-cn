@@ -24,7 +24,7 @@ Deathtrap 的语言文件在这个位置
 @mome-borogove 大佬分享了一个解包程序 [N2PK Unpacker](https://github.com/mome-borogove/40K-n2pk-converter)   
 
 它使用 python 语言编写，如果你电脑没有，需要到 [python 官网](https://python.org/) 安装就可以使用了
-
+不会解压的同学，我也传了一份已经解包好的文件在上面。  
 
 
 # 如何使用
