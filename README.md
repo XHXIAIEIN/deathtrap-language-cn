@@ -40,7 +40,7 @@ python unpack-n2pk.py Files.N2PK  output
 ```
 @echo off
 cmd /C "python unpack-n2pk.py Files.N2PK new"
-del Files.N2PK output
+del Files.N2PK
 exit
 ```
 
