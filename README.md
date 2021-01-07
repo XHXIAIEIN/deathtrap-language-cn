@@ -239,10 +239,11 @@ FONTFILENAME1=./UI/Fonts/wow.ttf
  
 1. 翻译之后，部分变量会因为文本长度问题而无法读取。  
   
-最明显的例子就是。道具表 lang_artifacts.xml  里面，  
-对异常状态的敌人造成额外伤害，这个标签ID太长了：<AllSkillDamagePercentOnFrozenEnemies>   
-导致在游戏中无法读取，但是只有翻译成中文会出现这情况，其他语言显示是正常的。  
-  
-也许也是解包的问题导致？总之，原因不明。
-就是因为遇到了这个问题，我才不想继续再重新汉化这游戏了。。太蠢了。  
+最明显的例子就是。道具表 lang_artifacts.xml  里面，    
+对异常状态的敌人造成额外伤害，这个标签ID太长了：AllSkillDamagePercentOnFrozenEnemies  
+导致在游戏中无法读取，变回引用的地址: "Soldiers.AllSkillDamagePercentOnFrozenEnemies.DES"
+似乎只有翻译成中文会出现这情况，其他语言显示是正常的。  
+    
+也许也是解包的问题导致？总之，原因不明。  
+也是因为这个问题，我不想继续再重新汉化这系列游戏了。。太蠢了。  
   
