@@ -1,0 +1,1820 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<LanguageName>
+		<CN>简体中文</CN>
+	</LanguageName>
+	<Languages>CN</Languages>
+	<Traps>
+		<UpgradeLevel>
+			<CN>升级等级 %s</CN>
+		</UpgradeLevel>
+		<Unlock_Requirement>
+			<CN>解锁条件: %s</CN>
+		</Unlock_Requirement>
+		<positiontye>
+			<ground>
+				<CN>[建筑] 陷阱</CN>
+			</ground>
+			<tower>
+				<CN>[建筑] 炮台</CN>
+			</tower>
+		</positiontye>
+		<category>
+			<mechanical>
+				<CN>[类型] 机械</CN>
+			</mechanical>
+			<mystic>
+				<CN>[类型] 魔法</CN>
+			</mystic>
+			<summon>
+				<CN>[类型] 召唤</CN>
+			</summon>
+		</category>
+		<damagecategory>
+			<splash>
+				<CN>攻击方式：喷射</CN>
+			</splash>
+			<concentrated>
+				<CN>攻击方式：集火</CN>
+			</concentrated>
+			<piercing>
+				<CN>攻击方式：突刺</CN>
+			</piercing>
+			<strong_vs>
+				<CN>利于对抗</CN>
+			</strong_vs>
+			<weak_vs>
+				<CN>难以对抗</CN>
+			</weak_vs>
+			<no_strength>
+				<CN>没有特殊优势</CN>
+			</no_strength>
+			<no_weakness>
+				<CN>没有明显弱点</CN>
+			</no_weakness>
+		</damagecategory>
+		<specialtrap>
+			<tower>
+				<CN>特殊陷阱</CN>
+			</tower>
+		</specialtrap>
+		<Sell>
+			<name>
+				<CN>回收陷阱</CN>
+			</name>
+			<desc>
+				<CN>返还建造成本的80%</CN>
+			</desc>
+		</Sell>
+		
+		<LavaPadlo>
+			<name>
+				<CN>烈焰陷阱</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 火焰</CN>
+			</damagetypes>
+			<desc>
+				<CN>持续对敌人造成火焰伤害。</CN>
+			</desc>
+			<effect0>
+				<CN>在区域内的敌人每秒受到 %trapdamage_ 火焰伤害</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>焚烧</CN>
+				</Name>
+				<Desc>
+					<CN>对敌人施加点燃效果，在 6 秒里持续造成 %firedotdamage_ 火焰伤害 （每级提升5% ）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>嗜火</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%trapdamagebonus_ （每级提升30% ）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>晕眩</CN>
+				</Name>
+				<Desc>
+					<CN>使敌人陷入混乱状态，不能攻击和释放技能，但依然可以移动。持续 %disorientduration_ 秒 （每级增加 2 秒)  </CN>
+				</Desc>
+			</Powerup2>
+			<dt_lavaPadlo_m1>
+				<Name>
+					<CN>炽热之印</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_lavaPadlo_m1>
+			<dt_lavaPadlo_m2>
+				<Name>
+					<CN>烈焰仪式</CN>
+				</Name>
+				<Desc>
+					<CN>陷阱建造成本减少 %buildcostdecrease_ （每级减少1）</CN>
+				</Desc>
+			</dt_lavaPadlo_m2>
+		</LavaPadlo>
+		<Desintegrate_Trap>
+			<name>
+				<CN>深渊入口</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 火焰 / 闪电</CN>
+			</damagetypes>
+			<desc>
+				<CN>A continuously active trap that has a chance of instantly killing horde and normal type enemies when they first step on it. Enemies （of any type) that aren't instantly killed take Fire and Lightning damage instead. Instantly killed enemies do not generate Essence.</CN>
+			</desc>
+			<effect0>
+				<CN>Horde type creatures have a %hordekillchance_ chance of being instantly killed</CN>
+			</effect0>
+			<effect1>
+				<CN>Normal type creatures have a %normalkillchance_ chance of being instantly killed</CN>
+			</effect1>
+			<effect2>
+				<CN>Enemies that aren't killed instantly take %trapdamage_ Fire/Lightning damage</CN>
+			</effect2>
+			<Powerup0>
+				<Name>
+					<CN>精华萃取</CN>
+				</Name>
+				<Desc>
+					<CN>杀死敌人时获得额外精华 %essencedropvalue_ （每级提升10%）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>伤害</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%trapdamagebonus_ （每级提升30%）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>构造瓦解</CN>
+				</Name>
+				<Desc>
+					<CN>被秒杀的敌人有 %disintegrationblastchance_ 几率造成爆炸，目标附近半径 1.5 码范围里的敌人会受到 自身最大生命值的火焰/闪电伤害。 （每级提升10%）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_desintegritytrap_m1>
+				<Name>
+					<CN>分解符文</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damageincrease_ （每级提升5%）</CN>
+				</Desc>
+			</dt_desintegritytrap_m1>
+			<dt_desintegritytrap_m2>
+				<Name>
+					<CN>杀戮符文</CN>
+				</Name>
+				<Desc>
+					<CN>有 %chancehorde_ 几率秒杀部落种族的敌人。 （每级提升1%）\n有 %chancenormal_ 几率秒杀普通生物 （每级提升0.5%）</CN>
+				</Desc>
+			</dt_desintegritytrap_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>击杀%d只远古生物</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</Desintegrate_Trap>
+		<Dt_Tower_09_zap>
+			<name>
+				<CN>闪电之柱</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 闪电 / 毒素</CN>
+			</damagetypes>
+			<desc>
+				<CN>陷阱未激活时，每 3 秒幻化一颗法球。\n法球在陷阱每次攻击间隔之间对敌人\n进行额外攻击，每次攻击消耗 1 颗法球， 最多同时存在 5 颗。</CN>
+			</desc>
+			<effect0>
+				<CN>对单个敌人造成 %trapdamage_ 闪电伤害。</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>多重脉冲</CN>
+				</Name>
+				<Desc>
+					<CN>额外对 %additionaltargets_ 个目标造成伤害(每级增加 1 个)， 每次攻击有 50% 几率触发。</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>精准脉冲</CN>
+				</Name>
+				<Desc>
+					<CN>攻击距离增加+%traprangebonus_码 （每级增加2码）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>能量脉冲</CN>
+				</Name>
+				<Desc>
+					<CN>法球数量增加+%chargecapincrease_ （每级增加2）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_zaptorony_m1>
+				<Name>
+					<CN>风暴符文</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_zaptorony_m1>
+			<dt_zaptorony_m2>
+				<Name>
+					<CN>急速符文</CN>
+				</Name>
+				<Desc>
+					<CN>陷阱装填时间减少 %cooldowndecrease_ 秒 （每级减少0.02秒）</CN>
+				</Desc>
+			</dt_zaptorony_m2>
+		</Dt_Tower_09_zap>
+		<DT_Tower_07_agyu>
+			<name>
+				<CN>炮台岗哨</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 火焰 / 物理</CN>
+			</damagetypes>
+			<desc>
+				<CN>Lobs slow moving explosive shells in a high arc, which deal damage within 4 meters of their impact point.</CN>
+			</desc>
+			<effect0>
+				<CN>Deals %trapdamage_ Physical/Fire damage in a 4 meters area.</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>急速射击</CN>
+				</Name>
+				<Desc>
+					<CN>Trap reset time is decreased by %cooldowndecrease_ seconds （1.5 seconds/level）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>让子弹飞</CN>
+				</Name>
+				<Desc>
+					<CN>Increases the shell's travel speed by %projectilespeedincrease_ （25%/level）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>击退弹</CN>
+				</Name>
+				<Desc>
+					<CN>Targets have a %knockback_ chance of being knocked down （15%/level), and increases base damage by +%knockback_ （15%/level）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_agyutorony_m1>
+				<Name>
+					<CN>爆破弹</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_agyutorony_m1>
+			<dt_agyutorony_m2>
+				<Name>
+					<CN>分裂弹</CN>
+				</Name>
+				<Desc>
+					<CN>Increases area of effect by %areaeffectbonus_ meters （0.1 meters/level）</CN>
+				</Desc>
+			</dt_agyutorony_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>Fully upgrade %d mechanical towers in one mission （only succesful missions count）</CN>
+				</Desc>
+			</unlock_requirement>
+		</DT_Tower_07_agyu>
+		<DT_Tower_05_korongveto>
+			<name>
+				<CN>利刃飞轮</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 物理 / 毒素</CN>
+			</damagetypes>
+			<desc>
+				<CN>弹射出锋利的刀刃穿过沿途的所有敌人，并对命中的第一个敌人造成全部伤害，对后续每个目标造成的伤害逐渐减少30%。</CN>
+			</desc>
+			<effect0>
+				<CN>对单个敌人造成%trapdamage_物理/毒素伤害。</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>狂热之舞</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升30%）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>狩猎之舞</CN>
+				</Name>
+				<Desc>
+					<CN>对后面的目标伤害提升+%passthroughdamagepenaltydecrease_ （每级提升10%）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>刀锋之舞</CN>
+				</Name>
+				<Desc>
+					<CN>每次攻击有%multirazorchance_几率额外发射一个刀片 （每级提升15%）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_korongveto_m1>
+				<Name>
+					<CN>死亡之舞</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_korongveto_m1>
+			<dt_korongveto_m2>
+				<Name>
+					<CN>狂热之舞</CN>
+				</Name>
+				<Desc>
+					<CN>陷阱装填时间减少%cooldowndecrease_秒 （每级提升0.1秒）</CN>
+				</Desc>
+			</dt_korongveto_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>亲手击杀%d只敌人</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</DT_Tower_05_korongveto>
+		<DT_Tower_drainlife>
+			<name>
+				<CN>熵能之柱</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 毒素 / 冰霜</CN>
+			</damagetypes>
+			<desc>
+				<CN>Shoots a beam of energy at a single target continuously damaging them. It also heals 20% of the damage on a player or an allied creature within 12 meters. If there are multiple players or allied creatures wihin range, the healing effect is distributed evenly among them.</CN>
+			</desc>
+			<effect0>
+				<CN>%trapdamage_ Poison/Ice damage per second</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>Beam Bounce</CN>
+				</Name>
+				<Desc>
+					<CN>The beam has a 50% chance of bouncing onto %beambouncecount_ （1/level) additional targets</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>攻击距离</CN>
+				</Name>
+				<Desc>
+					<CN>Attack range is increased by %traprangebonus_ meters （2 meters/level）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>Healing Pulse</CN>
+				</Name>
+				<Desc>
+					<CN>Each time the trap kills an enemy, there is a %healingwavechance_ （10%/level) chance that allied creatures and players within 12 meters will be healed to their maximum health</CN>
+				</Desc>
+			</Powerup2>
+			<dt_drainlifetrap_m1>
+				<Name>
+					<CN>地狱刻印</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_（每级提升10%）</CN>
+				</Desc>
+			</dt_drainlifetrap_m1>
+			<dt_drainlifetrap_m2>
+				<Name>
+					<CN>Greater Life Leech Rune</CN>
+				</Name>
+				<Desc>
+					<CN>The healing amount is increased by %healbonus_ （2%/level）</CN>
+				</Desc>
+			</dt_drainlifetrap_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>利用毒素击杀%d只敌人</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</DT_Tower_drainlife>
+		<Necro_Trap>
+			<name>
+				<CN>复苏法阵</CN>
+			</name>
+			<damagetypes>
+				<CN>没有攻击能力</CN>
+			</damagetypes>
+			<desc>
+				<CN>在附近死亡的敌人有几率重生为哥布林协助我方战斗。哥布林存在时间持续45秒，最多同时存在3只。</CN>
+			</desc>
+			<effect0>
+				<CN>死去的敌人有%creaturespwanchance_ 几率变成哥布林</CN>
+			</effect0>
+			<effect1>
+				<CN>生命：%maxhp_</CN>
+			</effect1>
+			<effect2>
+				<CN>攻击：%damage_(chanceindex=0）</CN>
+			</effect2>
+			<Powerup0>
+				<Name>
+					<CN>数量</CN>
+				</Name>
+				<Desc>
+					<CN>每个法阵最多可控制 %creaturecount_ 只哥布林。 （每级增加1只）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>强化生命</CN>
+				</Name>
+				<Desc>
+					<CN>哥布林拥有 %creaturehealthincrease_ 最大生命值。 （每级提升50%）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>提升伤害</CN>
+				</Name>
+				<Desc>
+					<CN>哥布林每次造成 %creaturedamageincrease_ 伤害。 （每级提升50%）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_nekrotrap_m1>
+				<Name>
+					<CN>完善灵魂陷阱</CN>
+				</Name>
+				<Desc>
+					<CN>敌人变成哥布林的几率增加 %spawnchance_ （每级提升1%）</CN>
+				</Desc>
+			</dt_nekrotrap_m1>
+			<dt_nekrotrap_m2>
+				<Name>
+					<CN>不死军团</CN>
+				</Name>
+				<Desc>
+					<CN>哥布林存在的时间增加 %creaturelifetimebonus_ （每级提升1秒）</CN>
+				</Desc>
+			</dt_nekrotrap_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>利用陷阱击杀 %d 只不死族敌人</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</Necro_Trap>
+		<summon_icequeen>
+			<name>
+				<CN>Winter Queen Sigil</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 冰霜</CN>
+			</damagetypes>
+			<desc>
+				<CN>Summons a Winter Queen spirit who fights on your side. The spirit casts blizzard spells at enemies when they step within range. The spell does damage in a 3 meter radius area.</CN>
+			</desc>
+			<effect0>
+				<CN>The blizzard spell does %spelldamage_ Ice damage</CN>
+			</effect0>
+			<effect1>
+				<CN>Spell Cooldown: %spellcooldown_ seconds</CN>
+			</effect1>
+			<effect2>
+				<CN>生命：%maxhp_</CN>
+			</effect2>
+			<Powerup0>
+				<Name>
+					<CN>装填时间</CN>
+				</Name>
+				<Desc>
+					<CN>Blizzard spell cooldown is decreased by %spellcooldowndecrease_ seconds （1 second/level）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>Reduced Delay</CN>
+				</Name>
+				<Desc>
+					<CN>Increases Blizzard spell damage by +%spelldelaydecrease_ （30%/level）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>Creature Health</CN>
+				</Name>
+				<Desc>
+					<CN>The spirit has %creaturehealthincrease_ （50%/level) more health</CN>
+				</Desc>
+			</Powerup2>
+			<dt_summonicequeen_m1>
+				<Name>
+					<CN>Empower Rune</CN>
+				</Name>
+				<Desc>
+					<CN>The Winter Queen's spell damage is increased by %damagebonus_伤害 （每级提升10%）</CN>
+				</Desc>
+			</dt_summonicequeen_m1>
+			<dt_summonicequeen_m2>
+				<Name>
+					<CN>Winter Storm Rune</CN>
+				</Name>
+				<Desc>
+					<CN>The Winter Queen's spell affects a %areaeffectbonus_ meters （0.1 meters/level) larger area.</CN>
+				</Desc>
+			</dt_summonicequeen_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>完美解决 %d 次任务</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</summon_icequeen>
+		<Acid_Trap>
+			<name>
+				<CN>酸液喷泉</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 毒素</CN>
+			</damagetypes>
+			<desc>
+				<CN>Sprays jets of corrosive toxin within the area when enemies step on the trap. Enemies are also afflicted by 30% vulnerability against physical damage for 10 seconds （This does not stack with itself）</CN>
+			</desc>
+			<effect0>
+				<CN>对敌人造成%trapdamage_毒素伤害</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>提升毒素</CN>
+				</Name>
+				<Desc>
+					<CN>Enemies are poisoned taking %poisondamage_ （5%/level) of the original damage for 6 seconds</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>Vulnerability</CN>
+				</Name>
+				<Desc>
+					<CN>Physical Vulnerability is increased to %vulnerability_ （30%/level）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>Corrosive Cloud</CN>
+				</Name>
+				<Desc>
+					<CN>Each attack generates a toxic cloud which remains in place for 3 seconds. Enemies entering the cloud take %poisonclouddamage_ （10%/level) of the original damage per second</CN>
+				</Desc>
+			</Powerup2>
+			<dt_acidtrap_m1>
+				<Name>
+					<CN>Phlogiston Acid</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_acidtrap_m1>
+			<dt_acidtrap_m2>
+				<Name>
+					<CN>Pressure Regulator</CN>
+				</Name>
+				<Desc>
+					<CN>Decreases trap reset time by %cooldowndecrease_ seconds （0.1 seconds/level）</CN>
+				</Desc>
+			</dt_acidtrap_m2>
+		</Acid_Trap>
+		<Talajtuskek>
+			<name>
+				<CN>尖刺陷阱</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 物理</CN>
+			</damagetypes>
+			<desc>
+				<CN>Impales enemies with sharp spears when they step on the trap.</CN>
+			</desc>
+			<effect0>
+				<CN>对敌人造成 %trapdamage_ Physical damage.</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>装填时间</CN>
+				</Name>
+				<Desc>
+					<CN>Trap reset time is decreased by %cooldowndecrease_ seconds （0.5 seconds/level）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>伤害</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%trapdamagebonus_ （每级提升30%）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>[元素] 毒素</CN>
+				</Name>
+				<Desc>
+					<CN>Enemies are poisoned taking %poisondamage_ （5%/level) of the original damage for 5 seconds</CN>
+				</Desc>
+			</Powerup2>
+			<dt_talajtuskek_m1>
+				<Name>
+					<CN>Serrated Spears</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_talajtuskek_m1>
+			<dt_talajtuskek_m2>
+				<Name>
+					<CN>Enchanted Spears</CN>
+				</Name>
+				<Desc>
+					<CN>There is a %essencebonus_ （3%/level) chance that killed enemies reward double essence.</CN>
+				</Desc>
+			</dt_talajtuskek_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>Deal %d 物理伤害</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</Talajtuskek>
+		<Dt_Tower_04_Pengetorony>
+			<name>
+				<CN>回旋刃之柱</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 物理</CN>
+			</damagetypes>
+			<desc>
+				<CN>The trap's blades whirl around when enemies pass within 5 meters of the column, damaging and slowing them down considerably.</CN>
+			</desc>
+			<effect0>
+				<CN>Damages enemies within 5 meters for %trapdamage_ Physical damage per second.</CN>
+			</effect0>
+			<effect1>
+				<CN>Slows enemies by %slowingvalue_ % while in range.</CN>
+			</effect1>
+		</Dt_Tower_04_Pengetorony>
+		<RugosElloko>
+			<name>
+				<CN>弹簧陷阱</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 物理</CN>
+			</damagetypes>
+			<desc>
+				<CN>将经过的敌人击退，同时造成物理伤害。摔出边缘的敌人会立即死亡。</CN>
+			</desc>
+			<effect0>
+				<CN>对敌人造成 %trapdamage_ 物理伤害</CN>
+			</effect0>
+			<effect1>
+				<CN>击退敌人，或推出边缘将其摔死。</CN>
+			</effect1>
+			<Powerup0>
+				<Name>
+					<CN>装填时间</CN>
+				</Name>
+				<Desc>
+					<CN>陷阱装填时间减少 %cooldowndecrease_ 秒 （每级减少0.5秒）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>伤害</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%trapdamagebonus_ （每级提升30%）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>喷射燃油</CN>
+				</Name>
+				<Desc>
+					<CN>将火油喷到8码范围内敌人身上， 使目标受到其 %firevulnerability_ 火焰抗性伤害。(每级提升30%）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_rugoselloko_m1>
+				<Name>
+					<CN>改良弹簧</CN>
+				</Name>
+				<Desc>
+					<CN>陷阱的建造成本降低 %trapbuildcostdecrease_ （每级降低1）</CN>
+				</Desc>
+			</dt_rugoselloko_m1>
+			<dt_rugoselloko_m2>
+				<Name>
+					<CN>Inertial Amplifier</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_rugoselloko_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>Cause knockback effect %d times （skills and traps both count）</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</RugosElloko>
+		<Meszarszek>
+			<name>
+				<CN>精华陷阱</CN>
+			</name>
+			<damagetypes>
+				<CN>没有攻击能力</CN>
+			</damagetypes>
+			<desc>
+				<CN>在这个陷阱附近死亡的敌人会掉落\n更多精华。</CN>
+			</desc>
+			<effect0>
+				<CN>敌人掉落精华增加+%essencedropportion_ </CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>极品精华</CN>
+				</Name>
+				<Desc>
+					<CN>敌人死亡时有 %tripleessencechance_ 几率掉落3倍精华 （每级提升10%）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>破坏免疫系统</CN>
+				</Name>
+				<Desc>
+					<CN>折磨附近的敌人，使目标对毒素抗性下降 %poisonvulnerability_ （每级提升30%）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>眩晕</CN>
+				</Name>
+				<Desc>
+					<CN>敌人首次进入陷阱范围时，有 %stunchance_ 几率眩晕3秒（每级提升10%）\n每个敌人仅触发一次。</CN>
+				</Desc>
+			</Powerup2>
+			<dt_meszarszek_m1>
+				<Name>
+					<CN>精华收集器</CN>
+				</Name>
+				<Desc>
+					<CN>被杀死的敌人掉落精华数量提升 +%essencebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_meszarszek_m1>
+			<dt_meszarszek_m2>
+				<Name>
+					<CN>陷阱情报网</CN>
+				</Name>
+				<Desc>
+					<CN>所有精华陷阱的工作效率提升+%networkbonus_ （每级提升5%）</CN>
+				</Desc>
+			</dt_meszarszek_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>在一局游戏中，花费的精华量少于地图精华总量50%条件下通关。</CN>
+				</Desc>
+			</unlock_requirement>
+		</Meszarszek>
+		<Aknacsapda>
+			<name>
+				<CN>Tick Mine Dispenser</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 火焰</CN>
+			</damagetypes>
+			<desc>
+				<CN>Attaches a small bomb to enemies who step on the trap with a small chance of success. When an enemy with an attached bomb dies, an explosion occurs that deals Fire damage within 3 meters around them.</CN>
+			</desc>
+			<effect0>
+				<CN>%chancetoattachbomb_ chance of attaching a bomb to enemies stepping on the trap</CN>
+			</effect0>
+			<effect1>
+				<CN>Bombed enemies deal %trapdamage_ Fire damage when they die</CN>
+			</effect1>
+			<Powerup0>
+				<Name>
+					<CN>Ignite</CN>
+				</Name>
+				<Desc>
+					<CN>The bomb explosion ignites the ground for 3 seconds. Enemies who step into the fire take %firedotdamage_ （10%/level) of the original damage per second</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>Blast Radius</CN>
+				</Name>
+				<Desc>
+					<CN>Increases the explosion area of effect by %blastradiusincrease_ meters （0.5 meters/level）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>Twin Mines</CN>
+				</Name>
+				<Desc>
+					<CN>There is a %attachchanceincrease_ （10%/level) chance that the trap attaches a second mine to an enemy</CN>
+				</Desc>
+			</Powerup2>
+			<dt_aknacsapda_m1>
+				<Name>
+					<CN>Improved Clamps</CN>
+				</Name>
+				<Desc>
+					<CN>The chance of succesfully attaching a bomb is increased by %bombchancebonus_ （0,5%/level）</CN>
+				</Desc>
+			</dt_aknacsapda_m1>
+			<dt_aknacsapda_m2>
+				<Name>
+					<CN>超级爆炸</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_aknacsapda_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>Fully upgrade %d mechanical floor traps in one mission （only succesful missions count）</CN>
+				</Desc>
+			</unlock_requirement>
+		</Aknacsapda>
+		<Frost_padlo>
+			<name>
+				<CN>冰川屏障</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 冰霜</CN>
+			</damagetypes>
+			<desc>
+				<CN>敌人首次进入陷阱范围时，受到冰霜伤害并减速5秒。 （对每个敌人仅生效一次）</CN>
+			</desc>
+			<effect0>
+				<CN>对敌人造成 %trapdamage_ 冰霜伤害</CN>
+			</effect0>
+			<effect1>
+				<CN>减速敌人30%</CN>
+			</effect1>
+			<Powerup0>
+				<Name>
+					<CN>极寒领域</CN>
+				</Name>
+				<Desc>
+					<CN>减速效果提升 %slowincrease_ （每级提升10%) ，持续1秒。</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>凛冬之怒</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%trapdamagebonus_ （每级提升30%）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>霜寒刺骨</CN>
+				</Name>
+				<Desc>
+					<CN>对敌人造成的冰霜伤害提升 %vulnerabilityincrease_ （每级提升30%）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_jegespadlo_m1>
+				<Name>
+					<CN>冰川符文</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_jegespadlo_m1>
+			<dt_jegespadlo_m2>
+				<Name>
+					<CN>永冻符文</CN>
+				</Name>
+				<Desc>
+					<CN>受伤的敌人有%freezechance_ 几率被冻结5秒。 （每级提升1) </CN>
+				</Desc>
+			</dt_jegespadlo_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>打出减速效果 %d 次</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</Frost_padlo>
+		<TeleportPadlo>
+			<name>
+				<CN>空间陷阱</CN>
+			</name>
+			<damagetypes>
+				<CN>Arcane Damage</CN>
+			</damagetypes>
+			<desc>
+				<CN>Enemies stepping on the trap have a 20% chance of being teleported some distance back on their path. This can only happen once for each enemy.</CN>
+			</desc>
+			<effect0>
+				<CN>Teleports enemies back on their path</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>Teleport Chance</CN>
+				</Name>
+				<Desc>
+					<CN>Increases teleport chance by %teleportchance_ （每级提升10%）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>Teleport Shock</CN>
+				</Name>
+				<Desc>
+					<CN>Teleported enemies lose %hitpointpercentloss_ （10%/level) of their maximum health</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>Vulnerability</CN>
+				</Name>
+				<Desc>
+					<CN>Afflicts enemies with %vulnerabilityincrease_ （15%/level) vulnerability against lightning damage</CN>
+				</Desc>
+			</Powerup2>
+			<dt_teleportpadlo_m1>
+				<Name>
+					<CN>Improved Glyph</CN>
+				</Name>
+				<Desc>
+					<CN>Increases teleport chance by %teleportchance_ （1%/level）</CN>
+				</Desc>
+			</dt_teleportpadlo_m1>
+			<dt_teleportpadlo_m2>
+				<Name>
+					<CN>Greater Displacement Rune</CN>
+				</Name>
+				<Desc>
+					<CN>Increases teleport distance by %teleportdistance_ meters （0,5 meter/level）</CN>
+				</Desc>
+			</dt_teleportpadlo_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>Fully upgrade %d magical floor traps in one mission （only successful missions count）</CN>
+				</Desc>
+			</unlock_requirement>
+		</TeleportPadlo>
+		<Stasis_Trap>
+			<name>
+				<CN>麻痹陷阱</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 物理</CN>
+			</damagetypes>
+			<desc>
+				<CN>制造3个泡泡，对接触到的第一个敌人造成物理伤害，并禁锢5秒。 敌人从泡泡中逃脱后在5秒内不会再被困住。 泡泡对大型生物无效。</CN>
+			</desc>
+			<effect0>
+				<CN>造成 %trapdamage_ 物理伤害</CN>
+			</effect0>
+			<effect1>
+				<CN>禁锢敌人 %holdduration_ 秒</CN>
+			</effect1>
+			<Powerup0>
+				<Name>
+					<CN>挤压</CN>
+				</Name>
+				<Desc>
+					<CN>被禁锢的敌人每秒受到 %dotdamage_ 初始伤害 （每级提升10%) </CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>静止</CN>
+				</Name>
+				<Desc>
+					<CN>延长禁锢时间 %holddurationincrease_ （每级增加2秒）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>充能</CN>
+				</Name>
+				<Desc>
+					<CN>减少气泡装填时间 %cooldowndecrease_ （每级增加1秒）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_stasistrap_m1>
+				<Name>
+					<CN>简化</CN>
+				</Name>
+				<Desc>
+					<CN>减少陷阱建造成本 %trapbuildcostdecrease_ （每级增加1）</CN>
+				</Desc>
+			</dt_stasistrap_m1>
+			<dt_stasistrap_m2>
+				<Name>
+					<CN>破裂</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_stasistrap_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>定身/击晕/冻结 %d 名敌人</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</Stasis_Trap>
+		<sorozatlovo>
+			<name>
+				<CN>机枪岗哨</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 物理</CN>
+			</damagetypes>
+			<desc>
+				<CN>大型自动机枪堡垒，持续攻击单个目标， 直到目标死亡，或者超出攻击范围。</CN>
+			</desc>
+			<effect0>
+				<CN>每次射击造成 %trapdamage_ 物理伤害</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>提升火力</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%firedamageincrease_ （每级提升30%）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>机枪扫射</CN>
+				</Name>
+				<Desc>
+					<CN>对目标附近范围%areaincrease_码内所有敌人造成 50%物理伤害 （每级增加1码）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>减速子弹</CN>
+				</Name>
+				<Desc>
+					<CN>被击中的敌人在5秒内减速 %slowincrease_  （每级提升15%）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_sorozatlovo_m1>
+				<Name>
+					<CN>优化齿轮</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_sorozatlovo_m1>
+			<dt_sorozatlovo_m2>
+				<Name>
+					<CN>改良子弹</CN>
+				</Name>
+				<Desc>
+					<CN>攻击距离提升+%attackrangebonus_ （每级增加0.3码）</CN>
+				</Desc>
+			</dt_sorozatlovo_m2>
+		</sorozatlovo>
+		<Langszoro>
+			<name>
+				<CN>爆裂熔炉</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 火焰</CN>
+			</damagetypes>
+			<desc>
+				<CN>Shoots jets of flame in all four directions burning all enemies within a 4 meter radius. Targets are also ignited, taking a further 10% damage per second for 5 seconds.</CN>
+			</desc>
+			<effect0>
+				<CN>%trapdamage_ Fire damage per second</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>Vulnerability</CN>
+				</Name>
+				<Desc>
+					<CN>Afflicts enemies with %firevulnerability_ （15%/level) vulnerability against fire damage</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>伤害</CN>
+				</Name>
+				<Desc>
+					<CN>Increases base damage by %trapdamagebonus_ （30%/level）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>Burning Damage</CN>
+				</Name>
+				<Desc>
+					<CN>Increases burning damage by %firedotbonus_ （5%/level）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_langszoro_m1>
+				<Name>
+					<CN>Napalm Fuel</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_langszoro_m1>
+			<dt_langszoro_m2>
+				<Name>
+					<CN>Improved Mechanism</CN>
+				</Name>
+				<Desc>
+					<CN>Decreases trap build cost by %buildcostdecrease_ （1/level）</CN>
+				</Desc>
+			</dt_langszoro_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>Ignite %d enemies</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</Langszoro>
+		<Villamveto>
+			<name>
+				<CN>伏特之环</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 闪电</CN>
+			</damagetypes>
+			<desc>
+				<CN>Electrocutes all enemies within 12 meters each time it activates. The electric arcs can jump to other enemies within 5 meters of each struck enemy, dealing 90% damage. This can happen twice. The coil's activation range is 3 meters.</CN>
+			</desc>
+			<effect0>
+				<CN>%trapdamage_ Lightning damage per target</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>伤害</CN>
+				</Name>
+				<Desc>
+					<CN>Increases base damage by %trapdamagebonus_ （30%/level）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>Chain Bolts</CN>
+				</Name>
+				<Desc>
+					<CN>The electric arcs can jump a further %chainjumpcount_ （1/level) times</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>Weaken</CN>
+				</Name>
+				<Desc>
+					<CN>Electrocuted enemies fight %weaken_ （15%/level) less effectively for 5 seconds</CN>
+				</Desc>
+			</Powerup2>
+			<dt_teslatorony_m1>
+				<Name>
+					<CN>Discharge Modulator</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_teslatorony_m1>
+			<dt_teslatorony_m2>
+				<Name>
+					<CN>Enlarged Capacitors</CN>
+				</Name>
+				<Desc>
+					<CN>Decreases trap reset time by %cooldowndecrease_ seconds （0.1 seconds/level）</CN>
+				</Desc>
+			</dt_teslatorony_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>Deal %d Lightning damage</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</Villamveto>
+		<Dt_Tower_01_Frostray>
+			<name>
+				<CN>霜寒之柱</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 冰霜</CN>
+			</damagetypes>
+			<desc>
+				<CN>向单个目标发束一道能量射线，  造成持续造成伤害并减速20%。</CN>
+			</desc>
+			<effect0>
+				<CN>每秒造成 %trapdamage_ 冰霜伤害。</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>刺骨</CN>
+				</Name>
+				<Desc>
+					<CN>提升基础伤害 +%trapdamagebonus_ （每级提升30%）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>减速光线</CN>
+				</Name>
+				<Desc>
+					<CN>对目标造成的减速效果 +%slowincrease_ （每级提升10%）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>急冻光线</CN>
+				</Name>
+				<Desc>
+					<CN>使目标冻结 %freezeduration_ 秒 （每级增加1秒）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_frostraytrap_m1>
+				<Name>
+					<CN>高级冰冻符文</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_frostraytrap_m1>
+			<dt_frostraytrap_m2>
+				<Name>
+					<CN>凝结水晶</CN>
+				</Name>
+				<Desc>
+					<CN>增加攻击距离 %attackrangebonus_  （每级提升0.3码）</CN>
+				</Desc>
+			</dt_frostraytrap_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>造成 %d 冰霜伤害</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</Dt_Tower_01_Frostray>
+		<Dt_Tower_03_Tuzlabda>
+			<name>
+				<CN>凤凰之柱</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 火焰</CN>
+			</damagetypes>
+			<desc>
+				<CN>Launches a fireball at enemies that deals fire damage within 4 meters of the impact point. The blast also knocks enemies down if the damage exceeds 25% of their maximum health.</CN>
+			</desc>
+			<effect0>
+				<CN>%trapdamage_ Fire damage</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>装填时间</CN>
+				</Name>
+				<Desc>
+					<CN>Trap reset time is decreased by %cooldowndecrease_ （1 second/level) seconds</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>伤害</CN>
+				</Name>
+				<Desc>
+					<CN>Increases base damage by %trapdamagebonus_ （30%/level）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>Ignite</CN>
+				</Name>
+				<Desc>
+					<CN>Enemies are ignited taking %firedotdamage_ （10%/level) of the original damage for 6 seconds</CN>
+				</Desc>
+			</Powerup2>
+			<dt_uteg_m1>
+				<Name>
+					<CN>Orichalcum Frame</CN>
+				</Name>
+				<Desc>
+					<CN>Decreases trap build cost by %buildcostdecrease_ （1/level）</CN>
+				</Desc>
+			</dt_uteg_m1>
+			<dt_uteg_m2>
+				<Name>
+					<CN>Greater Fire Rune</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_uteg_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>造成 %d 火焰伤害</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</Dt_Tower_03_Tuzlabda>
+		<Dt_Tower_08_Thunder>
+			<name>
+				<CN>天雷之柱</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 闪电</CN>
+			</damagetypes>
+			<desc>
+				<CN>Strikes an enemy with a thunderbolt that deals Lightning damage to all enemies within 3 meters of the original target （and the original target itself). The thunderbolt arrives with a 2 second delay after the trap activates.</CN>
+			</desc>
+			<effect0>
+				<CN>%trapdamage_ Lightning damage</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>Delay Decrease</CN>
+				</Name>
+				<Desc>
+					<CN>Thunderbolt delay is reduced by %spelldelaydecrease_ seconds （0.5 seconds/level）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>伤害</CN>
+				</Name>
+				<Desc>
+					<CN>Increases base damage by %trapdamagebonus_ （30%/level）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>Blast Radius</CN>
+				</Name>
+				<Desc>
+					<CN>Increases the area of effect by %blastrangebonus_ meters （0.5 meters/level）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_thundertower_m1>
+				<Name>
+					<CN>Thunder Sigil</CN>
+				</Name>
+				<Desc>
+					<CN>伤害提升+%damagebonus_ （每级提升10%）</CN>
+				</Desc>
+			</dt_thundertower_m1>
+			<dt_thundertower_m2>
+				<Name>
+					<CN>Haste Rune</CN>
+				</Name>
+				<Desc>
+					<CN>Decreases trap reset time by %cooldowndecrease_ seconds （0.1 seconds/level）</CN>
+				</Desc>
+			</dt_thundertower_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>Fully upgrade %d magical towers in one mission （only succesful missions count）</CN>
+				</Desc>
+			</unlock_requirement>
+		</Dt_Tower_08_Thunder>
+		<KetrecMonster>
+			<name>
+				<CN>困兽之牢</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 物理</CN>
+			</damagetypes>
+			<desc>
+				<CN>当有敌人靠近时放出1只困兽。</CN>
+			</desc>
+			<effect0>
+				<CN>伤害：%damage_(chanceindex=1）</CN>
+			</effect0>
+			<effect1>
+				<CN>生命：%maxhp_(chanceindex=1）</CN>
+			</effect1>
+			<Powerup0>
+				<Name>
+					<CN>体力训练</CN>
+				</Name>
+				<Desc>
+					<CN>困兽拥有 %creaturehealthincrease_ 最大生命值 （每级提升50%）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>战斗训练</CN>
+				</Name>
+				<Desc>
+					<CN>困兽造成 %creaturedamageincrease_ 伤害 （每级提升50%）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>扩充牢笼</CN>
+				</Name>
+				<Desc>
+					<CN>牢笼可以释放 %creaturecount_ 只困兽 （每级增加1只）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_monstercage_m1>
+				<Name>
+					<CN>方案改进</CN>
+				</Name>
+				<Desc>
+					<CN>减少下一只困兽 %cooldowndecrease_ 秒的准备时间 （每级减少1秒）</CN>
+				</Desc>
+			</dt_monstercage_m1>
+			<dt_monstercage_m2>
+				<Name>
+					<CN>基因改良</CN>
+				</Name>
+				<Desc>
+					<CN>有 %megamonsterchance_ 几率释放更强的生物。 （每级提升1%）</CN>
+				</Desc>
+				<effect0>
+					<CN>生命：%maxhp_(chanceindex=0）</CN>
+				</effect0>
+				<effect1>
+					<CN>伤害：%damage_(chanceindex=0）</CN>
+				</effect1>
+			</dt_monstercage_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>击杀第二章领主：Slaantz, the Great Boglord</CN>
+				</Desc>
+			</unlock_requirement>
+		</KetrecMonster>
+		<summon_breeder>
+			<name>
+				<CN>自爆群巢</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 毒素</CN>
+			</damagetypes>
+			<desc>
+				<CN>放出 5 只自爆怪物，冲向它们附近最近的目标造成攻击。 自爆怪物死亡时会造成一次酸性爆炸，对 2 码内的敌人造成毒素伤害。</CN>
+			</desc>
+			<effect0>
+				<CN>造成 %blastdamage_ 毒药伤害</CN>
+			</effect0>
+			<effect1>
+				<CN>重生时间：%cooldown_ 秒</CN>
+			</effect1>
+			<Powerup0>
+				<Name>
+					<CN>爆炸半径</CN>
+				</Name>
+				<Desc>
+					<CN>爆炸范围增加 %blastradius_ （每级增加0.5码）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>群巢规模</CN>
+				</Name>
+				<Desc>
+					<CN>增加虫子数量 %creaturecount_ （每级增加1）</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>Instant Replacement</CN>
+				</Name>
+				<Desc>
+					<CN>Whenever a spawn is destroyed there is a %replacementchance_ （8%/level) chance it will be instantly replaced by a new one</CN>
+				</Desc>
+			</Powerup2>
+			<dt_summonsuicidespawn_m1>
+				<Name>
+					<CN>Specimen Selection</CN>
+				</Name>
+				<Desc>
+					<CN>Icnreases suicide blast damage by %damagebonus_伤害 （每级提升10%）</CN>
+				</Desc>
+			</dt_summonsuicidespawn_m1>
+			<dt_summonsuicidespawn_m2>
+				<Name>
+					<CN>Improved Release Mechanism</CN>
+				</Name>
+				<Desc>
+					<CN>Decreases dead creature replacement time by %cooldowndecrease_ seconds （0.3 seconds/level）</CN>
+				</Desc>
+			</dt_summonsuicidespawn_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>造成 %d 毒素伤害</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</summon_breeder>
+		<DT_Ijaszidezo>
+			<name>
+				<CN>猎人营地</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 物理 / 毒素</CN>
+			</damagetypes>
+			<desc>
+				<CN>召唤弓箭手协助战斗，每个营地最多\n能容纳 3 名援军。</CN>
+			</desc>
+			<effect0>
+				<CN>每名弓箭手造成 %archerdamage_ 物理伤害。</CN>
+			</effect0>
+			<effect1>
+				<CN>生命：%maxhp_</CN>
+			</effect1>
+			<Powerup0>
+				<Name>
+					<CN>狂风怒射</CN>
+				</Name>
+				<Desc>
+					<CN>箭矢可以对目标周围 %areadamage_ 码范围\n造成溅射伤害 （每级增加0.5码）</CN>
+				</Desc>
+			</Powerup0>
+			<Powerup1>
+				<Name>
+					<CN>闪避</CN>
+				</Name>
+				<Desc>
+					<CN>Archers have a %dodgechance_ （15%/level) chance of dodging none-area of effect attacks and take no damage</CN>
+				</Desc>
+			</Powerup1>
+			<Powerup2>
+				<Name>
+					<CN>升级阵地</CN>
+				</Name>
+				<Desc>
+					<CN>兵营可以容纳 %creaturecount_ 名弓箭手（每级增加1）</CN>
+				</Desc>
+			</Powerup2>
+			<dt_summonarcher_m1>
+				<Name>
+					<CN>钢铁之箭</CN>
+				</Name>
+				<Desc>
+					<CN>提升每名弓箭手 %damagebonus_伤害（每级提升10%）</CN>
+				</Desc>
+			</dt_summonarcher_m1>
+			<dt_summonarcher_m2>
+				<Name>
+					<CN>训练有素</CN>
+				</Name>
+				<Desc>
+					<CN>减少新的弓箭手就位时间 %cooldowndecrease_ 秒（每级减少0.5秒）</CN>
+				</Desc>
+			</dt_summonarcher_m2>
+			<unlock_requirement>
+				<Desc>
+					<CN>连续击杀 %d 暴击</CN>
+				</Desc>
+				<progress>
+					<CN>%d/%d</CN>
+				</progress>
+			</unlock_requirement>
+		</DT_Ijaszidezo>
+		<summon_golem>
+			<name>
+				<CN>Imprisoned Golem</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 物理 / 火焰</CN>
+			</damagetypes>
+			<desc>
+				<CN>Releases an imprisoned golem that will fight on your side until it is destroyed. The golem's attacks do area damage periodically and these attacks also knock foes off their feet. Note that the golem does not respawn and cannot be sold!</CN>
+			</desc>
+			<effect0>
+				<CN>生命：%maxhp_</CN>
+			</effect0>
+			<effect1>
+				<CN>伤害：%damage_</CN>
+			</effect1>
+		</summon_golem>
+		<biggun>
+			<name>
+				<CN>Artillery Sentry</CN>
+			</name>
+			<damagetypes>
+				<CN>Physical/Fire Damage</CN>
+			</damagetypes>
+			<desc>
+				<CN>A heavy duty cannon sentry that has extreme range and lobs very slow projectiles in a high arc.</CN>
+			</desc>
+			<effect0>
+				<CN>%trapdamage_ Physical/Fire damage.</CN>
+			</effect0>
+		</biggun>
+		<Service_Station>
+			<name>
+				<CN>Service Station</CN>
+			</name>
+			<damagetypes>
+				<CN>没有攻击能力</CN>
+			</damagetypes>
+			<desc>
+				<CN>Significantly reduces trap build cost within 12 meters of its location.</CN>
+			</desc>
+			<effect0>
+				<CN>%trapcost_ build cost for traps around this structure</CN>
+			</effect0>
+		</Service_Station>
+		<Enhancer_Beacon>
+			<name>
+				<CN>Enhancer Beacon</CN>
+			</name>
+			<damagetypes>
+				<CN>没有攻击能力</CN>
+			</damagetypes>
+			<desc>
+				<CN>Significantly boosts the damage output of traps within 15 meters of its location.</CN>
+			</desc>
+			<effect0>
+				<CN>%trapdamagebonus_ bonus damage to traps around this structure</CN>
+			</effect0>
+		</Enhancer_Beacon>
+		<Revitaliser_Beacon>
+			<name>
+				<CN>Pillar of Rejuvenation</CN>
+			</name>
+			<damagetypes>
+				<CN>没有攻击能力</CN>
+			</damagetypes>
+			<desc>
+				<CN>Continuously regenerates players and allied creatures within 12 meters of its location.</CN>
+			</desc>
+			<effect0>
+				<CN>%regenerationpercent_ of maximum health regeneration per second around this structure</CN>
+			</effect0>
+		</Revitaliser_Beacon>
+		<Empower_Beacon>
+			<name>
+				<CN>Empower Beacon</CN>
+			</name>
+			<damagetypes>
+				<CN>没有攻击能力</CN>
+			</damagetypes>
+			<desc>
+				<CN>Significantly boosts the damage output of players and allied creatures within 12 meters of its location.</CN>
+			</desc>
+			<effect0>
+				<CN>%playerdamagebonus_ bonus damage to players and allied creatures around this structure</CN>
+			</effect0>
+		</Empower_Beacon>
+		<Dt_Tower_06_Izzito>
+			<name>
+				<CN>Heat Ray Sentry</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 火焰</CN>
+			</damagetypes>
+			<desc>
+				<CN>Shoots a beam of energy at a single target continuously damaging it. The damage starts low but increases steadily the longer the beam stays on the same target.</CN>
+			</desc>
+			<effect0>
+				<CN>%trapdamage_ Fire damage per second starting damage</CN>
+			</effect0>
+			<effect1>
+				<CN>%trapdamage_ damage increase per second</CN>
+			</effect1>
+		</Dt_Tower_06_Izzito>
+		<Dt_Daralo_Torony>
+			<name>
+				<CN>Hook Grinder</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 特殊伤害</CN>
+			</damagetypes>
+			<desc>
+				<CN>Launches a hooked chain at the nearest enemy. On being hit the creature is pulled into the grinder and is killed immediately. Giant-sized and special creatures cannot be crushed - in this case the chain deals damage.</CN>
+			</desc>
+			<effect0>
+				<CN>Pulls creatures into the grinder that shreds them into tiny pieces.</CN>
+			</effect0>
+		</Dt_Daralo_Torony>
+		<hidraulikuspres>
+			<name>
+				<CN>南瓜陷阱</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 物理</CN>
+			</damagetypes>
+			<desc>
+				<CN>Squashes enemies who step between its spiked metal plates. Knocks down enemies who survive the hit.</CN>
+			</desc>
+			<effect0>
+				<CN>%trapdamage_ 物理伤害</CN>
+			</effect0>
+		</hidraulikuspres>
+		<csodacsapda>
+			<name>
+				<CN>Salvage Recycler</CN>
+			</name>
+			<damagetypes>
+				<CN>没有攻击能力</CN>
+			</damagetypes>
+			<desc>
+				<CN>Periodically grants essence during attack waves （but not between them).</CN>
+			</desc>
+			<effect0>
+				<CN>Produces %essenceyieldpersec_ essence every 3 seconds</CN>
+			</effect0>
+		</csodacsapda>
+		<Dt_Tower_13_csirke>
+			<name>
+				<CN>Metamorpher Sentry</CN>
+			</name>
+			<damagetypes>
+				<CN>Special damage</CN>
+			</damagetypes>
+			<desc>
+				<CN>Attacks with a metamorpher ray which can turn enemies into a chicken for a short period of time. Creatures lose 50% of their HP and all special abilities while they are transformed.</CN>
+			</desc>
+			<effect0>
+				<CN>Deals %trapdamage_ damage, transforms creatures with %turnchance_ chance for 10 seconds, HP reduced to 50% for the duration</CN>
+			</effect0>
+		</Dt_Tower_13_csirke>
+		<Wind_of_Death_torony>
+			<name>
+				<CN>死亡之风</CN>
+			</name>
+			<damagetypes>
+				<CN>[元素] 毒素</CN>
+			</damagetypes>
+			<desc>
+				<CN>When activated, it unleashes a poisonous wind of pestilence, dealing heavy damage to all enemies on the map. Each strike consumes Essence.</CN>
+			</desc>
+			<effect0>
+				<CN>Deals %trapdamage_ poison damage to all enemies</CN>
+			</effect0>
+			<Powerup0>
+				<Name>
+					<CN>死亡之风</CN>
+				</Name>
+				<Desc>
+					<CN>Deals %trapdamage_ poison damage to all enemies</CN>
+				</Desc>
+			</Powerup0>
+		</Wind_of_Death_torony>
+		<upgrade>
+			<maxlevereached>
+				<CN>最高等级</CN>
+			</maxlevereached>
+		</upgrade>
+	</Traps>
+</Root>

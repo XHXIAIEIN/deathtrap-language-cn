@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<news>
+		<News_Devblog>
+			<CN>开发日志：关于开发团队和游戏宣传的有效信息。</CN>
+		</News_Devblog>
+		<News_Steam_Community>
+			<CN>分享你的游戏体验，寻找攻略和讨论玩法策略，在社区找到和你一样喜欢这个游戏的朋友！</CN>
+		</News_Steam_Community>
+		<News_DT>
+			<CN>塔防+RPG类型的结合，这创意太棒了！</CN>
+		</News_DT>
+		<News_VH1>
+			<CN>哥特式暗黑风的ARPG游戏：扮演一名怪物猎人与他迷人的同伴，你会好奇，到底谁才是真正的恶魔。</CN>
+		</News_VH1>
+		<News_VH2>
+			<CN>《范海辛奇妙冒险》第三部已经推出！依然是个很不错的游戏！虽然没有中文，但社区有中文补丁啊！因为中文问题给差评，真的非常蠢！！-XHXIAIEIN 2021.01.01</CN>
+		</News_VH2>
+	</news>
+</Root>

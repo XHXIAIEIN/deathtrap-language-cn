@@ -1,0 +1,3365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<LanguageName>
+		<CN>简体中文</CN>
+	</LanguageName>
+	<Languages>CN</Languages>
+	<Skills>
+		<Obstacles>
+			<wallofice>
+				<name>
+					<CN>冰墙</CN>
+				</name>
+			<Desc>
+				<CN>Creates a blocking wall of ice. Can be destroyed be normal attacks.</CN>
+			</Desc>
+			</wallofice>
+		</Obstacles>
+		<Common>
+			<Active>
+				<CN>主动技能</CN>
+			</Active>
+			<Passive>
+				<CN>被动技能</CN>
+			</Passive>
+			<Melee>
+				<CN>近战攻击</CN>
+			</Melee>
+			<Ranged>
+				<CN>远程攻击</CN>
+			</Ranged>
+			<Spell>
+				<CN>法术</CN>
+			</Spell>
+			<ManaCostPerSecond>
+				<CN>每秒法术消耗</CN>
+			</ManaCostPerSecond>
+			<ManaCost>
+				<CN>消耗法术</CN>
+			</ManaCost>
+			<RageCostPerSecond>
+				<CN>每秒怒气消耗</CN>
+			</RageCostPerSecond>
+			<RageCost>
+				<CN>消耗怒气</CN>
+			</RageCost>
+			<FocusCostPerSecond>
+				<CN>每秒专注消耗</CN>
+			</FocusCostPerSecond>
+			<FocusCost>
+				<CN>消耗专注</CN>
+			</FocusCost>
+			<CastTime>
+				<CN>施法时间</CN>
+			</CastTime>
+			<NextLevel>
+				<CN>下一等级变化</CN>
+			</NextLevel>
+			<Duration>
+				<CN>持续时间</CN>
+			</Duration>
+			<DurationLeft>
+				<CN>剩余时间</CN>
+			</DurationLeft>
+			<Cooldown>
+				<CN>冷却时间</CN>
+			</Cooldown>
+			<DurationMeasure>
+				<CN>秒</CN>
+			</DurationMeasure>
+			<LevelRequirement>
+				<CN>等级要求</CN>
+			</LevelRequirement>
+			<SkillLevelRequirement>
+				<CN>技能等级要求</CN>
+			</SkillLevelRequirement>
+			<LearnCost>
+				<CN>技能点消耗</CN>
+			</LearnCost>
+			<GoldCost>
+				<CN>金币消耗</CN>
+			</GoldCost>
+		</Common>		
+		
+		<shrine_bless>
+			<Name>
+				<CN>信仰神社</CN>
+			</Name>
+			<Desc>
+				<CN>你的战斗技能造成额外 %damagebonus_ 伤害，持续 120 秒。</CN>
+			</Desc>
+		</shrine_bless>
+		<dt_Icebolt>
+			<Name>
+				<CN>冰箭</CN>
+			</Name>
+			<Desc>
+				<CN>向目标发射一块寒冰碎片，造成冰霜伤害并对普通生物冻结 1 秒， 对部落生物冻结 2 秒， 对巨人族和重甲族无法被冻结，而是在 2 秒里减速 15%。 冰箭每次击中目标可以回复 5 法力值。</CN>
+			</Desc>
+			<effect0>
+				<CN>造成 %skilldamage_ + %weapondamagepercent_ 伤害</CN>
+			</effect0>
+		</dt_Icebolt>
+		<dt_Icebolt_p1>
+			<Name>
+				<CN>冰锥箭</CN>
+			</Name>
+			<Desc>
+				<CN>冰箭每次击中目标可以回复法力值。</CN>
+			</Desc>
+			<effect0>
+				<CN>冰箭命中目标回复 %manarecharge_ 法力值</CN>
+			</effect0>
+			<effect1>
+				<CN>冰箭具有 %armorpiercing_ 护甲穿透。</CN>
+			</effect1>			
+		</dt_Icebolt_p1>
+		<dt_Icebolt_p2>
+			<Name>
+				<CN>寒冰箭</CN>
+			</Name>
+			<Desc>
+				<CN>提升冰箭减速效果</CN>
+			</Desc>
+			<effect0>
+				<CN>提升冰箭造成的减速效果 +%slowingincrease_ </CN>
+			</effect0>
+			<effect1>
+				<CN>提升冰箭造成的伤害 +%damagebonus_</CN>
+			</effect1>			
+		</dt_Icebolt_p2>		
+		<dt_Lightning>
+			<Name>
+				<CN>闪电术</CN>
+			</Name>
+			<Desc>
+				<CN>A 1 meter wide, 10 meter long bolt of lightning shoots forward, damaging all targets in its path and stunning them for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+			<effect1>
+				<CN>Targets are stunned for %shocktime_ seconds</CN>
+			</effect1>			
+		</dt_Lightning>
+		<dt_Lightning_p1>
+			<Name>
+				<CN>Thunderbolt</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the mana cost of the Lightning spell and inceases the stun time.</CN>
+			</Desc>
+			<effect0>
+				<CN>Lightning mana cost is decreased by %manacostdecrease_</CN>
+			</effect0>
+			<effect1>
+				<CN>Lightning stun lasts %shocktimeincrease_ more seconds</CN>
+			</effect1>			
+		</dt_Lightning_p1>
+		<dt_Lightning_p2>
+			<Name>
+				<CN>Surge of Power</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the length of lightning bolts and grants them a chance to kill enemies insantly.</CN>
+			</Desc>
+			<effect0>
+				<CN>The Lightning bolt is %lengthincrease_ meters longer</CN>
+			</effect0>
+			<effect1>
+				<CN>Lightning hits have a %instantkillchance_ chance of killing enemies instantly</CN>
+			</effect1>			
+		</dt_Lightning_p2>		
+		<dt_SpoolOfFire>
+			<Name>
+				<CN>Spool Of Fire</CN>
+			</Name>
+			<Desc>
+				<CN>Creates a 3 meter wide fiery column at the designated location which seeks out the nearest enemy. While moving, the column looks for the nearest enemy periodically. The touch of the column deals continuous fire damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage per second (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+			<effect1>
+				<CN>Mana upkeep: %upkeep_ of maximum Mana</CN>
+			</effect1>			
+		</dt_SpoolOfFire>
+		<dt_SpoolOfFire_p1>
+			<Name>
+				<CN>Focused Casting</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the cooldown and Mana upkeep of the Spool of Fire spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Spool Of Fire cooldown is decreased by %cooldowndecrease_ seconds</CN>
+			</effect0>
+			<effect1>
+				<CN>Spool Of Fire Upkeep is decreased by %upkeepdecrease_ of maximum Mana</CN>
+			</effect1>						
+		</dt_SpoolOfFire_p1>
+		<dt_SpoolOfFire_p2>
+			<Name>
+				<CN>Dynamic Stability</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Spool of Fire spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Spool Of Fire duration is increased by %durationincrease_ seconds</CN>
+			</effect0>
+			<effect1>
+				<CN>Spool Of Fire movement speed is increased by %speedincrease_</CN>
+			</effect1>						
+		</dt_SpoolOfFire_p2>		
+		<dt_DesintegrateRay>
+			<Name>
+				<CN>瓦解射线</CN>
+			</Name>
+			<Desc>
+				<CN>按住鼠标时，引导一道魔法能量射线来跟随鼠标指针方向移动，直到它碰撞到第一个障碍物时停止。(最大距离20码) 射线对撞击点 2.5码 范围内的敌人连续造成火焰/闪电伤害。</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ (+%weapondamagepercent_) 每秒伤害 </CN>
+			</effect0>			
+		</dt_DesintegrateRay>
+		<dt_DesintegrateRay_p1>
+			<Name>
+				<CN>泯灭谐振</CN>
+			</Name>
+			<Desc>
+				<CN>While you keep the Disintegrating Ray spell active, you gain a cumulative bonus to Critical Damage. This bonus stacks up to 10 times and is removed once you end the spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Increases Critical Damage by %critchanceincrease_ per second while Disintegrating Ray is kept active</CN>
+			</effect0>			
+		</dt_DesintegrateRay_p1>
+		<dt_DesintegrateRay_p2>
+			<Name>
+				<CN>Disintegration Blast</CN>
+			</Name>
+			<Desc>
+				<CN>When the Disintegrating Ray spell kills an enemy, an explosion occurs that deals damage within 4 meters. The damage is proportional to the maximum health of the killed enemy.</CN>
+			</Desc>
+			<effect0>
+				<CN>Fire/Lightning Damage equal to %blastdamagehealthpercent_% of maximum health of enemy killed by Disintegrating Ray</CN>
+			</effect0>			
+		</dt_DesintegrateRay_p2>		
+		<dt_Teleport>
+			<Name>
+				<CN>传送</CN>
+			</Name>
+			<Desc>
+				<CN>你可以立即传送到指定位置(最大距离：20 码).</CN>
+			</Desc>
+			<effect0>
+				<CN>传送到鼠标位置</CN>
+			</effect0>			
+		</dt_Teleport>
+		<dt_Teleport_p1>
+			<Name>
+				<CN>Ink Shock</CN>
+			</Name>
+			<Desc>
+				<CN>When you use the Teleport spell, you deal lightning damage to enemies within 3 meters of your position as you teleport away. You also have a chance to stun them for 2 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>%p1skilldamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+			<effect1>
+				<CN>%shockchance_ chance to stun enemies</CN>
+			</effect1>			
+		</dt_Teleport_p1>
+		<dt_Teleport_p2>
+			<Name>
+				<CN>Ink Boon</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the cooldown of the Teleport spell and also grants a healing effect to it. You heal each time you complete a teleport jump.</CN>
+			</Desc>
+			<effect0>
+				<CN>Teleport cooldown is decreased by %cooldowndecrease_ seconds</CN>
+			</effect0>
+			<effect1>
+				<CN>Heal %healing_ of maximum health upon completing a Teleport jump.</CN>
+			</effect1>			
+		</dt_Teleport_p2>		
+		<dt_ManaPool>
+			<Name>
+				<CN>Meditation</CN>
+			</Name>
+			<Desc>
+				<CN>Increases your maximum Mana.</CN>
+			</Desc>
+			<effect0>
+				<CN>Maximum Mana is icreased by %manabonus_</CN>
+			</effect0>			
+		</dt_ManaPool>
+		<dt_ManaRegen>
+			<Name>
+				<CN>Arcane Flux</CN>
+			</Name>
+			<Desc>
+				<CN>Increases your mana regeneration.</CN>
+			</Desc>
+			<effect0>
+				<CN>%manaregenerationbonus_ bonus Mana is recharged per second</CN>
+			</effect0>			
+		</dt_ManaRegen>
+		<dt_Magezerker>
+			<Name>
+				<CN>Arcane Retaliation</CN>
+			</Name>
+			<Desc>
+				<CN>Whenever you are hit, you gain a portion of your maximum Mana as well as a damage bonus for 5 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>%manabonusperhit_ maximum Mana per hit suffered</CN>
+			</effect0>
+			<effect1>
+				<CN>%damagebonusperhit_ bonus damage per hit suffered</CN>
+			</effect1>			
+		</dt_Magezerker>
+		<dt_ChaosArmour>
+			<Name>
+				<CN>Chaos Armour</CN>
+			</Name>
+			<Desc>
+				<CN>Whenever you are hit there is a chance that a bubble of invulnerability will spontaneously form around you, protecting you for 2 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>%armourchance_ chance of gaining chaos armor per hit</CN>
+			</effect0>			
+		</dt_ChaosArmour>
+		<dt_SpectralSerpent>
+			<Name>
+				<CN>Spectral Serpent</CN>
+			</Name>
+			<Desc>
+				<CN>Summons a ghostly serpent at the designated location that automatically attacks enemies for the duration of the spell. Its attack is a venomous spit that does poison damage to a single target. The serpent itself cannot be attacked and does not block movement.</CN>
+			</Desc>
+			<effect0>
+				<CN>The serpent deals %serpentdamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+			<effect1>
+				<CN>Mana upkeep: %upkeep_ of maximum Mana per active serpent</CN>
+			</effect1>			
+		</dt_SpectralSerpent>
+		<dt_SpectralSerpent_p1>
+			<Name>
+				<CN>Spectral Venom</CN>
+			</Name>
+			<Desc>
+				<CN>The spectral serpent attacks enemies with poison. They take an additional damage for 5 seconds after each hit.</CN>
+			</Desc>
+			<effect0>
+				<CN>The serpent poisons enemies dealing %dotweapondamagepercent_ of the original damage per second</CN>
+			</effect0>						
+		</dt_SpectralSerpent_p1>
+		<dt_SpectralSerpent_p2>
+			<Name>
+				<CN>Disorienting Venom</CN>
+			</Name>
+			<Desc>
+				<CN>The spectral serpent attacks disorientate enemies who are slowed and afflicted by vulnerability for 5 seconds after each hit.</CN>
+			</Desc>
+			<effect0>
+				<CN>%speeddecrease_ Enemy movement speed</CN>
+			</effect0>
+			<effect1>
+				<CN>%vulnerability_ Vulnerability</CN>
+			</effect1>						
+		</dt_SpectralSerpent_p2>		
+		<dt_ArcaneMending>
+			<Name>
+				<CN>Arcane Mending</CN>
+			</Name>
+			<Desc>
+				<CN>Whenever you cast a spell, every 10 Mana you spend heals you for a small amount.</CN>
+			</Desc>
+			<effect0>
+				<CN>Heals %healthincrease_ of maximum health per 10 mana spent</CN>
+			</effect0>			
+		</dt_ArcaneMending>
+		<dt_MentalDiscipline>
+			<Name>
+				<CN>Mental Discipline</CN>
+			</Name>
+			<Desc>
+				<CN>All skill effects that require Upkeep last longer.</CN>
+			</Desc>
+			<effect0>
+				<CN>Upkeep skills last %upkeepspelldurationbonus_ longer</CN>
+			</effect0>			
+		</dt_MentalDiscipline>
+		<dt_mage_regen_range>
+			<Name>
+				<CN>Disrupted Concentration</CN>
+			</Name>
+			<Desc>
+				<CN>The enemies are close to you and your Mana Regeneration is decreased by 50%!</CN>
+			</Desc>			
+		</dt_mage_regen_range>
+		<dt_mage_regen_moving>
+			<Name>
+				<CN>Divided Focus</CN>
+			</Name>
+			<Desc>
+				<CN>Any action besides standing still lowers your focus. Mana Regeneration is decreased by 40%!</CN>
+			</Desc>			
+		</dt_mage_regen_moving>
+		<dt_WorldSlow>
+			<Name>
+				<CN>Slow Surge</CN>
+			</Name>
+			<Desc>
+				<CN>All enemies already present in the level are slowed for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>%slowingeffect_ Movement speed for all enemies</CN>
+			</effect0>			
+		</dt_WorldSlow>
+		<dt_WorldSlow_p1>
+			<Name>
+				<CN>Greater Slow Surge</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the slow effect of the Slow Surge spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>%slowbonus_ additional Movement speed for all enemies</CN>
+			</effect0>			
+		</dt_WorldSlow_p1>
+		<dt_WorldSlow_p2>
+			<Name>
+				<CN>Helplessness</CN>
+			</Name>
+			<Desc>
+				<CN>Enemies affected by the Slow Surge spell are also afflicted with vulnerability.</CN>
+			</Desc>
+			<effect0>
+				<CN>%vulnerabilitybonus_ Vulnerability for all enemies</CN>
+			</effect0>			
+		</dt_WorldSlow_p2>		
+		<dt_IceDamage>
+			<Name>
+				<CN>Icy Wind</CN>
+			</Name>
+			<Desc>
+				<CN>All enemies take ice damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamage_ of DAMAGE)</CN>
+			</effect0>			
+		</dt_IceDamage>
+		<dt_IceDamage_p1>
+			<Name>
+				<CN>Freezing Wind</CN>
+			</Name>
+			<Desc>
+				<CN>Enemies affected by the Icy Wind spell have a chance of being frozen for 3 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>%freezechance_ chance of freezing an enemy</CN>
+			</effect0>			
+		</dt_IceDamage_p1>
+		<dt_IceDamage_p2>
+			<Name>
+				<CN>Frost Mastery</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the cooldown of the Icy Wind spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Icy Wind cooldown is decreased by %cooldowndecrease_ seconds</CN>
+			</effect0>			
+		</dt_IceDamage_p2>		
+		<dt_IceVulnerability>
+			<Name>
+				<CN>Shivering Curse</CN>
+			</Name>
+			<Desc>
+				<CN>All enemies already present on the map are afflicted with vulnerability against ice damage for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>%icevulnerability_ Ice Vulnerability for all enemies</CN>
+			</effect0>			
+		</dt_IceVulnerability>
+		<dt_IceVulnerability_p1>
+			<Name>
+				<CN>Heat Curse</CN>
+			</Name>
+			<Desc>
+				<CN>Enemies affected by the Shivering Curse spell are also afflicted with fire vulnerability to a smaller degree (This is a percentage of the Shivering Curse vulnerability). Also increases the duration of the Shivering Curse spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>%firevulnerability_% Fire Vulnerability for all enemies (%p1shiveringcursepercentage_ of Shivering Curse vulnerability)</CN>
+			</effect0>
+			<effect1>
+				<CN>Bonus %durationfire_ Shivering Curse duration</CN>
+			</effect1>						
+		</dt_IceVulnerability_p1>
+		<dt_IceVulnerability_p2>
+			<Name>
+				<CN>Storm Curse</CN>
+			</Name>
+			<Desc>
+				<CN>Enemies affected by the Shivering Curse spell are also afflicted with lightning vulnerability to a smaller degree(This is a percentage of the Shivering Curse vulnerability). Also increases the duration of the Shivering Curse spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>%lightningvulnerability_% Lightning Vulnerability for all enemies (%p2shiveringcursepercentage_ of Shivering Curse vulnerability)</CN>
+			</effect0>
+			<effect1>
+				<CN>Bonus %durationlightning_ Shivering Curse duration</CN>
+			</effect1>			
+		</dt_IceVulnerability_p2>				
+		<dt_CrowdControlDuration>
+			<Name>
+				<CN>Mark of Impediment</CN>
+			</Name>
+			<Desc>
+				<CN>All crowd control effects (slow, stun, etc.) last longer.</CN>
+			</Desc>
+			<effect0>
+				<CN>Crowd control effects last %ccdurationbonus_ longer</CN>
+			</effect0>			
+		</dt_CrowdControlDuration>				
+		<dt_startingessence_passive>
+			<Name>
+				<CN>Mark of the Keeper</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the starting essence for all missions.</CN>
+			</Desc>
+			<effect0>
+				<CN>Provides %startingessencebonus_ additional essence at mission start</CN>
+			</effect0>			
+		</dt_startingessence_passive>
+		<dt_FireVulnerability_passive>
+			<Name>
+				<CN>Mark of the Flame</CN>
+			</Name>
+			<Desc>
+				<CN>All enemies are afflicted with vulnerability against fire damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>%firevulnerability_ Fire Vulnerability for all enemies</CN>
+			</effect0>			
+		</dt_FireVulnerability_passive>
+		<dt_IceVulnerability_passive>
+			<Name>
+				<CN>Mark of the North</CN>
+			</Name>
+			<Desc>
+				<CN>All enemies are afflicted by vulnerability against ice damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>%icevulnerability_ Ice Vulnerability for all enemies</CN>
+			</effect0>			
+		</dt_IceVulnerability_passive>
+		<dt_LightningVulnerability_passive>
+			<Name>
+				<CN>Mark of the Storm</CN>
+			</Name>
+			<Desc>
+				<CN>All enemies are afflicted with vulnerability against lightning damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>%lightningvulnerability_ Lightning Vulnerability for all enemies</CN>
+			</effect0>			
+		</dt_LightningVulnerability_passive>
+		<dt_PoisonVulnerability_passive>
+			<Name>
+				<CN>Mark of the Serpent</CN>
+			</Name>
+			<Desc>
+				<CN>All enemies are afflicted with vulnerability against poison damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>%poisonvulnerability_ Poison Vulnerability for all enemies</CN>
+			</effect0>			
+		</dt_PoisonVulnerability_passive>
+		<dt_TrapDamageAura>
+			<Name>
+				<CN>Trap Boost Aura</CN>
+			</Name>
+			<Desc>
+				<CN>All traps within 8 meters of you gain a damage bonus for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>Bonus %bonustrapdamage_ damage for traps</CN>
+			</effect0>			
+		</dt_TrapDamageAura>
+		<dt_TrapDamageAura_p1>
+			<Name>
+				<CN>Prolonged Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Trap Boost Aura spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Trap Boost Aura duration is increased by %durationincrease_ seconds</CN>
+			</effect0>			
+		</dt_TrapDamageAura_p1>
+		<dt_TrapDamageAura_p2>
+			<Name>
+				<CN>Extended Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the area of effect of the Trap Boost Aura spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Trap Boost Aura area of effect is increased by %areaincrease_ meters</CN>
+			</effect0>			
+		</dt_TrapDamageAura_p2>		
+		<dt_DamageBoostToken>
+			<Name>
+				<CN>Soul Snare Aura</CN>
+			</Name>
+			<Desc>
+				<CN>While this skill is active, you gain a damage boost each time a trap kills an enemy within 10 meters of you. The boost stacks a maximum of 10 times.</CN>
+			</Desc>
+			<effect0>
+				<CN>Bonus %damagebonusperkill_ damage per enemy killed by traps</CN>
+			</effect0>			
+		</dt_DamageBoostToken>
+		<dt_DamageBoostToken_p1>
+			<Name>
+				<CN>Soul Trap</CN>
+			</Name>
+			<Desc>
+				<CN>The Soul Snare Aura spell provides a boost to Crtitical Chance in addition of its base effect.</CN>
+			</Desc>
+			<effect0>
+				<CN>Bonus %criticalhitbonus_ Critical Chance per enemy killed by traps</CN>
+			</effect0>			
+		</dt_DamageBoostToken_p1>
+		<dt_DamageBoostToken_p2>
+			<Name>
+				<CN>Improved Soul Trap</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Soul Snare Aura spell and allows it to stack more times.</CN>
+			</Desc>
+			<effect0>
+				<CN>Soul Snare Aura duration is increased by %durationbonus_ seconds and the boosts can stack %stackbonus_ more times</CN>
+			</effect0>			
+		</dt_DamageBoostToken_p2>		
+		<dt_TrapEssenceBonus>
+			<Name>
+				<CN>Transmutation Charm</CN>
+			</Name>
+			<Desc>
+				<CN>The designated trap generates much more essence from each kill it performs for the duration of the skill.</CN>
+			</Desc>			
+			<effect0>
+				<CN>Enemies killed by target trap are worth %essencebonus_ more essence</CN>
+			</effect0>			
+		</dt_TrapEssenceBonus>
+		<dt_TrapEssenceBonus_p1>
+			<Name>
+				<CN>Prolonged Charm</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Transmutation Charm spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Transmutation Charm duration is increased by %durationbonus_ seconds</CN>
+			</effect0>			
+		</dt_TrapEssenceBonus_p1>
+		<dt_TrapEssenceBonus_p2>
+			<Name>
+				<CN>Transmutation Boost</CN>
+			</Name>
+			<Desc>
+				<CN>Traps affected by the Transmutation Charm spell also gain a bonus to their damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>Transmutation Charm bestows bonus %damagebonus_ damage to target trap</CN>
+			</effect0>			
+		</dt_TrapEssenceBonus_p2>
+		<dt_MagicTrapCost>
+			<Name>
+				<CN>Arcane Crafting</CN>
+			</Name>
+			<Desc>
+				<CN>Construction of mystic type traps is cheaper.</CN>
+			</Desc>
+			<effect0>
+				<CN>Construction of mystic traps cost %trapcostdecrease_ less</CN>
+			</effect0>			
+		</dt_MagicTrapCost>
+		<dt_MagicTrapUpgradeCost>
+			<Name>
+				<CN>Rune Scribing</CN>
+			</Name>
+			<Desc>
+				<CN>Upgrading mystic type traps is cheaper.</CN>
+			</Desc>
+			<effect0>
+				<CN>Upgrade of mystic traps costs %trapupgradecostdecrease_ less</CN>
+			</effect0>			
+		</dt_MagicTrapUpgradeCost>
+		<dt_TrapFireDamage>
+			<Name>
+				<CN>Pyromancy</CN>
+			</Name>
+			<Desc>
+				<CN>Traps deal increased fire damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>Traps cause %firedamagebonus_ more Fire damage</CN>
+			</effect0>			
+		</dt_TrapFireDamage>
+		<dt_TrapIceDamage>
+			<Name>
+				<CN>Arctic Magic</CN>
+			</Name>
+			<Desc>
+				<CN>Traps deal increased ice damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>Traps cause %icedamagebonus_ more Ice damage</CN>
+			</effect0>			
+		</dt_TrapIceDamage>
+		<dt_TrapLightningDamage>
+			<Name>
+				<CN>Fulguromancy</CN>
+			</Name>
+			<Desc>
+				<CN>Traps deal increased lightning damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>Traps cause %lightningdamagebonus_ more Lightning damage</CN>
+			</effect0>			
+		</dt_TrapLightningDamage>
+		<dt_TrapPoisonDamage>
+			<Name>
+				<CN>Venom Expertise</CN>
+			</Name>
+			<Desc>
+				<CN>Traps deal increased poison damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>Traps cause %poisondamagebonus_ more Poison damage</CN>
+			</effect0>			
+		</dt_TrapPoisonDamage>
+		<dt_Strike>
+			<Name>
+				<CN>Strike</CN>
+			</Name>
+			<Desc>
+				<CN>A basic physical attack that strikes a single target and generates a small amount of Rage.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+			<effect1>
+				<CN>5 Rage generated per attack</CN>
+			</effect1>			
+		</dt_Strike>
+		<dt_Strike_p1>
+			<Name>
+				<CN>Furious Strike</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the amount of Rage generated with the Strike skill.</CN>
+			</Desc>
+			<effect0>
+				<CN>Furious Strike generates %rageperhit_ more Rage per hit</CN>
+			</effect0>			
+		</dt_Strike_p1>
+		<dt_Strike_p2>
+			<Name>
+				<CN>Paralyzing Assault</CN>
+			</Name>
+			<Desc>
+				<CN>Strike hits deal damage to enemies within 1.5 meters of the original target and have a chance of stunning the original target for 2 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>Strike hits deal area damage equal to %areadamage_ of the original damage</CN>
+			</effect0>
+			<effect1>
+				<CN>Strike hits have a %stunchance_ chance to stun</CN>
+			</effect1>			
+		</dt_Strike_p2>
+		<dt_Bash>
+			<Name>
+				<CN>Bash</CN>
+			</Name>
+			<Desc>
+				<CN>Strikes a single target causing Physical and Lightning damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>			
+		</dt_Bash>
+		<dt_Bash_p1>
+			<Name>
+				<CN>Crippling Bash</CN>
+			</Name>
+			<Desc>
+				<CN>Each hit with the Bash skill also heals a small amount of health on you.</CN>
+			</Desc>
+			<effect0>
+				<CN>Bash heals you for %hpperhit_ health per hit</CN>
+			</effect0>			
+		</dt_Bash_p1>
+		<dt_Bash_p2>
+			<Name>
+				<CN>Murderous Blow</CN>
+			</Name>
+			<Desc>
+				<CN>Each hit with the Bash skill also afflicts the target with Physical vulnerability for 5 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>Bash hits afflict %vulnerabilityperhit_ physical vulnerability</CN>
+			</effect0>			
+		</dt_Bash_p2>
+		<dt_FireStrike>
+			<Name>
+				<CN>Fire Strike</CN>
+			</Name>
+			<Desc>
+				<CN>Creates a 4 meter wide, 15 meter long jet of flame in front of you. Enemies caught in the area take heavy fire damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+		</dt_FireStrike>
+		<dt_FireStrike_p1>
+			<Name>
+				<CN>Flametongue</CN>
+			</Name>
+			<Desc>
+				<CN>Targets hit by the Fire Strike skill ignite, taking additional Fire damage for 5 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>Fire Strike hits ignite enemies, dealing %p2weapondamagepercent_ of the original damage per second</CN>
+			</effect0>			
+		</dt_FireStrike_p1>
+		<dt_FireStrike_p2>
+			<Name>
+				<CN>Blazing Inferno</CN>
+			</Name>
+			<Desc>
+				<CN>Targets hit by the Fire Strike skill take extra damage on critical hits and have a chance of being knocked down.</CN>
+			</Desc>
+			<effect0>
+				<CN>Fire Strike hits have a %knockbackchance_ chance of knocking enemies down</CN>
+			</effect0>
+			<effect1>
+				<CN>Fire Strike hits deal +%critdamagebonus_ bonus damage on critical hits</CN>
+			</effect1>						
+		</dt_FireStrike_p2>
+		<dt_RingOfFrost>
+			<Name>
+				<CN>Frost Ring</CN>
+			</Name>
+			<Desc>
+				<CN>Creates a 3 meter radius circle of extreme cold around you for 5 seconds. Enemies caught in the area take continuous Ice damage and are also slowed down.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE) per seconds</CN>
+			</effect0>			
+		</dt_RingOfFrost>
+		<dt_RingOfFrost_p1>
+			<Name>
+				<CN>Freezing Wave</CN>
+			</Name>
+			<Desc>
+				<CN>Targets caught in the area of effect of the Frost Ring skill have a chance of being frozen for 2 seconds. This can happen multiple times, prolonging the effect's duration.</CN>
+			</Desc>
+			<effect0>
+				<CN>Frost Ring hits have a %freezechance_ chance of freezing enemies</CN>
+			</effect0>
+		</dt_RingOfFrost_p1>
+		<dt_RingOfFrost_p2>
+			<Name>
+				<CN>Glacial Tide</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the area of effect of the Frost Ring skill.</CN>
+			</Desc>
+			<effect0>
+				<CN>Frost Ring area of effect is %areaincrease_ meters larger</CN>
+			</effect0>
+		</dt_RingOfFrost_p2>
+		<dt_GhastlyShape>
+			<Name>
+				<CN>Ghastly Shape</CN>
+			</Name>
+			<Desc>
+				<CN>Makes your character charge towards the cursor at a blinding speed (up to a maximum of 20 meters). If you hit enemies along the way, you simply run through them, deal Physical/Ice damage to them and freeze them for 1 second.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+		</dt_GhastlyShape>
+		<dt_GhastlyShape_p1>
+			<Name>
+				<CN>Ethereal Blast</CN>
+			</Name>
+			<Desc>
+				<CN>When you finish a charge with the Ghastly Shape skill, an explosion follows in a 3-meter radius, dealing Physical damage to the enemies.</CN>
+			</Desc>
+			<effect0>
+				<CN>%p1skilldamage_ damage (%p1weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+		</dt_GhastlyShape_p1>
+		<dt_GhastlyShape_p2>
+			<Name>
+				<CN>Chilling Touch</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of freeze on enemies hit by the Ghastly Shape skill.</CN>
+			</Desc>
+			<effect0>
+				<CN>Enemies remains frozen %freezeduration_ seconds longer</CN>
+			</effect0>			
+		</dt_GhastlyShape_p2>
+		<dt_ChainSnare>
+			<Name>
+				<CN>Chain Snare</CN>
+			</Name>
+			<Desc>
+				<CN>Launches many chain hooks towards the cursor in 120 degrees. Enemies hit by the chains take physical damage and are pulled directly next to you. Giant and boss creatures are immune to the pull effect but still take damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>%pulledenemycount_ enemies are pulled to you from a maximum distance of 15 meters</CN>
+			</effect0>
+			<effect1>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect1>			
+		</dt_ChainSnare>
+		<dt_ChainSnare_p1>
+			<Name>
+				<CN>Barbed Hooks</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the damage caused by the Chain Snare skill.</CN>
+			</Desc>
+			<effect0>
+				<CN>Bonus %p1weapondamagepercent_ of DAMAGE</CN>
+			</effect0>
+		</dt_ChainSnare_p1>
+		<dt_ChainSnare_p2>
+			<Name>
+				<CN>Electrified Chains</CN>
+			</Name>
+			<Desc>
+				<CN>Targets pulled in by the Chain Snare skill have a chance of being stunned for 3 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>Chain Snare hits have a %stunchance_ chance of stunning enemies</CN>
+			</effect0>			
+		</dt_ChainSnare_p2>
+		<dt_RagePerKill>
+			<Name>
+				<CN>Channeled Rage</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the amount of Rage that kills provide.</CN>
+			</Desc>
+			<effect0>
+				<CN>Kills generate %rageperkill_ more Rage per kill</CN>
+			</effect0>			
+		</dt_RagePerKill>
+		<dt_RagePool>
+			<Name>
+				<CN>Rage</CN>
+			</Name>
+			<Desc>
+				<CN>Increases your maximum Rage.</CN>
+			</Desc>
+			<effect0>
+				<CN>Increases maximum rage by %ragebonus_</CN>
+			</effect0>			
+		</dt_RagePool>
+		<dt_HPBonus>
+			<Name>
+				<CN>Juggernaut</CN>
+			</Name>
+			<Desc>
+				<CN>Increases your character's health.</CN>
+			</Desc>
+			<effect0>
+				<CN>Increases health by %healthbonus_</CN>
+			</effect0>			
+		</dt_HPBonus>
+		<dt_HPRegen>
+			<Name>
+				<CN>Physical Conditioning</CN>
+			</Name>
+			<Desc>
+				<CN>Increases your character's health regeneration.</CN>
+			</Desc>
+			<effect0>
+				<CN>Increases health regeneration by %healthregenerationbonus_</CN>
+			</effect0>			
+		</dt_HPRegen>
+		<dt_Fury>
+			<Name>
+				<CN>Fury</CN>
+			</Name>
+			<Desc>
+				<CN>Every time you slay an enemy, you enter into a state called Fury. In this state, each enemy you kill will give a bonus to your DAMAGE for 5 seconds. This effect stacks a maximum of 5 times, any more kills will only make it last longer. Going 5 seconds without killing anything will snap you out of your Fury.</CN>
+			</Desc>
+			<effect0>
+				<CN>%damagebonusperkill_ bonus DAMAGE per kill for 5 seconds (stacks a maximum of 5 times)</CN>
+			</effect0>
+		</dt_Fury>
+		<dt_AllRes>
+			<Name>
+				<CN>Iron Skin</CN>
+			</Name>
+			<Desc>
+				<CN>Increases your character's Resistance against all damage types.</CN>
+			</Desc>
+			<effect0>
+				<CN>Increases all resistances by %resistancebonus_</CN>
+			</effect0>			
+		</dt_AllRes>
+		<dt_MinionDamage>
+			<Name>
+				<CN>Battle Roar</CN>
+			</Name>
+			<Desc>
+				<CN>All allied creatures (but not players) across the entire map gain a damage bonus for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>Allied creatures gain %miniondamagebonus_ bonus damage</CN>
+			</effect0>			
+		</dt_MinionDamage>
+		<dt_MinionDamage_p1>
+			<Name>
+				<CN>Enrage</CN>
+			</Name>
+			<Desc>
+				<CN>Allied creatures under the effect of Battle Roar also gain a bonus to their Critical Chance.</CN>
+			</Desc>
+			<effect0>
+				<CN>Battle Roar also provides %minioncritbonus_ Critical Chance</CN>
+			</effect0>			
+		</dt_MinionDamage_p1>
+		<dt_MinionDamage_p2>
+			<Name>
+				<CN>Inner Fire</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the cooldown of the Battle Roar skill.</CN>
+			</Desc>
+			<effect0>
+				<CN>Battle Roar cooldown is decreased by %cooldowndecrease_ seconds</CN>
+			</effect0>			
+		</dt_MinionDamage_p2>
+		<dt_EssenceBonus>
+			<Name>
+				<CN>Soul Web</CN>
+			</Name>
+			<Desc>
+				<CN>While this skill is active, kills generate significantly more essence. (Both trap and character kills.)</CN>
+			</Desc>
+			<effect0>
+				<CN>Enemies are worth %essencebonus_ more essence</CN>
+			</effect0>			
+		</dt_EssenceBonus>
+		<dt_EssenceBonus_p1>
+			<Name>
+				<CN>Essence Drain</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the cooldown of the Soul Web spell</CN>
+			</Desc>
+			<effect0>
+				<CN>Soul Web cooldown is decreased by %cooldowndecrease_ seconds</CN>
+			</effect0>			
+		</dt_EssenceBonus_p1>
+		<dt_EssenceBonus_p2>
+			<Name>
+				<CN>Persistent Web</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Soul Web spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Soul Web duration is increased by %durationbonus_ seconds</CN>
+			</effect0>			
+		</dt_EssenceBonus_p2>
+		<dt_PhysicalVulnerability>
+			<Name>
+				<CN>Touch of Death</CN>
+			</Name>
+			<Desc>
+				<CN>All enemy creatures across the entire level are afflicted by Physical vulnerability for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>Enemies are afflicted by %physicalvulnerability_ Physical vulnerability</CN>
+			</effect0>			
+		</dt_PhysicalVulnerability>
+		<dt_PhysicalVulnerability_p1>
+			<Name>
+				<CN>Lingering Curse</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Touch of Death spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Touch of Death duration is increased by %durationbonus_ seconds</CN>
+			</effect0>			
+		</dt_PhysicalVulnerability_p1>	
+		<dt_PhysicalVulnerability_p2>
+			<Name>
+				<CN>Greater Curse</CN>
+			</Name>
+			<Desc>
+				<CN>Enemies affected by the Touch of Death spell have a chance of retaining their vulnerability permanently (until they die or reach an exit).</CN>
+			</Desc>
+			<effect0>
+				<CN>Enemies have a %permanentvulnerabilitychance_ chance of becoming permanently vulnerable</CN>
+			</effect0>			
+		</dt_PhysicalVulnerability_p2>	
+		<dt_WorldGoldMF_passive>
+			<Name>
+				<CN>Mark of Fortune</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the amount of gold and items dropped by enemies.</CN>
+			</Desc>
+			<effect0>
+				<CN>Chests reward %goldfindbonus_ more gold</CN>
+			</effect0>
+			<effect1>
+				<CN>Chests reward %magicfindbonus_ more and better items</CN>
+			</effect1>			
+		</dt_WorldGoldMF_passive>	
+		<dt_PhysicalVulnerability_passive>
+			<Name>
+				<CN>Mark of the Slayer</CN>
+			</Name>
+			<Desc>
+				<CN>All enemies are afflicted with vulnerability against physical damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>Enemies take %physicalvulnerability_ more Physical damage</CN>
+			</effect0>			
+		</dt_PhysicalVulnerability_passive>	
+		<dt_WorldTrapCost_passive>
+			<Name>
+				<CN>Mark of the Craftsman</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the construction cost of all traps.</CN>
+			</Desc>
+			<effect0>
+				<CN>Decreases trap build cost by %trapcostdecrease_</CN>
+			</effect0>			
+		</dt_WorldTrapCost_passive>	
+		<dt_XPBonus>
+			<Name>
+				<CN>Mark of the Veteran</CN>
+			</Name>
+			<Desc>
+				<CN>Each kill you perform with your character rewards bonus experience.</CN>
+			</Desc>
+			<effect0>
+				<CN>Kills provide %xpbonus_ more experience</CN>
+			</effect0>			
+		</dt_XPBonus>	
+		<dt_TrapDamage>
+			<Name>
+				<CN>Trap Boost</CN>
+			</Name>
+			<Desc>
+				<CN>The target trap gains a significant damage bonus for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>%trapdamagebonus_ bonus trap damage</CN>
+			</effect0>			
+		</dt_TrapDamage>	
+		<dt_TrapDamage_p1>
+			<Name>
+				<CN>Extended Boost</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Trap Boost spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Trap Boost duration is increased by %durationbonus_ seconds</CN>
+			</effect0>			
+		</dt_TrapDamage_p1>	
+		<dt_TrapDamage_p2>
+			<Name>
+				<CN>Spellbinding</CN>
+			</Name>
+			<Desc>
+				<CN>Any debilitating effects (slow, stun, etc.) of traps affected by the Trap Boost spell last longer.</CN>
+			</Desc>
+			<effect0>
+				<CN>Trap debilitating effects last %ccdurationbonus_ longer</CN>
+			</effect0>			
+		</dt_TrapDamage_p2>	
+		<dt_TrapRageBonus>
+			<Name>
+				<CN>Aura of Vehemence</CN>
+			</Name>
+			<Desc>
+				<CN>Kills performed by traps near your character generate additional Rage for you for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>%trapragebonus_ bonus Rage per kill within %areaofeffect_ meters</CN>
+			</effect0>			
+		</dt_TrapRageBonus>	
+		<dt_TrapRageBonus_p1>
+			<Name>
+				<CN>Extended Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the area of effect of the Aura of Vehemence spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Aura of Vehemence area of effect is increased by %areaeffectbonus_ meters</CN>
+			</effect0>			
+		</dt_TrapRageBonus_p1>	
+		<dt_TrapRageBonus_p2>
+			<Name>
+				<CN>Prolonged Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Aura of Vehemence spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Aura of Vehemence duration is increased by %durationbonus_ seconds</CN>
+			</effect0>			
+		</dt_TrapRageBonus_p2>	
+		<dt_MinionDamageAura>
+			<Name>
+				<CN>Sigil of Inspiration</CN>
+			</Name>
+			<Desc>
+				<CN>All allied creatures (but not players) within 10 meters of your character gain a substantial damage bonus for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>%damagebonus_ bonus damage</CN>
+			</effect0>			
+		</dt_MinionDamageAura>	
+		<dt_MinionDamageAura_p1>
+			<Name>
+				<CN>Dome of Inspiration</CN>
+			</Name>
+			<Desc>
+				<CN>All allied creatures within the area of effect of the Sigil of Inspiration spell gain increased health regeneration.</CN>
+			</Desc>
+			<effect0>
+				<CN>Bonus %hpregenbonus_ health regeneration for allied creatures</CN>
+			</effect0>			
+		</dt_MinionDamageAura_p1>	
+		<dt_MinionDamageAura_p2>
+			<Name>
+				<CN>Prolonged Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Sigil of Inspiration spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Sigil of Inspiration duration is increased by %durationbonus_ seconds</CN>
+			</effect0>			
+		</dt_MinionDamageAura_p2>	
+		<dt_MechTrapCost_passive>
+			<Name>
+				<CN>Contraption Expertise</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the construction cost of all mechanical traps.</CN>
+			</Desc>
+			<effect0>
+				<CN>Mechanical trap build cost is decreased by %trapbuildcostdiscount_</CN>
+			</effect0>			
+		</dt_MechTrapCost_passive>	
+		<dt_MechTrapUpgrCost_passive>
+			<Name>
+				<CN>Talent for Invention</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the upgrade cost of all mechanical traps.</CN>
+			</Desc>
+			<effect0>
+				<CN>Mechanical trap upgrade cost is decreased by %trapupgradecostdiscount_</CN>
+			</effect0>			
+		</dt_MechTrapUpgrCost_passive>	
+		<dt_MechTrapXPBonus_passive>
+			<Name>
+				<CN>Mechanical Mayhem Analysis</CN>
+			</Name>
+			<Desc>
+				<CN>Kills performed by your mechanical traps reward additional experience.</CN>
+			</Desc>
+			<effect0>
+				<CN>Mechanical trap kills provide %xpbonusperkill_ bonus experience</CN>
+			</effect0>			
+		</dt_MechTrapXPBonus_passive>	
+		<dt_PhysicalTrapCooldown_passive>
+			<Name>
+				<CN>Spring Mechanism Expertise</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the reset time of your traps that do physical damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>Reset time for physical damage traps is decreased by %cooldowndecrease_ seconds</CN>
+			</effect0>
+		</dt_PhysicalTrapCooldown_passive>	
+		<dt_MinionHP>
+			<Name>
+				<CN>Selective Monster Breeding</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the health of creatures released by traps.</CN>
+			</Desc>
+			<effect0>
+				<CN>Trap creatures have %minionhpbonus_ bonus health</CN>
+			</effect0>			
+		</dt_MinionHP>
+		<dt_MinionDamagePassive>
+			<Name>
+				<CN>Intensive Monster Training</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the damage of creatures released by traps.</CN>
+			</Desc>
+			<effect0>
+				<CN>Trap creatures deal %miniondamagebonus_ bonus damage</CN>
+			</effect0>			
+		</dt_MinionDamagePassive>
+		<dt_Shoot>
+			<Name>
+				<CN>Shoot</CN>
+			</Name>
+			<Desc>
+				<CN>A basic ranged attack that deals Physical damage to a single target.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>						
+		</dt_Shoot>
+		<dt_Shoot_p1>
+			<Name>
+				<CN>Poison Bolt</CN>
+			</Name>
+			<Desc>
+				<CN>Shoot bolts at the enemies dealing poison damage equal to %p1weapondamagepercent_ of the original damage per second, for 4 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>Shoot poisons enemies dealing poison damage equal to %p1weapondamagepercent_ of the original damage per second</CN>
+			</effect0>
+		</dt_Shoot_p1>
+		<dt_Shoot_p2>
+			<Name>
+				<CN>Splintering bolt</CN>
+			</Name>
+			<Desc>
+				<CN>Extends the damage effect of the Shoot skill to enemies around the original target.</CN>
+			</Desc>
+			<effect0>
+				<CN>Shoot deals %aoedamage_ damage within 1.5 meters of the original target</CN>
+			</effect0>			
+		</dt_Shoot_p2>
+		<dt_Scattershoot>
+			<Name>
+				<CN>Scattershot</CN>
+			</Name>
+			<Desc>
+				<CN>Releases a barrage of bolts in a 60 degree arc in front of your character. Each bolt deals physical damage to a single target.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE) per bolt</CN>
+			</effect0>
+		</dt_Scattershoot>
+		<dt_Scattershoot_p1>
+			<Name>
+				<CN>Incendiary Bolts</CN>
+			</Name>
+			<Desc>
+				<CN>Enemies within 1.5 meters of any targets hit the Scattershot skill take additional Fire damage. This includes the original targets.</CN>
+			</Desc>
+			<effect0>
+				<CN>Scattershot hits deal %p1skilldamage_ damage (%p1weapondamagepercent_ of DAMAGE) to enemies around the original target</CN>
+			</effect0>
+		</dt_Scattershoot_p1>
+		<dt_Scattershoot_p2>
+			<Name>
+				<CN>Steel Bolts</CN>
+			</Name>
+			<Desc>
+				<CN>Scattershot bolts have a chance of piercing targets and keep going, potentially damaging additional targets.</CN>
+			</Desc>
+			<effect0>
+				<CN>Scattershot bolts have a %passthroughchancep2_ chance of piercing enemies</CN>
+			</effect0>			
+		</dt_Scattershoot_p2>
+		<dt_PoisonArrow>
+			<Name>
+				<CN>Poison Streak</CN>
+			</Name>
+			<Desc>
+				<CN>Launches a projectile that creates a 0.5 meter wide, 15 meter long gas streak that deals Poison damage to enemies caught in its path. They are also poisoned and take additional damage for 5 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+			<effect1>
+				<CN>additional %dotdamagepercent_ of the original damage per second</CN>
+			</effect1>
+		</dt_PoisonArrow>
+		<dt_PoisonArrow_p1>
+			<Name>
+				<CN>Numbing Toxin</CN>
+			</Name>
+			<Desc>
+				<CN>Enemies hit by the Poison Streak skill are afflicted with vulnerability for 8 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>Poison Streak hits afflict enemies with %poisonvulnerability_ vulnerability</CN>
+			</effect0>
+		</dt_PoisonArrow_p1>
+		<dt_PoisonArrow_p2>
+			<Name>
+				<CN>Shock Toxin</CN>
+			</Name>
+			<Desc>
+				<CN>Enemies hit by the Poison Streak skill take additional damage from critical hits and have a chance of being knocked down.</CN>
+			</Desc>
+			<effect0>
+				<CN>Poison Streak critical hits deal %criticalhitmultiplier_ bonus damage</CN>
+			</effect0>
+			<effect1>
+				<CN>Poison Streak hits have a %knockbackchance_ chance of knocking enemies down</CN>
+			</effect1>			
+		</dt_PoisonArrow_p2>
+		<dt_Chainshoot>
+			<Name>
+				<CN>Grappler Bolt</CN>
+			</Name>
+			<Desc>
+				<CN>Laucnhes a bolt that deals Ice Damage to a single target. The bolt releases grappling hooks upon impact which grab and pull all enemies within 6 meters to the original target. Pulled creatures are slowed for 2 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+			<effect1>
+				<CN>Pulled enemies are slowed by %speeddecrease_</CN>
+			</effect1>			
+		</dt_Chainshoot>
+		<dt_Chainshoot_p1>
+			<Name>
+				<CN>Long Chains</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the grapple range of the Grappler Bolt skill.</CN>
+			</Desc>
+			<effect0>
+				<CN>Grappler Bolt pull range is increased by %rangebonus_ meters</CN>
+			</effect0>			
+		</dt_Chainshoot_p1>
+		<dt_Chainshoot_p2>
+			<Name>
+				<CN>Icy Barbs</CN>
+			</Name>
+			<Desc>
+				<CN>Enemies grappled by the Grappler Bolt skill take Ice damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>Enemies pulled by Grappler Bolt take %p2skilldamage_ Ice damage (%p2weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+		</dt_Chainshoot_p2>
+		<dt_MassFireArrows>
+			<Name>
+				<CN>Incendiary Barrage</CN>
+			</Name>
+			<Desc>
+				<CN>Launches a hail of 20 firebolts which impact the ground within 4 meters of the target. Any enemies hit by one or more bolts take Fire damage (multiple hits deal damage individually).</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE) per bolt</CN>
+			</effect0>
+		</dt_MassFireArrows>
+		<dt_MassFireArrows_p1>
+			<Name>
+				<CN>Rain of Fire</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the number of bolts launched by the Incendiary Barrage skill.</CN>
+			</Desc>
+			<effect0>
+				<CN>Incendiary Barrage releases %shotbonus_ more bolts</CN>
+			</effect0>			
+		</dt_MassFireArrows_p1>
+		<dt_MassFireArrows_p2>
+			<Name>
+				<CN>Greek Fire</CN>
+			</Name>
+			<Desc>
+				<CN>Targets hit by the Incendiary Barrage skill are ignited, taking continuous Fire damage for 6 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>Incendiary Barrage hits ignite enemies, dealing %p2weapondamagepercent_ of the original damage per second</CN>
+			</effect0>
+		</dt_MassFireArrows_p2>
+		<dt_LightningArrow>
+			<Name>
+				<CN>Shock Bolt</CN>
+			</Name>
+			<Desc>
+				<CN>Launches an electrified bolt that deals Lightning damage to a single target. If the target dies, the skill also generates 10 Focus.</CN>
+			</Desc>
+			<effect0>
+				<CN>%skilldamage_ damage (%weapondamagepercent_ of DAMAGE)</CN>
+			</effect0>
+		</dt_LightningArrow>
+		<dt_LightningArrow_p1>
+			<Name>
+				<CN>Focused Charge</CN>
+			</Name>
+			<Desc>
+				<CN>Kills performed with the Shock Bolt skill generate additional Focus.</CN>
+			</Desc>
+			<effect0>
+				<CN>Shock Bolt kills generate %focusbonus_ more Focus</CN>
+			</effect0>			
+		</dt_LightningArrow_p1>
+		<dt_LightningArrow_p2>
+			<Name>
+				<CN>Heartbleed</CN>
+			</Name>
+			<Desc>
+				<CN>Targets hit by the Shock Bolt skill take additional damage from critical hits.</CN>
+			</Desc>
+			<effect0>
+				<CN>Shock Bolt critical hits do %critbonus_ more critical hit damage</CN>
+			</effect0>			
+		</dt_LightningArrow_p2>
+		<dt_DotDamage_passive>
+			<Name>
+				<CN>Agent of Entropy</CN>
+			</Name>
+			<Desc>
+				<CN>All damage over time effects from skills (not traps) deal additional damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>Damage over time effects deal %dotdamagebonus_ more damage</CN>
+			</effect0>
+		</dt_DotDamage_passive>
+		<dt_FocusPool>
+			<Name>
+				<CN>Concentration</CN>
+			</Name>
+			<Desc>
+				<CN>Increases your maximum Focus.</CN>
+			</Desc>
+			<effect0>
+				<CN>Bonus %focusbonus_ Focus</CN>
+			</effect0>			
+		</dt_FocusPool>
+		<dt_CloakBonus>
+			<Name>
+				<CN>Ambush Stance</CN>
+			</Name>
+			<Desc>
+				<CN>Increases Focus regeneration while cloaked and also decreases cloaking time.</CN>
+			</Desc>
+			<effect0>
+				<CN>Bonus %focusregenerationbonus_ Focus Regeneration while cloaked</CN>
+			</effect0>
+			<effect1>
+				<CN>Cloaking time is decreased by %cloaktimedecrease_ seconds</CN>
+			</effect1>			
+		</dt_CloakBonus>
+		<dt_ClearShoot>
+			<Name>
+				<CN>Clear Shot</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the ranged damage you deal when there are no enemies within 8 meters of you.</CN>
+			</Desc>
+			<effect0>
+				<CN>Bonus %rangeddamagebonus_ damage if no enemies are within 8 meters</CN>
+			</effect0>
+		</dt_ClearShoot>
+		<dt_Ambush>
+			<Name>
+				<CN>Shock Tactics</CN>
+			</Name>
+			<Desc>
+				<CN>Grants a damage bonus for 5 seconds after the character's cloaking ability has worn off.</CN>
+			</Desc>
+			<effect0>
+				<CN>Bonus %ambushbonus_ damage after uncloaking</CN>
+			</effect0>			
+		</dt_Ambush>
+		<dt_TrapCooldown>
+			<Name>
+				<CN>Overdrive</CN>
+			</Name>
+			<Desc>
+				<CN>Causes the reset timer of all traps to go faster for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>Trap cooldowns go %cooldowndecrease_ faster</CN>
+			</effect0>			
+		</dt_TrapCooldown>
+		<dt_TrapCooldown_p1>
+			<Name>
+				<CN>Extended Overdrive</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Overdrive spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Overdrive duration is increased by %durationbonus_ seconds</CN>
+			</effect0>			
+		</dt_TrapCooldown_p1>
+		<dt_TrapCooldown_p2>
+			<Name>
+				<CN>Improved Overdrive</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the cooldown of the Overdrive spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Overdrive cooldown is decreased by %p2cooldowndecrease_ seconds</CN>
+			</effect0>			
+		</dt_TrapCooldown_p2>
+		<dt_DotBonus>
+			<Name>
+				<CN>Domain of Entropy</CN>
+			</Name>
+			<Desc>
+				<CN>Causes all damage over time effects (including those caused by traps) to deal increased damage for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>Damage over time effects deal %dotdamagebonus_ more damage</CN>
+			</effect0>			
+		</dt_DotBonus>
+		<dt_DotBonus_p1>
+			<Name>
+				<CN>The Serpent's Gift</CN>
+			</Name>
+			<Desc>
+				<CN>Poison type damage over time effects deal further increased damage while the Domain of Entropy spell is active.</CN>
+			</Desc>
+			<effect0>
+				<CN>Poison type damage over time effects deal %poisondotdamagebonus_ more damage</CN>
+			</effect0>			
+		</dt_DotBonus_p1>
+		<dt_DotBonus_p2>
+			<Name>
+				<CN>Eternal Entropy</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Domain of Entropy spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Domain of Entropy duration is increased by %durationbonus_ seconds</CN>
+			</effect0>			
+		</dt_DotBonus_p2>
+		<dt_flyingdamage>
+			<Name>
+				<CN>Enfeeblement</CN>
+			</Name>
+			<Desc>
+				<CN>All enemy creatures temporarily lose a portion of their maximum health. Flyers lose double of that amount, while boss creatures lose only half. Enemies start to gradually regain their lost health after the duration of the spell (unless they are killed first).</CN>
+			</Desc>
+			<effect0>
+				<CN>Enemies temporarily lose %healthdecrease_of their maximum health</CN>
+			</effect0>			
+		</dt_flyingdamage>
+		<dt_flyingdamage_p1>
+			<Name>
+				<CN>Persistent Enfeeblement</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Aerial Enfeeblement spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Enfeeblement duration is increased by %durationbonus_ seconds</CN>
+			</effect0>			
+		</dt_flyingdamage_p1>
+		<dt_flyingdamage_p2>
+			<Name>
+				<CN>Venom Enfeeblement</CN>
+			</Name>
+			<Desc>
+				<CN>Enemies affected by the Enfeeblement spell are also afflicted with vulnerability against poison damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>Enfeeblement afflicts enemies with %durationbonus_ poison vulnerability</CN>
+			</effect0>			
+		</dt_flyingdamage_p2>
+		<dt_worlddotdamage_passive>
+			<Name>
+				<CN>Mark of Entropy</CN>
+			</Name>
+			<Desc>
+				<CN>All damage over time effects deal additional damage (including traps).</CN>
+			</Desc>
+			<effect0>
+				<CN>Damage over time effects deal %dotdamagebonus_ more damage</CN>
+			</effect0>			
+		</dt_worlddotdamage_passive>
+		<dt_TrapCooldownAura>
+			<Name>
+				<CN>Overdrive Sphere</CN>
+			</Name>
+			<Desc>
+				<CN>Causes the reset timer of all traps within 10 meters of your character to go faster for a short time.</CN>
+			</Desc>
+			<effect0>
+				<CN>Trap cooldowns within range go %cooldowndecrease_ faster</CN>
+			</effect0>			
+		</dt_TrapCooldownAura>
+		<dt_TrapCooldownAura_p1>
+			<Name>
+				<CN>Extended Sphere</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the area of effect of the Overdrive Sphere spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Overdrive Sphere area of effect is increased by %rangebonus_ meters</CN>
+			</effect0>			
+		</dt_TrapCooldownAura_p1>
+		<dt_TrapCooldownAura_p2>
+			<Name>
+				<CN>Prolonged Sphere</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the duration of the Overdrive Sphere spell.</CN>
+			</Desc>
+			<effect0>
+				<CN>Overdrive Sphere duration is increased by %durationbonus_ seconds</CN>
+			</effect0>			
+		</dt_TrapCooldownAura_p2>
+		<dt_TrapEssenceAura>
+			<Name>
+				<CN>精华陷阱领域</CN>
+			</Name>
+			<Desc>
+				<CN>角色附近 10 码范围内的所有陷阱，在技能持续期间内杀死敌人可以产生更多的精华。</CN>
+			</Desc>
+			<effect0>
+				<CN>附近由陷阱杀死的敌人额外产生 %essencebonus_ 精华。</CN>
+			</effect0>
+		</dt_TrapEssenceAura>
+		<dt_TrapEssenceAura_p1>
+			<Name>
+				<CN>长生铭文</CN>
+			</Name>
+			<Desc>
+				<CN>提升精华陷阱领域的效果持续时间。</CN>
+			</Desc>
+			<effect0>
+				<CN>精华陷阱领域持续时间增加 %durationbonus_ 秒</CN>
+			</effect0>			
+		</dt_TrapEssenceAura_p1>
+		<dt_TrapEssenceAura_p2>
+			<Name>
+				<CN>振奋铭文</CN>
+			</Name>
+			<Desc>
+				<CN>受到精华陷阱领域影响的陷阱，获得额外伤害加成。</CN>
+			</Desc>
+			<effect0>
+				<CN>受技能影响的陷阱额外造成 %trapdamagebonus_ 伤害</CN>
+			</effect0>
+		</dt_TrapEssenceAura_p2>
+		<dt_trapdot_passive>
+			<Name>
+				<CN>熵元素研究</CN>
+			</Name>
+			<Desc>
+				<CN>随时间进程而不断提升所有陷阱伤害。</CN>
+			</Desc>
+			<effect0>
+				<CN>陷阱随时间进程不断提升 %trapdotbonus_ 伤害</CN>
+			</effect0>			
+		</dt_trapdot_passive>
+		<dt_trappoisondamage_passive>
+			<Name>
+				<CN>毒药酿造</CN>
+			</Name>
+			<Desc>
+				<CN>提升陷阱造成的毒素伤害。</CN>
+			</Desc>
+			<effect0>
+				<CN>毒素伤害增加 %trappoisondamagebonus_ </CN>
+			</effect0>			
+		</dt_trappoisondamage_passive>
+		<dt_trappoisoncost_passive>
+			<Name>
+				<CN>毒药精通</CN>
+			</Name>
+			<Desc>
+				<CN>降低毒类陷阱的建造和升级成本。</CN>
+			</Desc>
+			<effect0>
+				<CN>降低毒类陷阱的建造和升级成本 %costdecrease_ </CN>
+			</effect0>			
+		</dt_trappoisoncost_passive>
+		<dt_traprangeddamage_passive>
+			<Name>
+				<CN>Targeting Expertise</CN>
+			</Name>
+			<Desc>
+				<CN>Increases the damage of ranged traps.</CN>
+			</Desc>
+			<effect0>
+				<CN>提升远程陷阱伤害 %damagebonus_</CN>
+			</effect0>
+		</dt_traprangeddamage_passive>
+		<dt_traprangedbuildcost_passive>
+			<Name>
+				<CN>Ranged Traps Crafting</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the building cost of ranged traps.</CN>
+			</Desc>
+			<effect0>
+				<CN>降低远程类陷阱建造成本 %costdecrease_</CN>
+			</effect0>			
+		</dt_traprangedbuildcost_passive>
+		<dt_traprangedupgrcost_passive>
+			<Name>
+				<CN>Ballistics Talent</CN>
+			</Name>
+			<Desc>
+				<CN>Decreases the upgrade cost of ranged traps.</CN>
+			</Desc>
+			<effect0>
+				<CN>降低远程类陷阱升级成本 %costdecrease_</CN>
+			</effect0>			
+		</dt_traprangedupgrcost_passive>
+		<dt_hunter_cloak>
+			<Name>
+				<CN>隐身</CN>
+			</Name>
+			<Desc>
+				<CN>提升 30% 移动速度\n每秒回复最大生命值 4%\n每秒回复 10 专注</CN>
+			</Desc>			
+		</dt_hunter_cloak>
+		
+		<dt_pvp_possession>
+			<Name>
+				<CN>生命契约</CN>
+			</Name>
+			<Desc>
+				<CN>对一只战斗生物进行完全控制，拥有此生物的特性和能力。</CN>
+			</Desc>
+			<effect0>
+				<CN>拥有并操控目标生物</CN>
+			</effect0>			
+		</dt_pvp_possession>
+		<dt_pvp_separation>
+			<Name>
+				<CN>解除契约</CN>
+			</Name>
+			<Desc>
+				<CN>释放拥有的生物，恢复你原本的形态。</CN>
+			</Desc>
+			<effect0>
+				<CN>解除生命契约</CN>
+			</effect0>			
+		</dt_pvp_separation>
+		<dt_pvp_heal>
+			<Name>
+				<CN>治疗</CN>
+			</Name>
+			<Desc>
+				<CN>治疗自身生命值</CN>
+			</Desc>
+			<effect0>
+				<CN>治疗 %heal_ 生命值</CN>
+			</effect0>			
+		</dt_pvp_heal>
+		<dt_pvp_disabletrap>
+			<Name>
+				<CN>Disable Trap</CN>
+			</Name>
+			<Desc>
+				<CN>Disables a designated trap for 5 seconds. If it's a summon type trap, the summoned creatures disappear for the duration and return immediately afterwards.</CN>
+			</Desc>
+			<effect0>
+				<CN>Disables a trap for 5 seconds</CN>
+			</effect0>			
+		</dt_pvp_disabletrap>
+		<dt_pvp_haste>
+			<Name>
+				<CN>Haste</CN>
+			</Name>
+			<Desc>
+				<CN>All attacking creatures within 3 meters around you gain a significant movement speed boost.</CN>
+			</Desc>
+			<effect0>
+				<CN>Significantly increases the movement speed of the attacking creatures around you</CN>
+			</effect0>			
+		</dt_pvp_haste>
+		<dt_pvp_immunity>
+			<Name>
+				<CN>Invulnerability</CN>
+			</Name>
+			<Desc>
+				<CN>You gain total immunity against all damage for 3 seconds.</CN>
+			</Desc>
+			<effect0>
+				<CN>Grants invulnerability</CN>
+			</effect0>			
+		</dt_pvp_immunity>
+		<Fleeting_totem>
+			<Name>
+				<CN>Fleeting Totem</CN>
+			</Name>
+			<Desc>
+				<CN>Places a totem at the designated location. Attacking creatures within 10 meters of the totem gain +50% movement speed. The defending player can damage and destroy the totem.</CN>
+			</Desc>
+			<effect0>
+				<CN>+50% movement speed for creatures around the totem</CN>
+			</effect0>			
+		</Fleeting_totem>
+		<Elemental_totem>
+			<Name>
+				<CN>Elemental Totem</CN>
+			</Name>
+			<Desc>
+				<CN>Places a totem at the designated location. Attacking creatures within 10 meters of the totem gain 50% damage reduction against damage from all mystic type traps.</CN>
+			</Desc>
+			<effect0>
+				<CN>+50% damage reduction against mystic traps for creatures around the totem</CN>
+			</effect0>			
+		</Elemental_totem>
+		<Gremlin_totem>
+			<Name>
+				<CN>Gremlin Totem</CN>
+			</Name>
+			<Desc>
+				<CN>Places a totem at the designated location. Attacking creatures within 10 meters of the totem gain 50% damage reduction against damage from all mechanical type traps.</CN>
+			</Desc>
+			<effect0>
+				<CN>+50% damage reduction against mechanical traps for creatures around the totem</CN>
+			</effect0>			
+		</Gremlin_totem>
+		<Ink_absorber_totem>
+			<Name>
+				<CN>Ink Absorber Totem</CN>
+			</Name>
+			<Desc>
+				<CN>Places a totem at the designated location. Attacknig Creatures who die within 10 meters of the totem do not yield essence for the defending player.</CN>
+			</Desc>
+			<effect0>
+				<CN>Creatures dying around the totem do not give essence to the opponent</CN>
+			</effect0>			
+		</Ink_absorber_totem>
+		<Aura_of_rebirth>
+			<Name>
+				<CN>Aura of Rebirth</CN>
+			</Name>
+			<Desc>
+				<CN>Available while possessing a Horde type creature. While this ability is active, attacking creatures dying within 5 meters of you are resurrected at their original Chaos Portals and march forward again.</CN>
+			</Desc>
+			<effect0>
+				<CN>Resurrects creatures dying around you at their original spawn point</CN>
+			</effect0>			
+		</Aura_of_rebirth>
+		<Relentless_aura>
+			<Name>
+				<CN>Relentless Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Available while possessing a normal type creature. While this ability is active, attacking creatures within 5 meters of you gain 50% damage reduction against all damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>+50% damage reduction against all damage for creatures around you</CN>
+			</effect0>			
+		</Relentless_aura>
+		<Unholy_aura>
+			<Name>
+				<CN>Unholy Aura</CN>
+			</Name>
+			<Desc>
+				<CN>While this ability is active, attacking creatures within 5 meters of you gain +100% damage.</CN>
+			</Desc>
+			<effect0>
+				<CN>对周围生物造成伤害提升+100%</CN>
+			</effect0>
+		</Unholy_aura>
+		<dt_tapolo4>
+			<Name>
+				<CN>Empower Beacon</CN>
+			</Name>
+			<Desc>
+				<CN>技能伤害提升30%!</CN>
+			</Desc>			
+		</dt_tapolo4>
+		<dt_tapolo3>
+			<Name>
+				<CN>Pillar of Rejuvenation</CN>
+			</Name>
+			<Desc>
+				<CN>每秒回复1%最大生命值</CN>
+			</Desc>			
+		</dt_tapolo3>
+		<dt_SKILLNAME>
+			<Name>
+				<CN>技能名称</CN>
+			</Name>
+			<Desc>
+				<CN>技能描述</CN>
+			</Desc>
+			<effect0>
+				<CN>技能效果</CN>
+			</effect0>			
+		</dt_SKILLNAME>
+				
+		
+		<hidden>
+			<Name>
+				<CN>操作无效</CN>
+			</Name>
+			<Desc>
+				<CN>此技能暂时不能使用。</CN>
+			</Desc>			
+		</hidden>
+		
+		<Rusher>
+			<Name>
+				<CN>Blockade Runner</CN>
+			</Name>
+			<Desc>
+				<CN>The creature never stops to fight and moves 50% faster</CN>
+			</Desc>			
+		</Rusher>
+		<Summon_arachnopod>
+			<Name>
+				<CN>Summon Arachnopods</CN>
+			</Name>
+			<Desc>
+				<CN>Summons 5 Arachnopods who run towards the gate on the same path as the caster</CN>
+			</Desc>			
+		</Summon_arachnopod>
+		<Grenade_throwing>
+			<Name>
+				<CN>Bomb Toss</CN>
+			</Name>
+			<Desc>
+				<CN>This creature attacks by tossing bombs that each damage a single target.</CN>
+			</Desc>			
+		</Grenade_throwing>
+		<Protective_shield>
+			<Name>
+				<CN>Shield Dome</CN>
+			</Name>
+			<Desc>
+				<CN>The creature raises a 5 meter radius energy dome that travels with it and has a health of its own (equal to 1/3 of the owner's health). All attacks that would damage creatures underneath the dome damage the shield instead. The shield dissipates when its health is depleted.</CN>
+			</Desc>				
+		</Protective_shield>
+		<Slowing_bolt>
+			<Name>
+				<CN>Frost Bolt</CN>
+			</Name>
+			<Desc>
+				<CN>You are slowed down.</CN>
+			</Desc>			
+		</Slowing_bolt>
+		<Ice_missile>
+			<Name>
+				<CN>Glacier Missile</CN>
+			</Name>			
+		</Ice_missile>
+		<Ice_wall>
+		<Name>
+				<CN>Wall of Ice</CN>
+			</Name>	
+		<Desc>
+				<CN>Creates a blocking wall of ice. Can be destroyed by normal attacks.</CN>
+			</Desc>
+		</Ice_wall>
+		<Invulnerability_on_struck>
+			<Name>
+				<CN>Reactive Defense Grid</CN>
+			</Name>
+			<Desc>
+				<CN>There is a 10% chance that a bubble of invulnerability will form around this creature whenever it takes damage. The bubble lasts 2 seconds.</CN>
+			</Desc>			
+		</Invulnerability_on_struck>
+		<Cloaking>
+			<Name>
+				<CN>Defensive Cloak</CN>
+			</Name>
+			<Desc>
+				<CN>When damaged, this creature cloaks itself for 5 seconds. During this time the creature cannot be targeted, but area effect attacks do damage it.</CN>
+			</Desc>			
+		</Cloaking>
+		<Area_damage_strike>
+			<Name>
+				<CN>Quake Strike</CN>
+			</Name>
+			<Desc>
+				<CN>The creature deals area damage in a 3-meter zone around the target.</CN>
+			</Desc>			
+		</Area_damage_strike>
+		<Shield_booster>
+			<Name>
+				<CN>Bestow Shield</CN>
+			</Name>
+			<Desc>
+				<CN>Gives nearby creatures shield equal to 2% of their maximum health. The shield acts as extra health for 30 seconds or until it is depleted.</CN>
+			</Desc>				
+		</Shield_booster>
+		<Reflective_shield>
+			<Name>
+				<CN>Greater Reflect Damage</CN>
+			</Name>
+			<Desc>
+				<CN>The creature reflects 50% of incoming damage to its attacker with the same damage type</CN>
+			</Desc>			
+		</Reflective_shield>
+		<Armor>
+			<Name>
+				<CN>Armor</CN>
+			</Name>
+			<Desc>
+				<CN>Armored creatures take 80% less damage</CN>
+			</Desc>			
+		</Armor>
+		<Lightning>
+			<Name>
+				<CN>Lightning Bolt</CN>
+			</Name>
+			<Desc>
+				<CN>The creature launches a bolt of lightning forward, which damages all of its enemies in a 13 meter long, 1.5 meter wide lane.</CN>
+			</Desc>			
+		</Lightning>
+		<Rebirth>
+			<Name>
+				<CN>Repeat Runner</CN>
+			</Name>
+			<Desc>
+				<CN>When it dies this creature resurrects at its original Chaos Portal and will march forward one more time.</CN>
+			</Desc>				
+		</Rebirth>
+		<Haste>
+			<Name>
+				<CN>Mass Haste</CN>
+			</Name>
+			<Desc>
+				<CN>Nearby creatures gain +50% movement speed for 10 seconds</CN>
+			</Desc>			
+		</Haste>
+		<Freez_on_Death>
+			<Name>
+				<CN>Cold Vengeance</CN>
+			</Name>
+			<Desc>
+				<CN>The creature creates an icy explosion when it dies. Enemies caught in the explosion are frozen for a short time.</CN>
+			</Desc>
+			<debuffDesc>
+				<CN>You are frozen and unable to act for a short time.</CN>
+			</debuffDesc>						
+		</Freez_on_Death>
+		<Fire_bolt>
+			<Name>
+				<CN>Firebolt</CN>
+			</Name>			
+		</Fire_bolt>
+		<Lesser_Armor>
+			<Name>
+				<CN>Light Armor</CN>
+			</Name>
+			<Desc>
+				<CN>The creature takes 40% less damage</CN>
+			</Desc>			
+		</Lesser_Armor>
+		<Lesser_Armor_aura>
+			<Name>
+				<CN>Armor Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Nearby creatures take 40% less damage</CN>
+			</Desc>			
+		</Lesser_Armor_aura>
+		<HPRegeneration>
+			<Name>
+				<CN>Monstrous Regeneration</CN>
+			</Name>
+			<Desc>
+				<CN>The creature heals 0.1% of its maximum health per second</CN>
+			</Desc>			
+		</HPRegeneration>
+		<Poison_split>
+			<Name>
+				<CN>Poison Spit</CN>
+			</Name>			
+		</Poison_split>
+		<Lenyekre_bomlas>
+			<Name>
+				<CN>Living Nest</CN>
+			</Name>
+			<Desc>
+				<CN>This creature releases 5-8 Grubshrieks when it dies. The Grubshrieks run towards the gate on the same path as the caster</CN>
+			</Desc>			
+		</Lenyekre_bomlas>
+		<Blink>
+			<Name>
+				<CN>Blink</CN>
+			</Name>
+			<Desc>
+				<CN>The creature teleports some distance forward on its path when it takes damage. This ability resets after 5 seconds.</CN>
+			</Desc>			
+		</Blink>
+		<Damage_boost_on_Death>
+			<Name>
+				<CN>Mark of Vengeance</CN>
+			</Name>
+			<Desc>
+				<CN>The creature grants +50% damage to nearby creatures when it dies</CN>
+			</Desc>			
+		</Damage_boost_on_Death>
+		<Animate_dead>
+			<Name>
+				<CN>Animate Dead</CN>
+			</Name>
+			<Desc>
+				<CN>Whenever an ally dies near this creature, there is a 25% chance that an Eater of the Dead will appear to replace the dead ally.</CN>
+			</Desc>			
+		</Animate_dead>
+		<Panic>
+			<Name>
+				<CN>Furious Rush</CN>
+			</Name>
+			<Desc>
+				<CN>The creature starts moving 250% faster when its health drops below 40%</CN>
+			</Desc>			
+		</Panic>
+		<Lesser_Necromancy>
+			<Name>
+				<CN>Lesser Death Syphon Aura</CN>
+			</Name>
+			<Desc>
+				<CN>The creature heals 5% of its maximum health whenever a nearby ally dies</CN>
+			</Desc>			
+		</Lesser_Necromancy>
+		<Illusions>
+			<Name>
+				<CN>Illusionary Clone</CN>
+			</Name>
+			<Desc>
+				<CN>The creature summons three copies of itself that have 50% health, but are otherwise identical</CN>
+			</Desc>				
+		</Illusions>
+		<Necromancy>
+			<Name>
+				<CN>Death Syphon Aura</CN>
+			</Name>
+			<Desc>
+				<CN>The creature heals 10% of its maximum health whenever a nearby ally dies</CN>
+			</Desc>			
+		</Necromancy>
+		<Summon_Kobold_wartfiend>
+			<Name>
+				<CN>Summon Kobold Wartfiends</CN>
+			</Name>
+			<Desc>
+				<CN>Summons 5 Kobold Wartfiends who run towards the gate on the same path as the caster</CN>
+			</Desc>			
+		</Summon_Kobold_wartfiend>
+		<dt_emperor_lightning>
+			<Name>
+				<CN>Lightning Streak</CN>
+			</Name>
+			<Desc>
+				<CN>The creature continuously shoots bolts of lightning forward for 2 seconds. Enemies in the area take heavy lightning damage.</CN>
+			</Desc>			
+		</dt_emperor_lightning>
+		<Ice_immunity_aura>
+			<Name>
+				<CN>Ice Immunity Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Provides Ice Immunity to nearby creatures</CN>
+			</Desc>			
+		</Ice_immunity_aura>
+		<Ice_immunity>
+			<Name>
+				<CN>Ice Immunity</CN>
+			</Name>
+			<Desc>
+				<CN>Ice attacks deal no damage</CN>
+			</Desc>			
+		</Ice_immunity>
+		<Fire_immunity>
+			<Name>
+				<CN>Fire Immunity</CN>
+			</Name>
+			<Desc>
+				<CN>Fire attacks deal no damage</CN>
+			</Desc>			
+		</Fire_immunity>
+		<fire_immunity_aura>
+			<Name>
+				<CN>Fire Immunity Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Provides Fire Immunity to nearby creatures</CN>
+			</Desc>			
+		</fire_immunity_aura>
+		<HPRegen_general_aura>
+			<Name>
+				<CN>Regeneration Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Nearby creatures heal 0.5% of their maximum health per second</CN>
+			</Desc>			
+		</HPRegen_general_aura>
+		<Lightning_immunity_aura>
+			<Name>
+				<CN>Lightning Immunity Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Provides Lightning Immunity to nearby creatures</CN>
+			</Desc>			
+		</Lightning_immunity_aura>
+		<Ice_resistance>
+			<Name>
+				<CN>Ice Resistance</CN>
+			</Name>
+			<Desc>
+				<CN>Ice attacks deal half damage</CN>
+			</Desc>			
+		</Ice_resistance>
+		<Extra_damage>
+			<Name>
+				<CN>Heavy Hitter</CN>
+			</Name>
+			<Desc>
+				<CN>The creature deals 50% more damage</CN>
+			</Desc>			
+		</Extra_damage>
+		<Poison_immunity_aura>
+			<Name>
+				<CN>Poison Immunity Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Provides Poison Immunity to nearby creatures</CN>
+			</Desc>			
+		</Poison_immunity_aura>
+		<HPRegen_general>
+			<Name>
+				<CN>Regeneration</CN>
+			</Name>
+			<Desc>
+				<CN>The creature heals 0.5% of its maximum health per second</CN>
+			</Desc>			
+		</HPRegen_general>
+		<Poison_resistance_aura>
+			<Name>
+				<CN>Poison Resistance Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Provides Poison Resistance to nearby creatures</CN>
+			</Desc>			
+		</Poison_resistance_aura>
+		<Heal_on_death>
+			<Name>
+				<CN>Death Boon</CN>
+			</Name>
+			<Desc>
+				<CN>The creature heals back 50% of its maximum health to nearby creatures when it dies.</CN>
+			</Desc>			
+		</Heal_on_death>
+		<Drain_life_aura>
+			<Name>
+				<CN>Life Drain Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Nearby creatures heal 1% of their maximum health with each attack they perform</CN>
+			</Desc>			
+		</Drain_life_aura>
+		<Fire_resistance>
+			<Name>
+				<CN>Fire Resistance</CN>
+			</Name>
+			<Desc>
+				<CN>Fire attacks deal half damage</CN>
+			</Desc>			
+		</Fire_resistance>
+		<Physical_resistance_aura>
+			<Name>
+				<CN>Physical Resistance Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Provides Physical Resistance to nearby creatures</CN>
+			</Desc>			
+		</Physical_resistance_aura>
+		<Ice_resistance_aura>
+			<Name>
+				<CN>Ice Resistance Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Provides Ice Resistance to nearby creatures</CN>
+			</Desc>			
+		</Ice_resistance_aura>
+		<Sebzesboost_aura>
+			<Name>
+				<CN>Empowering Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Nearby creatures deal 50% more damage</CN>
+			</Desc>			
+		</Sebzesboost_aura>
+		<Extra_fast>
+			<Name>
+				<CN>Fast Movement</CN>
+			</Name>
+			<Desc>
+				<CN>The creature moves 50% faster</CN>
+			</Desc>			
+		</Extra_fast>
+		<Extra_health>
+			<Name>
+				<CN>Extra Health</CN>
+			</Name>
+			<Desc>
+				<CN>The creature has 50% more health</CN>
+			</Desc>			
+		</Extra_health>
+		<Poison_immunity>
+			<Name>
+				<CN>Poison Immunity</CN>
+			</Name>
+			<Desc>
+				<CN>Poison attacks deal no damage</CN>
+			</Desc>			
+		</Poison_immunity>
+		<Reflect_damage>
+			<Name>
+				<CN>Reflect Damage</CN>
+			</Name>
+			<Desc>
+				<CN>The creature reflects 20% of incoming damage to its attacker with the same damage type</CN>
+			</Desc>			
+		</Reflect_damage>
+		<Physical_immunity>
+			<Name>
+				<CN>Physical Immunity</CN>
+			</Name>
+			<Desc>
+				<CN>Physical attacks deal no damage</CN>
+			</Desc>			
+		</Physical_immunity>
+		<Speed_aura>
+			<Name>
+				<CN>Haste Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Nearby creatures gain +50% movement speed for 5 seconds. The spell is cast every 10 seconds.</CN>
+			</Desc>			
+		</Speed_aura>
+		<Physical_immunity_aura>
+			<Name>
+				<CN>Physical Immunity Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Provides Physical Immunity to nearby creatures</CN>
+			</Desc>			
+		</Physical_immunity_aura>		
+		<Lightning_resistance>
+			<Name>
+				<CN>Lightning Resistance</CN>
+			</Name>
+			<Desc>
+				<CN>Lightning attacks deal half damage</CN>
+			</Desc>			
+		</Lightning_resistance>
+		<Lightning_immunity>
+			<Name>
+				<CN>Lightning Immunity</CN>
+			</Name>
+			<Desc>
+				<CN>Ligihtning attacks deal no damage</CN>
+			</Desc>			
+		</Lightning_immunity>
+		<Lightning_resistance_aura>
+			<Name>
+				<CN>Lightning Resistance Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Provides Lightning Resistance to nearby creatures</CN>
+			</Desc>			
+		</Lightning_resistance_aura>
+		<Reflect_damage_aura>
+			<Name>
+				<CN>Reflect Damage Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Nearby creatures reflect 20% of incoming damage to their attackers with the same damage type</CN>
+			</Desc>			
+		</Reflect_damage_aura>
+		<Fire_resistance_aura>
+			<Name>
+				<CN>Fire Resistance Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Provides Fire Resistance to nearby creatures</CN>
+			</Desc>			
+		</Fire_resistance_aura>
+		<repair_drone_heal>
+			<Name>
+				<CN>Repair</CN>
+			</Name>
+			<Desc>
+				<CN>Creatures with this skill continuously repair the creature that spawned them.</CN>
+			</Desc>			
+		</repair_drone_heal>
+		<Poison_resistance>
+			<Name>
+				<CN>Poison Resistance</CN>
+			</Name>
+			<Desc>
+				<CN>Poison attacks deal half damage</CN>
+			</Desc>			
+		</Poison_resistance>
+		<Physical_resistance>
+			<Name>
+				<CN>Physical Resistance</CN>
+			</Name>
+			<Desc>
+				<CN>Physical attacks deal half damage</CN>
+			</Desc>			
+		</Physical_resistance>
+		<dt_poisonbolt_horned_abo_boss>
+			<Name>
+				<CN>Explosive Toxic Rounds</CN>
+			</Name>
+			<Desc>
+				<CN>Fires an explosive round which creates a large toxic cloud on impact, dealing heavy poison damage.</CN>
+			</Desc>			
+		</dt_poisonbolt_horned_abo_boss>
+		<Disable_traps>
+			<Name>
+				<CN>Toxic Sludge Jam</CN>
+			</Name>
+			<Desc>
+				<CN>Disables all traps on the map for 5 seconds.</CN>
+			</Desc>			
+		</Disable_traps>
+		<Disable_traps_abo_boss>
+			<Name>
+				<CN>Toxic Sludge Jam</CN>
+			</Name>
+			<Desc>
+				<CN>Disables all traps on the map for 5 seconds.</CN>
+			</Desc>			
+		</Disable_traps_abo_boss>
+		<dt_poisonbolt_magus>
+			<Name>
+				<CN>Poison Bolt</CN>
+			</Name>
+			<Desc>
+				<CN>Launches a bolt of poison that travels in a straight line and deals poison damage.</CN>
+			</Desc>			
+		</dt_poisonbolt_magus>
+		<dt_firebolt_horned_abo>
+			<Name>
+				<CN>Fire Bolt</CN>
+			</Name>
+			<Desc>
+				<CN>Launches a bolt of fire that travels in a straight line and deals fire damage.</CN>
+			</Desc>			
+		</dt_firebolt_horned_abo>
+		<dt_WindOfDeath>
+			<Name>
+				<CN>Spike Wave</CN>
+			</Name>
+			<Desc>
+				<CN>Creates four ranks of spikes which deal poison damage to enemies who enter. The ranks slowly move closer to each other, trying to entrap enemies.</CN>
+			</Desc>			
+		</dt_WindOfDeath>
+		<dt_firebolt_lesovik>
+			<Name>
+				<CN>Fire Bolt</CN>
+			</Name>
+			<Desc>
+				<CN>Launches a bolt of fire that travels in a straight line and deals fire damage.</CN>
+			</Desc>			
+		</dt_firebolt_lesovik>
+		<summon_rusalka>
+			<Name>
+				<CN>Summon Rusalkas</CN>
+			</Name>
+			<Desc>
+				<CN>Summons 5 Rusalkas who run towards the gate on the same path as the caster</CN>
+			</Desc>			
+		</summon_rusalka>
+		<area_damage_knockdown>
+			<Name>
+				<CN>Furious Stomp</CN>
+			</Name>
+			<Desc>
+				<CN>The creature releases a shockwave in 360 degrees, dealing physical damage to its enemies and knocking them down</CN>
+			</Desc>			
+		</area_damage_knockdown>
+		<stunning_missile>
+			<Name>
+				<CN>Frost Missile</CN>
+			</Name>
+			<Desc>
+				<CN>Launches a homing bolt that follows the target for up to 10 seconds. It freezes the target, but deals no damage.</CN>
+			</Desc>			
+		</stunning_missile>
+		<summon_energy_ball>
+			<Name>
+				<CN>Summon Protector Spirits</CN>
+			</Name>
+			<Desc>
+				<CN>Summons 3 Protector Spirits who provide invulnerability to the caster whlie they are alive</CN>
+			</Desc>			
+		</summon_energy_ball>
+		<summon_holder>
+			<Name>
+				<CN>Summon Cogbinders</CN>
+			</Name>
+			<Desc>
+				<CN>Summons 3 Cogbinders who move forward on the same path as the caster and disable traps</CN>
+			</Desc>			
+		</summon_holder>
+		<dt_firetocsa>
+			<Name>
+				<CN>Pool of Fire</CN>
+			</Name>
+			<Desc>
+				<CN>Creates a pool of flames underneath the enemy that deals continuous fire damage until the enemy leaves its area of effect</CN>
+			</Desc>			
+		</dt_firetocsa>
+		<Bat_Swarm>
+			<Name>
+				<CN>Bat Swarm</CN>
+			</Name>
+			<Desc>
+				<CN>The creature releases a swarm of bats that follows enemies and deals physical damage to them</CN>
+			</Desc>			
+		</Bat_Swarm>
+		<Summon_Rat_Swarm>
+			<Name>
+				<CN>Summon Rat Swarm</CN>
+			</Name>
+			<Desc>
+				<CN>The creature releases a swarm of 30 rats that run towards the gate on the same path as the caster</CN>
+			</Desc>			
+		</Summon_Rat_Swarm>
+		<Jamming_sphere>
+			<Name>
+				<CN>Haywire Aura</CN>
+			</Name>
+			<Desc>
+				<CN>Traps don't activate near this creature</CN>
+			</Desc>			
+		</Jamming_sphere>
+		<Double_penetration>
+			<Name>
+				<CN>Pillager</CN>
+			</Name>
+			<Desc>
+				<CN>This creature destroys double the amount of Gate Points than it normally would.</CN>
+			</Desc>			
+		</Double_penetration>
+		<Icequake>
+			<Name>
+				<CN>Frozen Soil</CN>
+			</Name>
+			<Desc>
+				<CN>The creature freezes the ground ahead of it in a 4 meter wide, 15 meter long area. Enemies caught in the area take heavy ice damage.</CN>
+			</Desc>			
+		</Icequake>
+		<Vampire_Drain_Life>
+			<Name>
+				<CN>Drain Life</CN>
+			</Name>
+			<Desc>
+				<CN>The creature causes heavy physical damage to an enemy and heals the same amount on himself</CN>
+			</Desc>			
+		</Vampire_Drain_Life>
+		<Summon_grubshriek>
+			<Name>
+				<CN>Summon Grubshrieks</CN>
+			</Name>
+			<Desc>
+				<CN>Summons 15 Grubshrieks who fly towards the gate on the same path as the caster</CN>
+			</Desc>			
+		</Summon_grubshriek>
+		<Freezing_missiles>
+			<Name>
+				<CN>Frost Bolt Swarm</CN>
+			</Name>
+			<Desc>
+				<CN>The creature launches up to 3 frost bolts at traps, deactivating and encasing them in ice. To reactivate the traps, the ice layer must be destroyed by normal attacks.</CN>
+			</Desc>			
+		</Freezing_missiles>
+		<Protection_globe>
+			<Name>
+				<CN>Momentum Shield</CN>
+			</Name>
+			<Desc>
+				<CN>The creature takes 90% less damage while moving. The protection is inactive when the monster stands still.</CN>
+			</Desc>			
+		</Protection_globe>
+		<Summoning_portal_eater_of_dead>
+			<Name>
+				<CN>Portal: Eater of the Dead</CN>
+			</Name>
+			<Desc>
+				<CN>The creature creates and maintains a portal for 5 seconds, letting 12 Eater of Dead through who move forward following the same path as the caster.</CN>
+			</Desc>			
+		</Summoning_portal_eater_of_dead>
+		<Summoning_portal_kobold_wartfiend>
+			<Name>
+				<CN>Portal: Kobold Wartfieds</CN>
+			</Name>
+			<Desc>
+				<CN>The creature creates and maintains a portal for 5 seconds, letting 14 Kobold Wartfieds through who move forward following the same path as the caster.</CN>
+			</Desc>			
+		</Summoning_portal_kobold_wartfiend>
+		<Summoning_portal_magus>
+			<Name>
+				<CN>Portal: Pale Gentlemen</CN>
+			</Name>
+			<Desc>
+				<CN>The creature creates and maintains a portal for 5 seconds, letting 10 Pale Gentlemen through who move forward following the same path as the caster.</CN>
+			</Desc>			
+		</Summoning_portal_magus>
+		<Summoning_portal_kobold_tusker>
+			<Name>
+				<CN>Portal: Kobold Tuskers</CN>
+			</Name>
+			<Desc>
+				<CN>The creature creates and maintains a portal for 5 seconds, letting 4 Kobold Tuskers through who move forward following the same path as the caster.</CN>
+			</Desc>			
+		</Summoning_portal_kobold_tusker>
+		<Poison_missile>
+			<Name>
+				<CN>Poison Missile</CN>
+			</Name>
+			<Desc>
+				<CN>The creature launches a homing missile at an enemy. The bolt deals poison damage for 5 seconds.</CN>
+			</Desc>			
+		</Poison_missile>
+		<Lockdown>
+			<Name>
+				<CN>Haywire Missile</CN>
+			</Name>
+			<Desc>
+				<CN>The creature launches a bolt at a trap, diasbling it for 5 seconds.</CN>
+			</Desc>			
+		</Lockdown>
+		<Lenyekrebomlas_Dirigiblusa>
+			<Name>
+				<CN>Spontaneous Reassembly</CN>
+			</Name>
+			<Desc>
+				<CN>This creature reassembles itself to three creatures when it dies. The new creatures are lesser versions of the original creature.</CN>
+			</Desc>	
+		</Lenyekrebomlas_Dirigiblusa>
+		<Displacement>
+			<Name>
+				<CN>相位移动</CN>
+			</Name>
+			<Desc>
+				<CN>The creature teleports forward a small distance after a short delay.</CN>
+			</Desc>
+		</Displacement>
+		<Leeching>
+			<Name>
+				<CN>吸血</CN>
+			</Name>
+			<Desc>
+				<CN>该生物可以汲取附近友军单位的生命力并为自己回复生命值。 附近盟友越多，治疗效果越强。</CN>
+			</Desc>
+		</Leeching>
+		<Time_Slow>
+			<Name>
+				<CN>时间减速</CN>
+			</Name>
+			<Desc>
+				<CN>该单位可以将除自身以外的所有单位（玩家、陷阱、其他怪物）的时间减慢一半。</CN>
+			</Desc>
+		</Time_Slow>
+
+		<Mechanical_egg_plant>
+			<Name>
+				<CN>机械孵化工厂</CN>
+			</Name>
+			<Desc>
+				<CN>该单位每隔 25 秒会生产 2 个机械卵。 每个卵会在 4 秒后孵化出 3 只机械蜘蛛。</CN>
+			</Desc>
+		</Mechanical_egg_plant>
+		<Summon_repair_drones>
+			<Name>
+				<CN>召唤维修部队</CN>
+			</Name>
+			<Desc>
+				<CN>该单位每隔 80 秒会召唤 3 只维修无人机。 每个无人机会不断修复该单位 1% 最大生命值，直到无人机被摧毁。</CN>
+			</Desc>
+		</Summon_repair_drones>
+		<dt_DelayedBlastSwarm>
+			<Name>
+				<CN>爆炸虫群</CN>
+			</Name>
+			<Desc>
+				<CN>该单位会朝向指定位置发射数枚飞弹，击中目标后短暂延迟 2 秒爆炸，对附近 3 码范围造成伤害。</CN>
+			</Desc>
+		</dt_DelayedBlastSwarm>
+	</Skills>
+	
+	<Property>
+		<hitpoints>
+			<desc>
+				<CN>$SIGN$$VALUE$ 生命值</CN>
+			</desc>
+			<reduce>
+				<desc>
+					<CN>$SIGN$$VALUE$ 生命值(中毒)</CN>
+				</desc>
+			</reduce>
+		</hitpoints>
+		<damage>
+			<desc>
+				<CN>$SIGN$$VALUE$ 伤害</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$SIGN$$VALUE$% 伤害</CN>
+				</desc>
+			</bonus_percent>
+			<item>
+				<desc>
+					<CN>$SIGN$$VALUE$ 武器伤害</CN>
+				</desc>
+				<bonus_percent>
+					<desc>
+						<CN>$SIGN$$VALUE$% 武器伤害</CN>
+					</desc>
+				</bonus_percent>
+			</item>
+		</damage>
+		<dt_armor>
+			<bonus_percent>
+				<desc>
+					<CN>$SIGN$$VALUE$% 额外护甲</CN>
+				</desc>
+			</bonus_percent>
+			<item>
+				<desc>
+					<CN>$SIGN$$VALUE$ 额外护甲</CN>
+				</desc>
+				<bonus_percent>
+					<desc>
+						<CN>$SIGN$$VALUE$% 额外护甲</CN>
+					</desc>
+				</bonus_percent>
+			</item>
+		</dt_armor>
+		<ranged_damage>
+			<desc>
+				<CN>$SIGN$$VALUE$ 远程伤害</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$SIGN$$VALUE$% 远程伤害</CN>
+				</desc>
+			</bonus_percent>
+		</ranged_damage>
+		<melee_damage>
+			<desc>
+				<CN>$SIGN$$VALUE$ 近战伤害</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$SIGN$$VALUE$% 近战伤害</CN>
+				</desc>
+			</bonus_percent>
+		</melee_damage>
+		<mana_per_level>
+			<desc>
+				<CN>$SIGN$$VALUE$ 法力值 (每级提升$SIGN$$VALUE_PER_LEVEL$)</CN>
+			</desc>
+		</mana_per_level>
+		<physical_damage>
+			<desc>
+				<CN>$SIGN$$VALUE$ 物理伤害</CN>
+			</desc>
+			<bonus_fix>
+				<desc>
+					<CN>$SIGN$$VALUE$ 额外物理伤害</CN>
+				</desc>
+			</bonus_fix>
+		</physical_damage>
+		<ice_damage>
+			<desc>
+				<CN>$SIGN$$VALUE$ 冰霜伤害</CN>
+			</desc>
+			<bonus_fix>
+				<desc>
+					<CN>$SIGN$$VALUE$ 额外冰霜伤害</CN>
+				</desc>
+			</bonus_fix>
+		</ice_damage>
+		<fire_damage>
+			<desc>
+				<CN>$SIGN$$VALUE$ 火焰伤害</CN>
+			</desc>
+			<bonus_fix>
+				<desc>
+					<CN>$SIGN$$VALUE$ 额外火焰伤害</CN>
+				</desc>
+			</bonus_fix>
+		</fire_damage>
+		<lightning_damage>
+			<desc>
+				<CN>$SIGN$$VALUE$ 闪电伤害</CN>
+			</desc>
+			<bonus_fix>
+				<desc>
+					<CN>$SIGN$$VALUE$ 额外闪电伤害</CN>
+				</desc>
+			</bonus_fix>
+		</lightning_damage>
+		<poison_damage>
+			<desc>
+				<CN>$SIGN$$VALUE$ 毒素伤害</CN>
+			</desc>
+			<bonus_fix>
+				<desc>
+					<CN>$SIGN$$VALUE$ 额外毒素伤害</CN>
+				</desc>
+			</bonus_fix>
+		</poison_damage>
+		<arcane_damage>
+			<desc>
+				<CN>$SIGN$$VALUE$ 奥术伤害</CN>
+			</desc>
+			<bonus_fix>
+				<desc>
+					<CN>$SIGN$$VALUE$ 额外奥术伤害</CN>
+				</desc>
+			</bonus_fix>
+		</arcane_damage>
+		<attack>
+			<desc>
+				<CN>$SIGN$$VALUE$ 攻击力</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$SIGN$$VALUE$% 额外攻击力</CN>
+				</desc>
+			</bonus_percent>
+		</attack>
+		<critical_hit>
+			<desc>
+				<CN>$SIGN$$VALUE$% 暴击几率</CN>
+			</desc>
+		</critical_hit>
+		<critical_damage_mul>
+			<desc>
+				<CN>$SIGN$$VALUE$% 暴击伤害</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$SIGN$$VALUE$% 暴击伤害</CN>
+				</desc>
+			</bonus_percent>
+		</critical_damage_mul>	
+		<attack_rate>
+			<desc>
+				<CN>$SIGN$$VALUE$ 攻击速度</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$SIGN$$VALUE$% 提升攻击速度</CN>
+				</desc>
+			</bonus_percent>	
+		</attack_rate>
+		<Mana>
+			<desc>
+				<CN>$SIGN$$VALUE$ 法力值</CN>
+			</desc>
+		</Mana>
+		<dt_focus>
+			<desc>
+				<CN>$SIGN$$VALUE$ 专注</CN>
+			</desc>
+		</dt_focus>
+		<hp_per_hit>
+			<desc>
+				<CN>$SIGN$$VALUE$ 命中回复生命</CN>
+			</desc>
+		</hp_per_hit>
+		<mana_per_hit>
+			<desc>
+				<CN>$SIGN$$VALUE$ 命中回复法力</CN>
+			</desc>
+		</mana_per_hit>
+		<hp_per_kill>
+			<desc>
+				<CN>$SIGN$$VALUE$ 击杀回复生命</CN>
+			</desc>
+		</hp_per_kill>
+		<mana_per_kill>
+			<desc>
+				<CN>$SIGN$$VALUE$ 击杀回复法力</CN>
+			</desc>
+		</mana_per_kill>
+		<dt_rage_per_kill>
+			<desc>
+				<CN>$SIGN$$VALUE$ 击杀获得怒气</CN>
+			</desc>
+		</dt_rage_per_kill>
+		<spellpower>
+			<desc>
+				<CN>$SIGN$$VALUE$ 法术强度</CN>
+			</desc>
+		</spellpower>
+		<hitpoints_per_level>
+			<desc>
+				<CN>$SIGN$$VALUE$ 生命值 (每级提升$SIGN$$VALUE_PER_LEVEL$)</CN>
+			</desc>
+		</hitpoints_per_level>
+		<life_steal>
+			<desc>
+				<CN>$SIGN$$VALUE$% 攻击回复生命值</CN>
+			</desc>
+		</life_steal>
+		<dt_rage>
+			<desc>
+				<CN>$SIGN$$VALUE$ 怒气</CN>
+			</desc>
+		</dt_rage>
+		<rage_per_level>
+			<desc>
+				<CN>$SIGN$$VALUE$ 怒气 (每级提升$SIGN$$VALUE_PER_LEVEL$)</CN>
+			</desc>
+		</rage_per_level>
+		<defense>
+			<desc>
+				<CN>$SIGN$$VALUE$ 护甲</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$SIGN$$VALUE$% 护甲</CN>
+				</desc>
+			</bonus_percent>
+			<item>
+				<desc>
+					<CN>$SIGN$$VALUE$ 装备护甲</CN>
+				</desc>
+				<bonus_percent>
+					<desc>
+						<CN>$SIGN$$VALUE$% 装备护甲</CN>
+					</desc>
+				</bonus_percent>
+			</item>
+		</defense>
+		<parry>
+			<desc>
+				<CN>$SIGN$$VALUE$ 格挡</CN>
+			</desc>
+			<item>
+				<desc>
+					<CN>$SIGN$$VALUE$ 武器格挡</CN>
+				</desc>
+			</item>
+		</parry>
+		<body>
+			<desc>
+				<CN>$SIGN$$VALUE$ 体质</CN>
+			</desc>
+		</body>
+		<dexterity>
+			<desc>
+				<CN>$SIGN$$VALUE$ 灵巧</CN>
+			</desc>
+		</dexterity>
+		<willpower>
+			<desc>
+				<CN>$SIGN$$VALUE$ 精神</CN>
+			</desc>
+			<reduce>
+				<desc>
+					<CN>$SIGN$$VALUE$ 精神</CN>
+				</desc>
+			</reduce>
+		</willpower>
+		<luck>
+			<desc>
+				<CN>$SIGN$$VALUE$ 幸运</CN>
+			</desc>
+		</luck>
+		<dodge>
+			<desc>
+				<CN>$SIGN$$VALUE$ 闪避</CN>
+			</desc>
+		</dodge>
+		<item_find_chance>
+			<desc>
+				<CN>$SIGN$$VALUE$% 发现魔法道具几率</CN>
+			</desc>
+		</item_find_chance>
+		<gold_find_chance>
+			<desc>
+				<CN>$SIGN$$VALUE$% 发现金币几率</CN>
+			</desc>
+		</gold_find_chance>
+		<gold_find_amount>
+			<desc>
+				<CN>$SIGN$$VALUE$% 发现金币数量</CN>
+			</desc>
+		</gold_find_amount>
+		<physical_resistance>
+			<desc>
+				<CN>$SIGN$$VALUE$ 物理抗性</CN>
+			</desc>
+		</physical_resistance>
+		<poison_resistance>
+			<desc>
+				<CN>$SIGN$$VALUE$ 毒素抗性</CN>
+			</desc>
+		</poison_resistance>
+		<elemental_resistance>
+			<desc>
+				<CN>$SIGN$$VALUE$ 元素抗性</CN>
+			</desc>
+		</elemental_resistance>
+		<lightning_resistance>
+			<desc>
+				<CN>$SIGN$$VALUE$ 闪电抗性</CN>
+			</desc>
+		</lightning_resistance>
+		<fire_resistance>
+			<desc>
+				<CN>$SIGN$$VALUE$ 火焰抗性</CN>
+			</desc>
+		</fire_resistance>
+		<full_resistance>
+			<desc>
+				<CN>$SIGN$$VALUE$ 全属性抗性</CN>
+			</desc>
+		</full_resistance>		
+		<ice_resistance>
+			<desc>
+				<CN>$SIGN$$VALUE$ 冰霜抗性</CN>
+			</desc>
+		</ice_resistance>
+		<alchemy_capacity>
+			<item>
+				<desc>
+					<CN>$SIGN$$VALUE$ 精华容量</CN>
+				</desc>
+			</item>
+		</alchemy_capacity>
+		<enchant_count_bonus>
+			<item>
+				<desc>
+					<CN>$SIGN$$VALUE$ 附魔插槽</CN>
+				</desc>
+			</item>
+		</enchant_count_bonus>
+		<hp_regeneration>
+			<desc>
+				<CN>$SIGN$$VALUE$ 生命恢复</CN>
+			</desc>
+		</hp_regeneration>
+		<mana_regeneration>
+			<desc>
+				<CN>$SIGN$$VALUE$ 法力回复</CN>
+			</desc>
+		</mana_regeneration>
+		<damage_to_mana>
+			<desc>
+				<CN>$VALUE$ 受伤回复法力值</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$VALUE$% 受伤回复法力值</CN>
+				</desc>
+			</bonus_percent>
+		</damage_to_mana>
+		<damage_reflect>
+			<desc>
+				<CN>$VALUE$ 反射伤害</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$VALUE$% 反射伤害</CN>
+				</desc>
+			</bonus_percent>
+		</damage_reflect>
+		<damage_reduction>
+			<desc>
+				<CN>$VALUE$ 伤害减免</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$VALUE$% 伤害减免</CN>
+				</desc>
+			</bonus_percent>
+		</damage_reduction>
+		<defense_reduction>
+			<desc>
+				<CN>$VALUE$ 攻击提升护甲</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$VALUE$% 攻击提升护甲</CN>
+				</desc>
+			</bonus_percent>
+		</defense_reduction>
+		<XP_gained>
+			<desc>
+				<CN>$SIGN$$VALUE$ 获得经验值</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$SIGN$$VALUE$% 获得经验值</CN>
+				</desc>
+			</bonus_percent>
+		</XP_gained>
+		<spell_level>
+			<desc>
+				<CN>$VALUE$ 所有技能提升</CN>
+			</desc>
+		</spell_level>
+		<attribute_bonus>
+			<desc>
+				<CN>$SIGN$$VALUE$ 所有属性</CN>
+			</desc>
+		</attribute_bonus>
+		<fire_duration>
+			<reduce>
+				<desc>
+					<CN>-$VALUE$% 烧伤效果持续时间减少 </CN>
+				</desc>
+			</reduce>
+		</fire_duration>
+		<ice_duration>
+			<reduce>
+				<desc>
+					<CN>-$VALUE$% 冻结效果持续时间减少</CN>
+				</desc>
+			</reduce>
+		</ice_duration>
+		<poison_duration>
+			<reduce>
+				<desc>
+					<CN>-$VALUE$% 中毒效果持续时间减少</CN>
+				</desc>
+			</reduce>
+		</poison_duration>
+		<mana_steal>
+			<desc>
+				<CN>$VALUE$ 攻击回复法力值</CN>
+			</desc>
+		</mana_steal>
+		<Cooldown>
+			<reduce>
+				<bonus_percent>
+					<desc>
+						<CN>$VALUE$% 技能冷却</CN>
+					</desc>
+				</bonus_percent>				
+			</reduce>
+			<bonus_percent>
+				<desc>
+					<CN>$VALUE$% 法术冷却时间</CN>
+				</desc>
+			</bonus_percent>
+		</Cooldown>
+		<rage_base>
+			<desc>
+				<CN>$VALUE$ 基础怒气</CN>
+			</desc>
+		</rage_base>
+		<rage_per_struck>
+			<desc>
+				<CN>$SIGN$$VALUE$ 攻击获得怒气</CN>
+			</desc>
+		</rage_per_struck>
+		<item_level_req>
+			<desc>
+				<CN>需要等级达到 $VALUE$ 级才能使用</CN>
+			</desc>
+		</item_level_req>
+		<cooldown>
+			<desc>
+				<CN>$SIGN$$VALUE$ 技能能却</CN>
+			</desc>
+		</cooldown>
+		<mana_cost>
+			<desc>
+				<CN>$SIGN$$VALUE$ 法力消耗</CN>
+			</desc>
+		</mana_cost>
+		<selling_price>
+			<desc>
+				<CN>$SIGN$$VALUE$ 出售价格</CN>
+			</desc>
+		</selling_price>
+		<buying_price>
+			<desc>
+				<CN>$SIGN$$VALUE$ 购买价格</CN>
+			</desc>
+		</buying_price>
+		<essence_cost_discount>
+			<desc>
+				<CN>$SIGN$$VALUE$ 制造花费精华</CN>
+			</desc>
+		</essence_cost_discount>
+		<potion_efficiency>
+			<desc>
+				<CN>$SIGN$$VALUE$% 药水回复效果</CN>
+			</desc>
+		</potion_efficiency>
+		<speed>
+			<desc>
+				<CN>$SIGN$$VALUE$ 移动速度</CN>
+			</desc>
+			<bonus_percent>
+				<desc>
+					<CN>$SIGN$$VALUE$% 移动速度</CN>
+				</desc>
+			</bonus_percent>
+		</speed>
+		<dead_timer>
+			<desc>
+				<CN>$SIGN$$VALUE$ 重生计时</CN>
+			</desc>
+			<reduce>
+				<desc>
+					<CN>$SIGN$$VALUE$ 重生计时</CN>
+				</desc>
+				<bonus_percent>
+					<desc>
+						<CN>$SIGN$$VALUE$% 重生计时</CN>
+					</desc>
+				</bonus_percent>
+			</reduce>
+		</dead_timer>
+		<property_format>
+			<CN>$PROPERTYSTRING$ $TARGETNAME$</CN>
+		</property_format>
+		<armor_piercing>
+			<reduce>
+				<bonus_percent>
+					<desc>
+						<CN>+$VALUE$% 护甲穿透</CN>
+					</desc>
+				</bonus_percent>				
+			</reduce>			
+		</armor_piercing>
+	</Property>
+</Root>
